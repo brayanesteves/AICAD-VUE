@@ -1,0 +1,51 @@
+@font-face {
+    font-family:'Proximanova';
+    src:url("/fonts/proximanova-regular.eot?") format("eot"),
+    url("//es-static0.infojobs.com/fonts/proximanova-regular.woff?v=35597239") format("woff"),
+    url("//es-static0.infojobs.com/fonts/proximanova-regular.otf?v=35597239") format("opentype"),
+    url("//es-static0.infojobs.com/fonts/proximanova-regular.ttf?v=35597239") format("truetype")
+   }
+   @font-face {
+    font-family:'Proximanovalight';
+    src:url("/fonts/proximanova-light.eot?") format("eot"),
+    url("//es-static0.infojobs.com/fonts/proximanova-light.woff?v=35597239") format("woff"),
+    url("//es-static0.infojobs.com/fonts/proximanova-light.otf?v=35597239") format("opentype"),
+    url("//es-static0.infojobs.com/fonts/proximanova-light.ttf?v=35597239") format("truetype")
+   }
+   @font-face {
+    font-family:'Proximanovabold';
+    src:url("/fonts/proximanova-bold.eot?") format("eot"),
+    url("//es-static0.infojobs.com/fonts/proximanova-bold.woff?v=35597239") format("woff"),
+    url("//es-static0.infojobs.com/fonts/proximanova-bold.otf?v=35597239") format("opentype"),
+    url("//es-static0.infojobs.com/fonts/proximanova-bold.ttf?v=35597239") format("truetype")
+   }
+   @font-face {
+    font-family:'Proximanovasemibold';
+    src:url("/fonts/proximanova-semibold.eot?") format("eot"),
+    url("//es-static0.infojobs.com/fonts/proximanova-semibold.woff?v=35597239") format("woff"),
+    url("//es-static0.infojobs.com/fonts/proximanova-semibold.otf?v=35597239") format("opentype"),
+    url("//es-static0.infojobs.com/fonts/proximanova-semibold.ttf?v=35597239") format("truetype")
+   }
+   @font-face {
+    font-family:'Slabo-regular';
+    src:url("/fonts/slabo-regular.eot?") format("eot"),
+    url("//es-static0.infojobs.com/fonts/slabo-regular.woff?v=35597239") format("woff"),
+    url("//es-static0.infojobs.com/fonts/slabo-regular.otf?v=35597239") format("opentype"),
+    url("//es-static0.infojobs.com/fonts/slabo-regular.ttf?v=35597239") format("truetype")
+   }
+   @font-face {
+    font-family:'Icons';
+    src:url("/fonts/infojobs.eot?") format("eot"),
+    url("//es-static0.infojobs.com/fonts/infojobs.woff?v=35597239") format("woff"),
+    url("//es-static0.infojobs.com/fonts/infojobs.ttf?v=35597239") format("truetype");
+    font-weight:normal;
+    font-style:normal
+   }
+   @font-face {
+    font-family:'Icons-filled';
+    src:url("/fonts/infojobs-filled.eot?") format("eot"),
+    url("//es-static0.infojobs.com/fonts/infojobs-filled.woff?v=35597239") format("woff"),
+    url("//es-static0.infojobs.com/fonts/infojobs-filled.ttf?v=35597239") format("truetype");
+    font-weight:normal;
+    font-style:normal
+   }
