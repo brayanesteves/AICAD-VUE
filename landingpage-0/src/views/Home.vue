@@ -194,7 +194,13 @@ export default {
   created: function() {
     this.updateTimer();
     this.timeinterval = setInterval(this.updateTimer, 1000);
+    window.addEventListener('resize', this.mediaQueries);
+    this.mediaQueries();
+  },
+  destroyed: function(){
+    window.addEventListener('resize', this.mediaQueries);
   }
+  
   
   
   
