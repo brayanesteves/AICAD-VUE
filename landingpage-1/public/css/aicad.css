@@ -1,0 +1,19 @@
+/*--------------<HEADER>--------------*/
+
+/*-----------<MENÚ Nº0: PRINCIPAL>-----------*/
+.menu-n-0 a { color: white; }
+.menu-n-0 > section:first-of-type { display:flex; justify-content:space-between; padding:0.625rem; background:#002856; }
+.c-nav-accesos__button-drop a { display: flex; align-items: center; }
+.c-nav-accesos__button-drop a:before { content: url("../imagenes/mobile/icon-arrow-down-nav.png"); max-height: 1.1875rem; max-width: 1.1875rem; vertical-align: middle; margin-right: 0.625rem; margin-top: 1px; display: inline-block; transition: .3s ease; }
+.c-nav-accesos__idiomas a { border-right: 1px solid #004799; padding: 0.0625rem 0.3125rem 0.0625rem; font-size: 0.875rem; }
+.c-nav-accesos__idiomas a:last-of-type { border-right: none; }
+.c-nav-accesos__navigation { background: #001d3e; padding: 0.625rem 0.9375rem; }
+.c-nav-accesos__navigation a { display: flex; justify-content: space-between; width: 100%; padding: 0.5rem 0rem; border-bottom: 1px solid #002856; text-transform: uppercase; font-size: 0.75rem; }
+.c-nav-accesos__navigation a:last-of-type { border-bottom: none; padding-bottom: 0rem; }
+.c-nav-accesos__navigation a:after { content: url("../imagenes/mobile/icon-arrow-right.png"); margin-left: 0.5rem; }
+/*-----------</MENÚ Nº0: PRINCIPAL>-----------*/
+
+/*-----------<MENÚ Nº1>-----------*/
+/*-----------</MENÚ Nº1>-----------*/
+
+/*--------------</HEADER>--------------*/

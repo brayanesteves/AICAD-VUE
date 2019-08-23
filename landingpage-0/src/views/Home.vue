@@ -4,9 +4,9 @@
 <main>
   <div class="home text-center">
         <!--********************<SECCIÓN Nº0>********************-->
-        <div class="banner_principal" v-on:resize="mediaQueries">
+        <div class="banner_principal">
           <!--<SLIDERSHOW>-->
-            <div id="slider" class="slider elementos">
+            <div id="slider" class="slider elementos" v-on:scroll.passive="mediaQueries">
               <div class="slide item vertical">
               </div>
                 <div class="slide item vertical">
@@ -61,13 +61,11 @@
               </a>
           </div>
       </div>
-        
-     
         <!--********************<SECCIÓN Nº1>********************-->
         <!--********************<SECCIÓN: INSCRIBETE>********************-->
         <div class="inscribete_home">
           <!--********************<SECCIÓN: TIEMPO>********************-->
-              <div  class="seccion_tiempo" @load="Almcnr_Fch(1)">
+              <div  class="seccion_tiempo" v-on:click="Almcnr_Fch(1)">
     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 text-center countdown-anuncio">
@@ -76,6 +74,7 @@
                             </div>
                             <div class="col-xs-12">
                             <div id="countdown" class="countdown text-center">
+                              {{ empresa }}
                               <ul>
                                 <li>
                                   <p class="days">00</p>
@@ -112,16 +111,24 @@
 <script>
 //import tiempo from '@/components/contain/section/tiempo/tiempo-n-0.vue'
 export default {
+  el: "#countdown",
   components: {
    // tiempo
   },
-  /*data: {
+  data: {
+    empresa: 'AICAD',
+    deadline:"",
+    Fecha: new Date(),
+    D: Fecha.getDate(),
+    Dia: (D < 10) ? '0' + D : D,
+    Mes: Fecha.getMonth(),
+    SlcnnMs: (Mes < 10) ? '0' + Mes : Mes
     
-  },*/
+  },
   methods: {
     /*----------------<MEDIA QUERIES>----------------*/
     mediaQueries: function(){
-      windows.addEventListener('resize', () => {
+    
     if(innerWidth <= 414){
       
       var slider = document.getElementsByClassName("elementos");
@@ -147,7 +154,6 @@ export default {
         slide[i].classList.add("slide");
       }
     }
-  });
   /*----------------</MDIA QUERIES>----------------*/
     },
   
@@ -191,14 +197,11 @@ export default {
         var timeinterval = setInterval(this.updateClock, 1000);
     },   
     
+    
+  },
+  computed: {
     Almcnr_Fch: function(Actvr){
-      var deadline;
-          var Fecha = new Date();
-          var D  = Fecha.getDate();
-          var Dia = (D < 10) ? '0' + D : D;
-          var Mes = Fecha.getMonth();
-          var SlcnnMs = (Mes < 10) ? '0' + Mes : Mes;
-          var SlcnnMs=new Array(12);
+          this.SlcnnMs=new Array(12);
         switch(Actvr){
         case 0:
             document.querySelector('.countdown-anuncio').innerHTML = '<h3><br><span>Se ha desactivado la cuenta regresiva.</span></h3>'
@@ -207,7 +210,7 @@ export default {
             break;
 
             case 1:
-            
+            alert(1);
             
             this.SlcnnMs[0]="Enero";
             this.SlcnnMs[1]="Febrero";
@@ -233,7 +236,7 @@ export default {
             break;
         }
 }
-  },
+  }
   
   
   
