@@ -65,7 +65,7 @@
         <!--********************<SECCIÓN: INSCRIBETE>********************-->
         <div class="inscribete_home">
           <!--********************<SECCIÓN: TIEMPO>********************-->
-              <div  class="seccion_tiempo" v-on:click="Almcnr_Fch(1)">
+              <div  class="seccion_tiempo">
     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 text-center countdown-anuncio">
@@ -74,24 +74,11 @@
                             </div>
                             <div class="col-xs-12">
                             <div id="countdown" class="countdown text-center">
-                              {{ empresa }}
                               <ul>
-                                <li>
-                                  <p class="days">00</p>
-                                  <p class="timeRefDays">Días</p>
-                                </li>
-                                <li>
-                                  <p class="hours">00</p>
-                                  <p class="timeRefHours">Horas</p>
-                                </li>
-                                <li>
-                                  <p class="minutes">00</p>
-                                  <p class="timeRefMinutes">Min</p>
-                                  </li>
-                                  <li>
-                                    <p class="seconds">00</p>
-                                    <p class="timeRefSeconds">Seg</p>
-                                  </li> 
+                                <li v-for="time in times" :key="time">
+                                  <p v-bind:class="time.class_">{{time.time}}</p>
+                                  <p v-bind:class="time._class">{{time.text}}</p>
+                                </li>                                
                               </ul>
                             </div>
                         </div>
@@ -111,18 +98,28 @@
 <script>
 //import tiempo from '@/components/contain/section/tiempo/tiempo-n-0.vue'
 export default {
-  el: "#countdown",
+  props:['time'],
   components: {
    // tiempo
   },
-  data: {
+  data() {
+    return {
+      
     empresa: 'AICAD',
     deadline:"",
-    Fecha: new Date(),
-    D: Fecha.getDate(),
-    Dia: (D < 10) ? '0' + D : D,
-    Mes: Fecha.getMonth(),
-    SlcnnMs: (Mes < 10) ? '0' + Mes : Mes
+    Fecha: new Date(),    
+    startTime: 'Aug 23, 2019 23:18:53',
+    endTime: 'Aug 24, 2019 23:18:53',
+    times: [
+      { id: 0, class_:'days', _class:'timeRefDays', text: "Días", time: 1 },
+      { id: 1, class_:'hours', _class:'timeRefHours', text: "Horas", time: 1 },
+      { id: 2, class_:'minutes', _class:'timeRefMinutes', text: "Min", time: 1 },
+      { id: 3, class_:'seconds', _class:'timeRefSeconds', text: "Seg", time: 1 }
+    ],
+    progress: 100,
+    // isActive: false,
+    timeinterval: undefined
+    }
     
   },
   methods: {
@@ -157,85 +154,46 @@ export default {
   /*----------------</MDIA QUERIES>----------------*/
     },
   
-    /*----------------<CUENTA REGRESIVA>----------------*/
-    getTimeRemaining: function(endtime) {
-        var t = Date.parse(endtime) - Date.parse(new Date());
-        var seconds = Math.floor((t / 1000) % 60);
-        var minutes = Math.floor((t / 1000 / 60) % 60);
-        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-        var days = Math.floor(t / (1000 * 60 * 60 * 24));
-        return {
-        'total': t,
-        'days': days,
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds
-        };
+    updateTimer: function() {
+      if (
+        this.times[3].time > 0 ||
+        this.times[2].time > 0 ||
+        this.times[1].time > 0 ||
+        this.times[0].time > 0
+      ) {
+        this.getTimeRemaining();
+        this.updateProgressBar();
+      } else {
+        clearTimeout(this.timeinterval);
+        // this.times[3].time = this.times[2].time = this.times[1].time = this.times[0].time = 0;
+         this.progress = 0;
+      }
     },
-    
-    initializeClock: function(clase, endtime) {
-        var clock = document.getElementById(clase);
-        var daysSpan = clock.querySelector('.days');
-        var hoursSpan = clock.querySelector('.hours');
-        var minutesSpan = clock.querySelector('.minutes');
-        var secondsSpan = clock.querySelector('.seconds');
-    
-        function updateClock() {
-        var t = getTimeRemaining(endtime);
-    
-        daysSpan.innerHTML = t.days;
-        hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-        minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-        secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-    
-        if (t.total <= 0) {
-            this.clearInterval(timeinterval);
-        }
-        }
-    
-        this.updateClock();
-        var timeinterval = setInterval(this.updateClock, 1000);
-    },   
-    
-    
+    getTimeRemaining: function() {
+      let t = Date.parse(new Date(this.endTime)) - Date.parse(new Date());
+     if(t >= 0){
+      this.times[3].time = Math.floor(t / 1000 % 60); //seconds
+      this.times[2].time = Math.floor(t / 1000 / 60 % 60); //minutes
+      this.times[1].time = Math.floor(t / (1000 * 60 * 60) % 24); //hours
+      this.times[0].time = Math.floor(t / (1000 * 60 * 60 * 24)); //days
+       }else {
+         this.times[3].time = this.times[2].time = this.times[1].time = this.times[0].time = 0;
+         this.progress = 0;
+       }
+    },
+    updateProgressBar: function() {
+      let startTime = Date.parse(new Date(this.startTime));
+      let currentTime = Date.parse(new Date());
+      let endTime = Date.parse(new Date(this.endTime));
+      let interval = parseFloat(
+        (currentTime - startTime) / (endTime - startTime) * 100
+      ).toFixed(2);
+      this.progress = 100-interval;
+    }
   },
-  computed: {
-    Almcnr_Fch: function(Actvr){
-          this.SlcnnMs=new Array(12);
-        switch(Actvr){
-        case 0:
-            document.querySelector('.countdown-anuncio').innerHTML = '<h3><br><span>Se ha desactivado la cuenta regresiva.</span></h3>'
-            +'<p class="texto text-center countdown-subtitulo"></p>';
-            document.querySelector('.countdown').innerHTML = '';    
-            break;
-
-            case 1:
-            alert(1);
-            
-            this.SlcnnMs[0]="Enero";
-            this.SlcnnMs[1]="Febrero";
-            this.SlcnnMs[2]="Marzo";
-            this.SlcnnMs[3]="Abril";
-            this.SlcnnMs[4]="Mayo";
-            this.SlcnnMs[5]="Junio";
-            this.SlcnnMs[6]="Julio";
-            this.SlcnnMs[7]="Aug";
-            this.SlcnnMs[8]="Sep";
-            this.SlcnnMs[9]="Oct";
-            this.SlcnnMs[10]="Nov";
-            this.SlcnnMs[11]="Dic";          
-            this.deadline = (this.Dia) + " " + this.SlcnnMs[this.Fecha.getUTCMonth()] + " " +this.Fecha.getFullYear() + " " + 23+":"+18+":"+59;        
-            
-            
-            if (new Date(this.deadline) > new Date()) {
-                this.initializeClock('countdown', this.deadline);
-            } else {            
-                this.deadline = (this.Dia) + " " + this.SlcnnMs[this.Fecha.getUTCMonth()] + " " +this.Fecha.getFullYear() + " " + 23+":"+18+":"+59;        
-                this.initializeClock('countdown', this.deadline);
-            }  
-            break;
-        }
-}
+  created: function() {
+    this.updateTimer();
+    this.timeinterval = setInterval(this.updateTimer, 1000);
   }
   
   
