@@ -6,16 +6,18 @@
     </div>-->
     <cabecera />
     <router-view/>
+    <footerweb />
   </div>
 </template>
 <script>
 import cabecera  from '@/components/header/header-n-0'
+import footerweb  from '@/components/footer/footer-n-0'
 export default {
   name: "aicad",
   components: {
     cabecera,
-    /*navegacion,
-    footerweb*/
+    /*navegacion,*/
+    footerweb
   },
 }
 </script>

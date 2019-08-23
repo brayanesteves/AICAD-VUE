@@ -19,7 +19,7 @@
 						</div>
 					</section>
 					<section class="c-nav-accesos__navigation js-nav u-display__none">
-							<router-link to="/" ><a href="#">Inicio</a></router-link>
+							<router-link to="/" >Inicio</router-link>
 							<a href="saladeprensa/">Sala de comunicación</a>
 							<a href="informacion-de-interes-alumnos/">Alumnos</a>
 							<a href="informacion-de-interes-faculty-personal/">Faculty / personal</a>
@@ -93,12 +93,12 @@
 			<section class="c-menu js-nav-menu u-display__none">
 					<div class="c-nav-accesos__navigation c-menu__principal">
 						<router-link to="/" >Inicio</router-link>
-						<a href="institucion/">Institución</a>
-						<a href="grado/carreras/">Grados y Títulos <br class="hidden-md">Universitarios</a>
-						<router-link to="/grado/becas-ayudas/" >Admisiones <br class="hidden-md">y Ayudas</router-link>
-						<a href="grado/convalidaciones/">Convalidaciones y <br class="hidden-md">traslados de expediente </a>
-						<a href="grado/internacional-idiomas/">Internacional <br class="hidden-md">e Idiomas</a>
-						<a href="grado/practicas-empleo/">Prácticas <br class="hidden-md">y empleo</a>
+						<router-link to="/institucion">Institución</router-link>
+						<router-link to="/grado/carreras">Grados y Títulos <br class="hidden-md">Universitarios</router-link>
+						<router-link to="/grado/becas-ayudas" >Admisiones <br class="hidden-md">y Ayudas</router-link>
+						<router-link to="/grado/convalidaciones">Convalidaciones y <br class="hidden-md">traslados de expediente</router-link>
+						<router-link to="/grado/internacional-idiomas">Internacional <br class="hidden-md">e Idiomas</router-link>
+						<router-link to="/grado/practicas-empleo">Prácticas <br class="hidden-md">y empleo</router-link>
 					</div>
 					<div class="c-menu-campus">
 						<p class="c-menu-campus__title">Campus</p>
