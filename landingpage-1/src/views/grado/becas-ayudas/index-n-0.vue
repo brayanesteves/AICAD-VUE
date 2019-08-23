@@ -3,38 +3,18 @@
     <main>
 		<h1 class="u-hidden">Admisiones y ayudas</h1>
 
-		<!-- cabecera -->
-		<section class="c-slider-hero">
-			<!-- cabecera -->
-			<div class="c-slider-hero__item background background__becas-ayudas">
-				<div class="wrapper">
-					<div class="background-becas-ayudas">
-						<p class="background-becas-ayudas__title">admisiones y <span>ayudas</span></p>
-						<p class="background-becas-ayudas__paragraph">Tú pones el esfuerzo, las ganas y la dedicación. </p>
-						<p class="background-becas-ayudas__paragraph">Nosotros, la mejor formación posible para que alcances las metas profesionales que te propongas. </p>
-					</div>
-				</div>
-			</div>
-			<!-- fin cabecera -->
-
-		</section>
-		<!-- fin cabecera -->
+		<section0 />
 
 		<section class="c-seleccion-content">
 			<div class="wrapper">
 				<p class="c-seleccion-content__title">Si eres estudiante...</p>
-				<div class="c-seleccion-content__item">
-					<img src="imagenes/mobile/university/becas-ayudas/icon-internacional.png" alt="Icono mundo">
-					<div><p>Proveniente de un <span>SISTEMA PREUNIVERSITARIO INTERNACIONAL o EXTRANJERO</span><span class="u-bold u-color-grado hidden-xs "> >> </span> </p>
-					<a href="grado/becas-ayudas/estudiante-internacional/" class="c-button-round-ghost-xl c-button-round-ghost-xl--orange">Informate <span>aquí</span></a>
-					</div>
-				</div>
-				<div class="c-seleccion-content__item">
-					<img src="imagenes/mobile/university/becas-ayudas/icon-espanol.png" alt="Icono hombre hablando">
+				<div class="c-seleccion-content__item" v-for="icon in icons" :key="icon">
+					<img v-bind:src="icon.picture" v-bind:alt="icon.alt">                    
 					<div>
-					<p>Proveniente de un <span>SISTEMA PREUNIVERSITARIO ESPAÑOL :</span></p>
+                        <p v-html="icon.descripcion_"></p>
+					    <a v-html="icon._descripcion"></a>
 					</div>
-				</div>
+				</div>				
 			</div>
 		</section>
 
@@ -45,7 +25,7 @@
 			<div class="cust__tabs__drop mobile-drop simple-tab">
 				 <div class="tab__content">
 					<div class="cust__acordeon">
-						<div class="wrapper">
+						<div class="wrapper" @click.stop="Acordeon(1, 0)">
 							<div class="item-heading " >
 									<div class="item" >Prueba de admisión</div>
 							</div>
@@ -110,7 +90,7 @@
 					</div><!-- item -->
 
 					<div class="cust__acordeon">
-						<div class="wrapper">
+						<div class="wrapper"  @click="Acordeon(1, 0)">
 							<div class="item-heading ">
 								<div class="item">Admisión</div>
 							</div>
@@ -167,7 +147,7 @@
 					</div><!-- item -->
 
 					<div class="cust__acordeon">
-						<div class="wrapper">
+						<div class="wrapper"  @click="Acordeon(1, 0)">
 							<div class="item-heading">
 								<div class="item">Reserva tu plaza</div>
 							</div>
@@ -187,7 +167,7 @@
 					</div><!-- item -->
 
 					<div class="cust__acordeon">
-						<div class="wrapper">
+						<div class="wrapper"  @click="Acordeon(1, 0)">
 							<div class="item-heading">
 								<div class="item">Matrícula</div>
 							</div>
@@ -1179,3 +1159,70 @@
 	</main>
 	</div>
 </template>
+<script>
+import section0 from '@/components/contains/becas-ayudas/section-0.vue'
+export default {
+    props: ['icon'],
+    components: {
+        section0,
+    },
+    data() { 
+        return {       
+        icons: [
+            {
+                clase: 'c-seleccion-content__item',
+                picture: 'imagenes/mobile/university/becas-ayudas/icon-internacional.png',
+                alt: 'Icono mundo',
+                descripcion_: 'Proveniente de un <span>SISTEMA PREUNIVERSITARIO INTERNACIONAL o EXTRANJERO</span><span class="u-bold u-color-grado hidden-xs "> >> </span>',
+                _descripcion: '<a href="grado/becas-ayudas/estudiante-internacional/" class="c-button-round-ghost-xl c-button-round-ghost-xl--orange">Informate <span>aquí</span></a>'
+            },
+            {
+                clase: 'c-seleccion-content__item',
+                picture: 'imagenes/mobile/university/becas-ayudas/icon-espanol.png',
+                alt: 'Icono hombre hablando',
+                descripcion_: 'Proveniente de un <span>SISTEMA PREUNIVERSITARIO ESPAÑOL :</span>',
+                _descripcion: ''
+            }
+        ] 
+        }       
+    },
+    methods: {
+        Acordeon(Actvr, Clasificacion){
+            switch(Actvr){
+                case 0:
+                    break;
+                case 1:
+                    var _Acordeon;
+                    var Cuerpo;
+                    var Panel;
+                    var i;
+                    switch(Clasificacion){
+                        case 0:
+                            
+                        _Acordeon = document.getElementsByClassName("wrapper");
+                            
+                            //console.log("cantidad: "+_Acordeon.length);
+                            for(var i = 0; i < _Acordeon.length; i++){                        
+                                _Acordeon[i].addEventListener('click', function(Evento){
+                                    //Evento.preventDefault();
+                                    this.classList.toggle("active");
+                                    Panel = this.nextElementSibling;
+                                    if(Panel.style.display === "block"){
+                                        Panel.style.display = "none"
+                                        Panel.style.transition = "all 0.2s ease-out";
+                                    }else{
+                                        Panel.style.display = "block"
+                                        Panel.style.transition = "all 0.2s ease-out";
+                                    }
+                                });
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+            }
+        }
+    }
+}
+</script>
