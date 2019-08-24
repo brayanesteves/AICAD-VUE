@@ -206,10 +206,11 @@ and (-webkit-min-device-pixel-ratio: 1){
 /* Large screens ----------- */
 @media (max-width: 1280px) {
     .home .circulo { background-size:160px 160px; height:144px; display:none;  }
-    .slider { height:150%; }
+    .slider { height:100%; }
     .slide  { height:100vh; }
     .slider-movil { height:150%; }
     .slide-movil  { height:100%; }
+    .subFooter .twoCols { display: inline-block; width: 55%; }
 }
 @media (min-width: 1920px) { 
     .slider { height:80vh; }

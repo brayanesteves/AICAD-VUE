@@ -29,7 +29,7 @@
             <button id="nav-expander" class="nav-expander fixed pull-right hidden-xs" href="#" @click.prevent.stop="menuSlider(1, 0)">
                 <i class="fa fa-bars"></i>
             </button>
-            <button type="button" class="navbar-toggle collapsed nav-expander fixed pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed nav-expander fixed pull-right"  @click.prevent.stop="menuSlider(1, 0)">
                 <i class="fa fa-bars"></i>
             </button>
         </div>
