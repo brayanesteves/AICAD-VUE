@@ -1,23 +1,3 @@
-/*-------------<CARRUSEL>-------------*/
-.slider             { display: block; width:100%; height:100%; background-color:rgb(0, 130, 195); filter:brightness(0.8); overflow:hidden; position:absolute; }
-.slide              { position:absolute; display:block; width:100%; height:100%; background-color: rgba(0,0,0,0.4); filter:brightness(0.6); overflow:hidden; animation:slidershow 12s infinite;  }
-.slide:nth-child(1) { left: 0%; animation-delay: 1s; background: url('../../img/home/banner_principal.jpg') no-repeat center top / cover; }
-.slide:nth-child(2) { animation-delay: 2s; background: url('../../img/home/banner_principal2.jpg')  no-repeat center top / cover; }
-.slide:nth-child(3) { animation-delay: 5s; background: url('../../img/home/banner_principal.jpg') no-repeat center top / cover; }
-.slide:nth-child(4) { left: 0%; animation-delay: 8s; background: url('../../img/home/banner_principal2.jpg') no-repeat center top / cover; }
-/*CARRUSEL*/
-.slider-movil              { display: block; width:100%; height:auto; background-color:rgb(0, 130, 195); filter:brightness(0.8); overflow:hidden; position:absolute; }
-.slide-movil { background: url('../../img/home/0-banner-principal-movil.jpeg'); background-repeat:no-repeat; background-size: cover; }
-/*---------------<ANIMACIÓN>---------------*/
-@keyframes slidershow {
-     0%      { left: 100%; width: 100%; } 
-     5%      { left: 0%; }
-    25%      { left: 0%; }
-    30%      { left: -100%; width: 100%; }
-    30.0001% { left: -100%; width: 0%; }
-   100%      { left: 100%; width: 0%; }
-  }
-  /*---------------</ANIMACIÓN>---------------*/
   .slideshow{
      
      min-height: 110vh;

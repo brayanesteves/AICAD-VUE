@@ -180,6 +180,8 @@ and (-webkit-min-device-pixel-ratio: 1){
         position: relative;
         background: url('../../img/home/0-banner-principal-movil.jpeg') no-repeat;
         background-size: 100% 100%;
+        transition-duration: 4s;
+     animation-delay: 2s;
       }
       .slideshow{ display: none; }
 }
