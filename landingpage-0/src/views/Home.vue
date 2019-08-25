@@ -103,8 +103,8 @@ export default {
     empresa: 'AICAD',
     deadline:"",
     Fecha: new Date(),    
-    startTime: 'Aug 23, 2019 23:18:53',
-    endTime: 'Aug 24, 2019 23:18:53',
+    startTime: 'Aug 24, 2019 23:18:53',
+    endTime: 'Aug 26, 2019 23:18:53',
     times: [
       { id: 0, class_:'days', _class:'timeRefDays', text: "Días", time: 1 },
       { id: 1, class_:'hours', _class:'timeRefHours', text: "Horas", time: 1 },
