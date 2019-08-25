@@ -17,16 +17,6 @@
     .last_footer .no-padding-left{padding-left: 15px !important;}
     /*--------</FOOTER>--------*/
 }
-
-@media(width: 412px){
-    .slider { height:210%; }
-    .slide-movil  { height:70%; }
-}
-@media only screen and (width : 603px) and (orientation: portrait) {
-    body { overflow-x: hidden; }
-    .slider { height:80vh; }
-    .slide  { height:80vh; }
-}
 @media(max-width: 767px){    
     /*--------------<CARACTERISTICAS EN GENERAL>--------------*/
     .btn-default {font-size: 16px;padding: 24px;}    
@@ -39,6 +29,7 @@
     .quienes_pueden .participantes ul{ padding-left: 25px; }
     .imagenes .btn-imagenes{position: static;float:right;margin-bottom: 20px;}    
     .contenido_derecha{padding-bottom: 0;}
+    .logo_aicad { margin-top:30%; }
     /*--------------</CARACTERISTICAS EN GENERAL>--------------*/
 
     /*--------------<HEADER>--------------*/
@@ -181,79 +172,52 @@
     /*-------------</FOOTER>-------------*/
 }
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
+and (min-device-width : 320px) 
+and (max-device-width : 414px)
 and (-webkit-min-device-pixel-ratio: 1){
-    .slider { height:80vh; }
-    .slide  { height:80vh; } 
-    .slide:nth-child(1) { background-position:center center; background-position:top; background-repeat: no-repeat; background-size:300%; }
-    .slide:nth-child(2) { background-position:center center; background-position:top; background-repeat: no-repeat; background-size:300%; }
-    .slide:nth-child(3) { background-position:center center; background-position:top; background-repeat: no-repeat; background-size:300%; }
-    .slide:nth-child(4) { background-position:center center; background-position:top; background-repeat: no-repeat; background-size:300%; } 
-    
+    .logo_aicad { margin-top:30%; }
+    .content{
+        position: relative;
+        background: url('../../img/home/0-banner-principal-movil.jpeg') no-repeat;
+        background-size: 100% 100%;
+      }
+      .slideshow{ display: none; }
 }
 @media only screen and (device-width : 800px) and (orientation: portrait) {
     body { overflow-x: hidden; }
-    .slider { height:50vh; }
-    .slide  { height:50vh; }
 }
 @media only screen and (width : 966px) and (orientation: landscape) {
     body { overflow-x: hidden; }
-    .slider { height:80vh; }
-    .slide  { height:80vh; }
+    
 }
 
 /* Large screens ----------- */
 @media (max-width: 1280px) {
-    .home .circulo { background-size:160px 160px; height:144px; display:none;  }
-    .slider { height:100%; }
-    .slide  { height:100vh; }
-    .slider-movil { height:150%; }
-    .slide-movil  { height:100%; }
+    /*.home .circulo { background-size:160px 160px; height:144px; display:none;  }*/
+    
     .subFooter .twoCols { display: inline-block; width: 55%; }
 }
 @media (min-width: 1920px) { 
-    .slider { height:80vh; }
-    .slide  { height:80vh; }
-    .slide:nth-child(1) { background-position:vertical center; background-size:115% auto; }
-    .slide:nth-child(2) { background-position:vertical center;  background-size:115% auto; }
-    .slide:nth-child(3) { background-position:vertical center;  background-size:115% auto; }
-    .slide:nth-child(4) { background-position:vertical center;  background-size:115% auto; }
+    
     .mainFooter { background-size: 22%; }
 }
 @media (min-width: 2880px) { 
-    .slider { height:80vh; }
-    .slide  { height:80vh; }
-    .slide:nth-child(1) { background-position:vertical center; background-repeat: no-repeat; background-size:90%; }
-    .slide:nth-child(2) { background-position:vertical center; background-repeat: no-repeat; background-size:90%; }
-    .slide:nth-child(3) { background-position:vertical center; background-repeat: no-repeat; background-size:90%; }
-    .slide:nth-child(4) { background-position:vertical center; background-repeat: no-repeat; background-size:90%; }
+    
     .mainFooter { background-size: 22%; }
 }
 @media (min-width: 3840px) { 
-    .slider { height:40vh; }
-    .slide  { height:40vh; }
-    .slide:nth-child(1) { background-position:center center; background-repeat: no-repeat; background-size:60%; }
-    .slide:nth-child(2) { background-position:center center; background-repeat: no-repeat; background-size:60%; }
-    .slide:nth-child(3) { background-position:center center; background-repeat: no-repeat; background-size:60%; }
-    .slide:nth-child(4) { background-position:center center; background-repeat: no-repeat; background-size:60%; }
+    
     .mainFooter { background-size: 11%; }
 }
 @media (min-width: 5120px) { 
-    .slider { height:25vh; }
-    .slide  { height:25vh; }
-    .slide:nth-child(1) { background-position:center center; background-repeat: no-repeat; background-size:50%; }
-    .slide:nth-child(2) { background-position:center center; background-repeat: no-repeat; background-size:50%; }
-    .slide:nth-child(3) { background-position:center center; background-repeat: no-repeat; background-size:50%; }
-    .slide:nth-child(4) { background-position:center center; background-repeat: no-repeat; background-size:50%; }
+    
     .mainFooter { background-size: 8%; }
 }
 
 
 @media only screen and (device-width : 1280px) and (orientation: landscape) {
     body { overflow-x: hidden; }
-    .slider { height:80vh; }
-    .slide  { height:80vh; }
+    
 }
 @media(max-width: 1200px) and (min-width: 991px){
     /*-----<HEADER>-----*/

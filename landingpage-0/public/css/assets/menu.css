@@ -7,7 +7,7 @@ nav { display: block; height: 100%; overflow: auto; position: fixed; right: -20e
 /*-------------</NAVEGADOR>-------------*/
 
 /*---------------------------<HEADER>----------------------------*/
-header{background-color:#28394d; box-shadow: 0 10px 16px 0 rgba(150,150,150,0.2),0 0px 20px 0 rgba(150,150,150,0.19) !important;}
+header{ position:fixed; margin: 0 auto; width: 100%; z-index: 999; background-color:#28394d; box-shadow: 0 10px 16px 0 rgba(150,150,150,0.2),0 0px 20px 0 rgba(150,150,150,0.19) !important;}
 header .navbar-nav {margin: 0 !important;}
 header .navbar-nav > li > a{padding: 22px 2px 13px;color:#fff;font-family: 'Lato', sans-serif;font-size: 12px;top:20px;display: inline;}
 header .menu_movil li a{display: block;padding: 15px 0 15px 15px;font-family: 'Lato', sans-serif;font-size: 12px;}
