@@ -73,6 +73,7 @@ export default {
                     document.querySelector('body').getAttribute('style',"width:-20em");
                 break;
                 // </CERRAR> //
+
             }
             break;
         }

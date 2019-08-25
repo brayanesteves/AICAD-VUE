@@ -29,7 +29,7 @@
             <button id="nav-expander" class="nav-expander fixed pull-right hidden-xs" href="#" @click.prevent.stop="menuSlider(1, 0)">
                 <i class="fa fa-bars"></i>
             </button>
-            <button type="button" class="navbar-toggle collapsed nav-expander fixed pull-right"  @click.prevent.stop="menuSlider(1, 0)">
+            <button type="button" class="navbar-toggle collapsed nav-expander fixed pull-right"  @click.prevent.stop="menuSlider(1, 2)">
                 <i class="fa fa-bars"></i>
             </button>
         </div>
@@ -96,9 +96,14 @@
 
 export default {
     name: "navegacion",
+    data(){
+        return {
+            Activar: false
+        }
+    },
     methods: {
         /*----------------------<MENU SLIDER>----------------------*/
-        menuSlider(Actvr, Accns){
+        menuSlider: function(Actvr, Accns){
         var nav_expander;
         var nav_close;
         var widthNav;
@@ -134,6 +139,22 @@ export default {
                     document.querySelector('body').getAttribute('style',"width:-20em");
                 break;
                 // </CERRAR> //
+
+                
+                case 2:
+                    if(this.Activar == true){
+                        this.Activar = false;
+                        document.querySelector('#bs-example-navbar-collapse-1').classList.add('collapse');
+                    }else{
+                        this.Activar = true;
+                        document.querySelector('#bs-example-navbar-collapse-1').classList.remove('collapse');
+                    }
+                    
+                    break;
+
+                default:
+                    alert("Opción inexistente");
+                    break;
             }
             break;
         }
