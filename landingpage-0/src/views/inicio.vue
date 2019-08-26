@@ -93,6 +93,7 @@
 <script>
 //import tiempo from '@/components/contain/section/tiempo/tiempo-n-0.vue'
 export default {
+  name: 'inicio',
   props:['time'],
   components: {
    // tiempo
@@ -102,9 +103,9 @@ export default {
       
     empresa: 'AICAD',
     deadline:"",
-    Fecha: new Date(),    
-    startTime: 'Aug 24, 2019 23:18:53',
-    endTime: 'Aug 26, 2019 23:18:53',
+    Fecha: new Date(),     
+    startTime: new Date().getMonth()+" "+new Date().getDay()+", "+new Date().getFullYear()+" " + 23+":"+18+":"+59,
+    endTime: '08 28, 2019 23:18:53',
     times: [
       { id: 0, class_:'days', _class:'timeRefDays', text: "Días", time: 1 },
       { id: 1, class_:'hours', _class:'timeRefHours', text: "Horas", time: 1 },
