@@ -20,11 +20,11 @@
 			<div class="wrapper">
 				<p class="c-title__blue c-title__blue--white u-font-weight-400">Síguenos</p>
 				<nav class="c-footer-rrss__nav">
-					<a href="https://www.facebook.com/ESIC" target="_blank"><img src="imagenes/mobile/icon-facebook-footer.png" alt="icono facebook"></a>
-					<a href="http://www.twitter.com/esiceducation" target="_blank"><img src="imagenes/mobile/icon-twitter-footer.png" alt="icono twitter"></a>
-					<a href="https://www.linkedin.com/school/15106496" target="_blank"><img src="imagenes/mobile/icon-linkedn-footer.png" alt="icono linkedin"></a>
-					<a href="http://instagram.com/generacionesic" target="_blank"><img src="imagenes/mobile/icon-instagram-footer.png" alt="icono instagram"></a>
-					<a href="http://www.youtube.com/ESICmarketing" target="_blank"><img src="imagenes/mobile/icon-youtube-footer.png" alt="icono youtube"></a>
+					<a href="https://www.facebook.com/AICADBUSINESSSCHOOL" target="_blank"><img src="imagenes/mobile/icon-facebook-footer.png" alt="icono facebook"></a>
+					<a href="https://twitter.com/ABusinessSchool" target="_blank"><img src="imagenes/mobile/icon-twitter-footer.png" alt="icono twitter"></a>
+					<a href="https://www.linkedin.com/school/aicad-business-school/" target="_blank"><img src="imagenes/mobile/icon-linkedn-footer.png" alt="icono linkedin"></a>
+					<a href="https://www.instagram.com/aicad/" target="_blank"><img src="imagenes/mobile/icon-instagram-footer.png" alt="icono instagram"></a>
+					<a href="https://www.youtube.com/channel/UCAAyP3cFOQMINoUAoyLvCIw" target="_blank"><img src="imagenes/mobile/icon-youtube-footer.png" alt="icono youtube"></a>
 				</nav>
 			</div>
 		</section>
