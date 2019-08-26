@@ -35,13 +35,8 @@
 						</div>
 						<p>El estudio de convalidaciones es totalmente gratuito.</p>
 					</div>
-
-
-
 				</div> <!-- icon-list-wrapper -->
-
 			</div>
-
 		</section>
 		<!--</SECCIÓN Nº0>-->
 
