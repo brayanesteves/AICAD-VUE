@@ -240,7 +240,7 @@
 			<div class="c-img-label u-margin-left-auto u-margin-right-auto">
 					<img :src="Imagen_1_1" alt="Imagen guia">
 					<span>
-						<a href="pdf/residencias_apartamentos/residencias_apartamento.pdf" target="_blank"><span>ALOJAMIENTO</span><img src="imagenes/mobile/university/becas-ayudas/icon-download-white.png" alt="icono Descargar"></a>
+						<a href="pdf/residencias_apartamentos/residencias_apartamento.pdf" target="_blank"><span>ALOJAMIENTO</span><img :src="Imagen_1_2" alt="icono Descargar"></a>
 					</span>
 				</div>
 			</div>
@@ -889,7 +889,8 @@ export default {
 		Imagen_0_0: '../imagenes/mobile/university/becas-ayudas/icon-download-white.png',
 		Imagen_1: '../imagenes/mobile/university/becas-ayudas/guia2.png',
 		Imagen_1_0: '../imagenes/mobile/university/becas-ayudas/icon-download-white.png',
-		Imagen_1_0: '../imagenes/mobile/university/becas-ayudas/guia1.png',
+		Imagen_1_1: '../imagenes/mobile/university/becas-ayudas/guia1.png',
+		Imagen_1_2: '../imagenes/mobile/university/becas-ayudas/icon-download-white.png'
         }       
     },
     methods: {

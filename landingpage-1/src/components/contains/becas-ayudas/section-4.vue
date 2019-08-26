@@ -5,7 +5,7 @@
 				<p>En ESIC estamos siempre a tu disposición. Contamos con un equipo de profesionales dedicados a orientar tanto a padres como a sus hijos, en todo lo referente a estudios universitarios.</p>
 				<div class="stage-note">
 					<div class="stage-note__item">
-						<img src="imagenes/mobile/university/becas-ayudas/icon-phone-grey.png" alt="icono llamada">
+						<img :src="llamada_imagen" :alt="llamada_alt">
 						<p><span class="u-text-uppercase u-bold u-block">PIDE CITA PREVIA:</span>Será necesario concertar una cita previa con el equipo de Admisiones, esta cita podrá solicitarse por teléfono o a través del formulario. <span class="u-block u-bold">¿Cuenta con nosotros!</span></p>
 					</div>
 				</div>
@@ -61,6 +61,14 @@ export default {
     props: ['contacto'],
     data() {
         return {
+            llamada_imagen: '../imagenes/mobile/university/becas-ayudas/icon-phone-grey.png',
+            llamada_alt: 'icono llamada',
+            llamadas: [
+                {
+                    imagen: '',
+                    alt: ''
+                }
+            ],
             contactos: [
                 {
                     pais: 'Madrid',
