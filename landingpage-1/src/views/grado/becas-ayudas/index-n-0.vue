@@ -206,11 +206,11 @@
 			</div>
 			<div class="questions-becas__img">
 				<div class="c-img-label">
-					<img src="imagenes/mobile/university/becas-ayudas/guia3.png" alt="Imagen guia">
+					<img :src="Imagen_0" alt="Imagen guia">
 					<span>
 						<a href="pdf/becas-y-ayudas-grado.pdf" target="_blank">
 							<span>Descargar</span> <span>guía</span>
-							<img src="imagenes/mobile/university/becas-ayudas/icon-download-white.png" alt="Descargar">
+							<img :src="Imagen_0_0" alt="Descargar">
 						</a>
 					</span>
 				</div>
@@ -228,9 +228,9 @@
                     <a href="#formUniversityGeneral" id="" class="u-color-grado ayuda-financiacion">ESIC te ayuda con la financiación de tu Carrera</a></p>
 			</div>
 			<div class="c-img-label u-margin-left-auto u-margin-right-auto u-hidden">
-				<img src="imagenes/mobile/university/becas-ayudas/guia2.png" alt="Imagen guia">
+				<img :src="Imagen_1" alt="Imagen guia">
 				<span>
-					<a href="pdf/condiciones-financiacion.pdf"><span>Descargar</span> <span>guía</span><img src="imagenes/mobile/university/becas-ayudas/icon-download-white.png" alt="icono Descargar"></a>
+					<a href="pdf/condiciones-financiacion.pdf"><span>Descargar</span> <span>guía</span><img :src="Imagen_1_0" alt="icono Descargar"></a>
 				</span>
 			</div>
 			<div class="questions-becas__item">
@@ -238,7 +238,7 @@
 				<p>Busca la que mejor se adapte a tus necesidades.</p>
 			</div>
 			<div class="c-img-label u-margin-left-auto u-margin-right-auto">
-					<img src="imagenes/mobile/university/becas-ayudas/guia1.png" alt="Imagen guia">
+					<img :src="Imagen_1_1" alt="Imagen guia">
 					<span>
 						<a href="pdf/residencias_apartamentos/residencias_apartamento.pdf" target="_blank"><span>ALOJAMIENTO</span><img src="imagenes/mobile/university/becas-ayudas/icon-download-white.png" alt="icono Descargar"></a>
 					</span>
@@ -862,7 +862,7 @@
 import section0 from '@/components/contains/becas-ayudas/section-0.vue'
 import section4 from '@/components/contains/becas-ayudas/section-4.vue'
 export default {
-    props: ['icon'],
+    props: ['icon', 'questions'],
     components: {
 		section0,
 		section4,
@@ -884,7 +884,12 @@ export default {
                 descripcion_: 'Proveniente de un <span>SISTEMA PREUNIVERSITARIO ESPAÑOL :</span>',
                 _descripcion: ''
             }
-        ] 
+		],
+		Imagen_0: '../imagenes/mobile/university/becas-ayudas/guia3.png',
+		Imagen_0_0: '../imagenes/mobile/university/becas-ayudas/icon-download-white.png',
+		Imagen_1: '../imagenes/mobile/university/becas-ayudas/guia2.png',
+		Imagen_1_0: '../imagenes/mobile/university/becas-ayudas/icon-download-white.png',
+		Imagen_1_0: '../imagenes/mobile/university/becas-ayudas/guia1.png',
         }       
     },
     methods: {
