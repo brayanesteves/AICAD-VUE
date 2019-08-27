@@ -4,6 +4,7 @@
 		<div class="menu-principal">
 			<div class="wrapper">
 				<nav class="menu-n-0">
+					<!--<SECTION Nº0>-->
 					<section>
 						<div class="c-nav-accesos__button-drop">
 							<a href="" id="navAccesosDrop">Accesos rápidos</a>
@@ -11,13 +12,16 @@
 						<div class="c-nav-accesos__idiomas">
 							<a name="es" class="active">ESP</a>
 							<a name="en" href="#">ENG</a>
-							<a href="#"><img src="imagenes/mobile/cn.png" alt="Idioma Chino"></a>
+							<a href="#"><img :src="img_0" alt="Idioma Chino"></a>
 
 							<section class="c-form-search c-form-destock u-display__none">
 								
 							</section>
 						</div>
 					</section>
+					<!--</SECTION Nº0>-->
+
+					<!--<SECTION Nº1>-->
 					<section class="c-nav-accesos__navigation js-nav u-display__none">
 							<router-link to="/" >Inicio</router-link>
 							<a href="saladeprensa/">Sala de comunicación</a>
@@ -27,9 +31,12 @@
 							<a href="informacion-de-interes-empresas/">Empresas</a>
 							<a href="https://campusvirtual.esic.edu/public/">Campus virtual</a>
 					</section>
+					<!--</SECTION Nº1>-->
+
+					<!--<SECTION Nº2>-->
 						<section class="c-contact-destock u-display__none">
-							<a class="modal__btn" href="#">Contacto<img class="phone" src="imagenes/mobile/icon-phone-white.png" alt="Icon phone"></a>
-							<a class="modal__btn" href="#"><img class="whatsapp" src="imagenes/mobile/icon-whatsapp.png" alt="Icono whatsapp"></a>
+							<a class="modal__btn" href="#">Contacto<img class="phone" :src="img_1" alt="Icon phone"></a>
+							<a class="modal__btn" href="#"><img class="whatsapp" :src="img_2" alt="Icono whatsapp"></a>
 							<!-- <a href="https://api.whatsapp.com/send?phone=34664457707" target="_blank" onClick="ga('send', 'event', 'usabilidad', 'head_grado', 'boton_contacto_whatsapp')"><img class="whatsapp" src="imagenes/mobile/icon-whatsapp.png" alt="Icono whatsapp"></a> -->
 						<a href="#formUniversityGeneral" id="ContactFixButton" style="border-bottom:none">
 							<svg version="1.1" width="25px" height="25px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" style="fill: white; position: relative; top: 2px;">
@@ -55,6 +62,7 @@
 							</svg>
 						</a>
 					</section>
+					<!--</SECTION Nº2>-->
 				</nav>
 			</div>
 		</div>
@@ -63,23 +71,24 @@
 		<!--***********<MENÚ Nº1: RESPONSIVO>***********-->
 		<div class="wrapper u-position-relative">
 			<nav class="c-nav-principal" id="fixMenu">
+				<!--<SECTION Nº0>-->
 			<section>
 				<div class="logo">
 					<a href="./">
 						<picture>
-							<source media="(min-width: 768px)" srcset="imagenes/mobile/logo-esic-big.png">
-							<img src="imagenes/mobile/logo-esic.png" alt="ESIC Business & Marketing School">
+							<source media="(min-width: 768px)" :srcset="img_3">
+							<img :src="img_4" alt="ESIC Business & Marketing School">
 						</picture>
 					</a>
 				</div>
 				<div class="menu-icons">
 					<a href="#formUniversityGeneral" class="sobreIcon">
-						<img src="imagenes/mobile/icon-sobre-nav.png" alt="Icono contacto">
+						<img src="" alt="Icono contacto">
 					</a>
-					<a class="modal__btn" href="#"><img class="whatsapp" src="imagenes/mobile/icon-whatsapp.png" alt="Icono whatsapp"></a>
+					<a class="modal__btn" href="#"><img class="whatsapp" :src="img_2" alt="Icono whatsapp"></a>
 					<!-- <a href="https://api.whatsapp.com/send?phone=34664457707" class="whatsapp" target="_blank"><img src="imagenes/mobile/icon-whatsapp.png" alt="Icono whatsapp"></a> -->
-					<a class="modal__btn" href="#" ><img src="imagenes/mobile/icon-telephone.png" alt="Icono teléfono"></a>
-					<a href="#" id="lupa" class="icon-lupa"><img src="imagenes/mobile/icon-lupa.png" alt="Icono buscador" ></a>
+					<a class="modal__btn" href="#" ><img :src="img_5" alt="Icono teléfono"></a>
+					<a href="#" id="lupa" class="icon-lupa"><img :src="img_6" alt="Icono buscador" ></a>
 					<a href="#" id="menuIcon" class="content-lines">
 						<span class="lines line-top"></span>
 						<span class="lines line-mid"></span>
@@ -87,9 +96,15 @@
 					</a>
 				</div>
 			</section>
+			<!--</SECTION Nº0>-->
+
+			<!--<SECTION Nº1>-->
 			<section class="c-form-search c-form-search-js u-display__none">
 				
 			</section>
+			<!--</SECTION Nº1>-->
+
+			<!--<SECTION Nº2>-->
 			<section class="c-menu js-nav-menu u-display__none">
 					<div class="c-nav-accesos__navigation c-menu__principal">
 						<router-link to="/" >Inicio</router-link>
@@ -121,8 +136,25 @@
 						<a href="https://www.youtube.com/channel/UCAAyP3cFOQMINoUAoyLvCIw" target="_blank"><img src="imagenes/mobile/icon-youtube.png" alt="icono youtube"></a>
 					</div>
 				</section>
+				<!--</SECTION Nº2>-->
 			</nav>
 		</div>
 		<!--***********</MENÚ Nº1: RESPONSIVO>***********-->
 	</header>
 </template>
+<script>
+export default {
+	data(){
+		return {
+			img_0: '../imagenes/mobile/cn.png',
+			img_1: '../imagenes/mobile/icon-phone-white.png',
+			img_2: '../imagenes/mobile/icon-whatsapp.png',
+			img_3: '../imagenes/mobile/logo-esic-big.png',
+			img_3_0: '../imagenes/mobile/logo-esic.png',
+			img_4:'imagenes/mobile/icon-sobre-nav.png',
+			img_5:'../imagenes/mobile/icon-telephone.png',
+			img_6:'../imagenes/mobile/icon-lupa.png'
+		}
+	}
+}
+</script>

@@ -1,7 +1,7 @@
 <template>
     	<main>
 	<h1 class="u-hidden">Convalidaciones y traslado de expediente</h1>
-		<!--<SECCIÓN Nº0>-->
+		
 		<!-- cabecera -->
 		<section class="c-hero-convalidaciones">
 			<div class="wrapper">
@@ -9,44 +9,17 @@
 				<p class="c-hero-convalidaciones__subtitle">y traslado de <br>expediente  </p>
 			</div>
 		</section>
-		<section class="c-content-convalidaciones intro">
-			<div class="wrapper">
-
-				<p class="subtitle"><strong>¿Estás pensando cursar una carrera universitaria tras terminar tu Ciclo Formativo de Grado Superior o simplemente quieres cambiarte de Centro Universitario?</strong> En ESIC tenemos un plan para ti. Te facilitamos un plan de convalidaciones basado en los estudios que hayas cursado y los que quieres estudiar.
-				</p>
-				<div class="icon-list-container">
-					<div class="u-display-flex ">
-						<div class="u-flex-shrink-null u-margin-right-xs">
-							<img src="imagenes/mobile/university/ico-group.png" alt="Icono grupo" class="u-flex-shrink-null">
-						</div>
-						<p>Para solicitar el estudio de convalidaciones no es necesario realizar las pruebas de admisión ni tampoco que hayas finalizado tus estudios.</p>
-					</div>
-
-					<div class="u-display-flex">
-						<div class="u-flex-shrink-null u-margin-right-xs">
-							<img src="imagenes/mobile/university/ico-ask.png" alt="icono llamada" class="u-flex-shrink-null">
-						</div>
-						<p>Ponemos a tu disposición a un equipo de orientadores para ayudarte.</p>
-					</div>
-
-					<div class="u-display-flex">
-						<div class="u-flex-shrink-null u-margin-right-xs">
-							<img src="imagenes/mobile/university/ico-payment.png" alt="Icono pago" class="u-flex-shrink-null">
-						</div>
-						<p>El estudio de convalidaciones es totalmente gratuito.</p>
-					</div>
-				</div> <!-- icon-list-wrapper -->
-			</div>
-		</section>
+		<!--<SECCIÓN Nº0>-->
+		<section0 />
 		<!--</SECCIÓN Nº0>-->
 
 		<!--<SECCIÓN Nº1>-->
 		<section class="c-content-convalidaciones pasos">
-			<img src="imagenes/mobile/university/ico-pasos.png" alt="Amplía fronteras" class="ico-section">
+			<img v-bind:src="icono_pasos_0" alt="Amplía fronteras" class="ico-section">
 			<div class="wrapper">
 				<div class="title u-margin-bottom-md">
 
-					<p class=""><strong><img src="imagenes/mobile/university/ico-pasos-desktop.png" alt="Icono pasos" class="hidden-xs u-margin-right-xs"></strong> <br class="hidden-sm">¿Cómo solicitar tu convalidación?</p>
+					<p class=""><strong><img :src="icono_pasos_1" alt="Icono pasos" class="hidden-xs u-margin-right-xs"></strong> <br class="hidden-sm">¿Cómo solicitar tu convalidación?</p>
 				</div>
 
 				<div class="list-description__container">
@@ -92,7 +65,7 @@
 
 			<div class="c-form-university__title contacta">
 				<div class="u-border-bottom u-border-bottom--white u-padding-bottom-sm u-margin-bottom-sm">
-					<img src="imagenes/mobile/university/becas-ayudas/logo-esic-blanco-m.png" alt="ESIC LOGO" class="margin-bottom-neg">
+					<img src="imagenes/mobile/university/becas-ayudas/logo-esic-blanco-m.png" alt="AICAD LOGO" class="margin-bottom-neg">
 					<p class="u-text-center u-text-initial u-font-md u-margin-bottom-null">Contacta con</p>
 					<p class="u-text-center c-title__blue c-title__blue--orange u-color-grado" id="nombre_contacto"></p>
 				</div>
@@ -441,10 +414,19 @@
 
 </template>
 <script>
+import section0 from '@/components/contains/convalidaciones/section-0.vue'
 import section2 from '@/components/contains/convalidaciones/section-2.vue'
 export default {
+	
 	components: {
+		section0,
 		section2,
-    },
+	},
+	data() {
+		return {
+			icono_pasos_0:'../imagenes/mobile/university/ico-pasos.png',
+			icono_pasos_1:'../imagenes/mobile/university/ico-pasos-desktop.png',
+		}
+	}
 }
 </script>

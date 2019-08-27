@@ -7,6 +7,7 @@
 				<p class="c-hero-idiomas__subtitle">Experiencia en el extranjero <br>+ formación en idiomas </p>
 			</div>
 		</section>
+		<!--<SECTION Nº0>-->
 		<section class="c-content-idiomas intro">
 			<div class="wrapper">
 				<p class="title-description u-color-black">PROGRAMAS DE MOVILIDAD INTERNACIONAL     </p>
@@ -39,58 +40,31 @@
 					  </div>
 			</div>
 		</section>
-		<section class="c-content-idiomas amplia-fronteras">
-			<img src="imagenes/mobile/university/ico-ok.png" alt="Amplía Fronteras" class="ico-section">
-			<div class="wrapper">
-				<div class="title u-margin-bottom-md">
+		<!--</SECTION Nº0>-->
 
-					<p><img src="imagenes/mobile/university/ico-ok.png" alt="icono ok" class="hidden-xs u-margin-right-xs"><strong>Amplía fronteras</strong>, <br class="hidden-sm">multiplica tu empleabilidad  </p>
-				</div>
-				<div class="icon-list-container">
-					<div class=" ">
-						<div class="u-flex-shrink-null u-margin-right-xs">
-							<img src="imagenes/mobile/university/ico-university.png" alt="Icono University" class="u-flex-shrink-null">
-						</div>
-						<p><span class="u-bold u-color-grado inner-title"> + 125 acuerdos </span><br class="hidden-sm">con universidades nacionales e internacionales</p>
-					</div>
+		<!--<SECTION Nº1>-->
+		<section1 />
+		<!--</SECTION Nº1>-->
 
-					<div class="">
-						<div class="u-flex-shrink-null u-margin-right-xs">
-							<img src="imagenes/mobile/university/ico-world.png" alt="Imagen mundo" class="u-flex-shrink-null">
-						</div>
-						<p>Acuerdos en <span class="u-bold u-color-grado inner-title">+ 40 Países </span><br class="hidden-sm">en 4 continentes </p>
-					</div>
-
-					<div class="">
-						<div class="u-flex-shrink-null u-margin-right-xs">
-							<img src="imagenes/mobile/university/ico-plane.png" alt="Icono study Tours" class="u-flex-shrink-null">
-						</div>
-						<p><span class="u-bold u-color-grado inner-title">Study Tours</span><br class="hidden-sm">residenciales </p>
-					</div>
-
-					<div class="">
-						<div class="u-flex-shrink-null u-margin-right-xs">
-							<img src="imagenes/mobile/university/ico-ping.png" alt="icono ping" class="u-flex-shrink-null">
-						</div>
-						<p> <span class="u-bold u-color-grado inner-title">+500 Alumnos </span><br class="hidden-sm">al año en programas internacionales</p>
-					</div>
-
-				</div>
-			</div>
-		</section>
+		<!--<SECTION Nº2>-->
 		<section class="c-content-idiomas amplia-fronteras u-background-white">
 
-			<a href="https://www.esic.edu/grado/internacional-idiomas/#formUniversityGeneral"><div class="button-final">
+			<a href=""><div class="button-final">
 				<p class="u-text-center">Y a ti, <strong>¿dónde te gustaría ir?</strong></p>
 
 			</div></a>
 		</section>
+		<!--</SECTION Nº2>-->
+
+		<!--<SECTION Nº3>-->
 		<section class="c-content-idiomas centro u-color-white ">
 			<div class="wrapper">
-				<p class="u-text-center"><img src="imagenes/mobile/university/esic_idiomas_blanco.png" alt="ESIC Idiomas"> nuestro centro especializado en formación de lenguas extranjeras.</p>
+				<p class="u-text-center"><img :src="aicad_logo" alt="AICAD Idiomas"> nuestro centro especializado en formación de lenguas extranjeras.</p>
 			</div>
 		</section>
+		<!--</SECTION Nº3>-->
 
+		<!--<SECTION Nº4>-->
 		<section class="c-content-idiomas u-color-white u-background-dark">
 			<div class="wrapper">
 				<p>Uno de los factores que <strong>más incide en la empleabilidad</strong> de nuestros alumnos es el conocimiento de idiomas. Para ello, puedes cursar <strong>titulaciones íntegramente en inglés o bilingüe</strong>, incluso acceder a <strong>titulaciones en el extranjero</strong>.</p>
@@ -98,32 +72,13 @@
 				<p>Nuestro objetivo es que todos los alumnos que cursen los estudios universitarios en ESIC salgan al mercado con un nivel de idioma idóneo para <strong>hacer frente a cualquier situación en cualquier parte del mundo</strong>.  </p>
 			</div>
 		</section>
+		<!--</SECTION Nº4>-->
 
+		<!--<SECTION Nº5>-->
+		<section5 />
+		<!--</SECTION Nº5>-->
 
-		<section class="c-content-idiomas">
-			<div class="wrapper">
-				<p class="c-content-idiomas__title u-text-uppercase u-text-center u-bold deskopt-text-left">¿QUÉ PODEMOS HACER POR TI?</p>
-				<ul class="c-content-idiomas__listado">
-					<li>En ESIC Idiomas somos centro preparador y examinador de los principales exámenes oficiales y certificados, tanto del ámbito profesional como académico: <strong> Cambridge y TOEFL</strong>.
-						<div class="c-content-idiomas__logos">
-							<a href="https://www.cambridgeenglish.org/" onClick="ga('send', 'event', 'usabilidad', 'grado_idiomas', 'boton_cambridge')"><img src="imagenes/mobile/university/cambridge.png" alt="Cambridge English"></a>
-							<a href="https://capman.es/es" onClick="ga('send', 'event', 'usabilidad', 'grado_idiomas', 'boton_toefl')"><img src="imagenes/mobile/university/logo-toefl.png" alt="TOEFL"></a>
-							<a href="https://www.cervantes.es/default.htm" onClick="ga('send', 'event', 'usabilidad', 'grado_idiomas', 'boton_icervantes')"><img src="imagenes/mobile/university/cervantes-logo.png" alt="Instituto Cervantes"></a>
-							<a href="https://examenes.cervantes.es/es/dele/que-es" onClick="ga('send', 'event', 'usabilidad', 'grado_idiomas', 'boton_ic_dele')"><img src="https://examenes.cervantes.es/sites/all/themes/examenes_zen/images/dele-logo.png" alt="DELE"></a>
-
-						</div>
-					</li>
-					<li>El proceso de <strong>aprendizaje de idiomas es homogéneo</strong>, agrupando a los alumnos por niveles con compañeros en situaciones similares. </li>
-					<li>Si tu dominio del <strong>inglés</strong> es de <strong>nivel alto</strong> (mínimo C1) <strong>podrás cursar un segundo idioma</strong> en las titulaciones elegidas: chino.          </li>
-					<li>Apostamos por la <strong>certificación de los conocimientos de idiomas</strong> como acreditación a la hora de acceder con más garantías al mercado laboral.</li>
-					<li>Opciones de <strong>recorridos internacionales, titulaciones y estancias en el extranjero</strong> para poner en práctica y mejorar tus habilidades lingüísticas.</li>
-					<li>Impartimos <strong>otros cursos en otros idiomas</strong>, así como español para extranjeros.</li>
-				</ul>
-			</div>
-			<!-- <div class="wrapper info-center">
-				<a href="https://www.esic.edu/idiomas/" class="c-button-round-ghost-xl c-button-round-ghost-xl--orange visita-esic" onClick="ga('send', 'event', 'usabilidad', 'grado_idiomas', 'boton_visitar_esic_idiomas')">Visitar <span>ESIC Idiomas</span></a>
-			</div> -->
-		</section>
+		<!--<SECTION Nº6>-->
 <section class="c-form-university" id="formUniversityGeneral">
 	<div class="wrapper">
 
@@ -452,5 +407,23 @@
 		</form>
 	</div>
 </section>
+<!--<SECTION Nº6>-->
 	</main>
 </template>
+<script>
+import section1 from '@/components/contains/internacional-idiomas/section-1.vue'
+import section5 from '@/components/contains/internacional-idiomas/section-5.vue'
+export default {
+    props: [''],
+    components: {
+		section1,
+		section5,
+    },
+    data() { 
+        return {       
+			aicad_logo:'../imagenes/mobile/university/esic_idiomas_blanco.png',
+
+        }       
+    },
+}
+</script>

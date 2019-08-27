@@ -2,7 +2,7 @@
     <footer>
 		<section class="c-footer-campus">
 			<div class="wrapper">
-				<p class="c-title__blue c-title__blue--white">Campus ESIC</p>
+				<p class="c-title__blue c-title__blue--white">Campus AICAD</p>
 
 				<nav class="c-footer-campus__nav" id="footerNavSedesUniversity">
 					<a href="madrid/">Madrid</a>
@@ -20,11 +20,7 @@
 			<div class="wrapper">
 				<p class="c-title__blue c-title__blue--white u-font-weight-400">Síguenos</p>
 				<nav class="c-footer-rrss__nav">
-					<a href="https://www.facebook.com/AICADBUSINESSSCHOOL" target="_blank"><img src="imagenes/mobile/icon-facebook-footer.png" alt="icono facebook"></a>
-					<a href="https://twitter.com/ABusinessSchool" target="_blank"><img src="imagenes/mobile/icon-twitter-footer.png" alt="icono twitter"></a>
-					<a href="https://www.linkedin.com/school/aicad-business-school/" target="_blank"><img src="imagenes/mobile/icon-linkedn-footer.png" alt="icono linkedin"></a>
-					<a href="https://www.instagram.com/aicad/" target="_blank"><img src="imagenes/mobile/icon-instagram-footer.png" alt="icono instagram"></a>
-					<a href="https://www.youtube.com/channel/UCAAyP3cFOQMINoUAoyLvCIw" target="_blank"><img src="imagenes/mobile/icon-youtube-footer.png" alt="icono youtube"></a>
+					<a v-for="rdntwrkng in redessociales" :key="rdntwrkng" :href="rdntwrkng.href" :target="rdntwrkng.target"><img :src="rdntwrkng.img" :alt="rdntwrkng.alt"></a>					
 				</nav>
 			</div>
 		</section>
@@ -42,7 +38,7 @@
 			<div class="wrapper">
 				<section class="c-footer-legal">
 					<div>
-						<p>&copy; 2019 ESIC Business & Marketing School. CIF: R2800828B. </p>
+						<p>&copy; {{new Date().getFullYear()}} AICAD Business & Marketing School. CIF: R2800828B. </p>
 						<span>
 								<p>Avenida de Valdenigrales s/n, Pozuelo de Alarcón. 28223 Madrid, España. 91 452 41 00</p>
 								<p><a class="modal__btn" href="#" data-modal="#popup__legales">Aspectos legales</a></p>
@@ -87,3 +83,44 @@
 		</div>
 	</footer>
 </template>
+<script>
+export default {
+	props: ['rdntwrkng'],
+	data() {
+		return {
+			redessociales: [
+				{
+					href:'https://www.facebook.com/AICADBUSINESSSCHOOL',
+					target: '_blank',
+					img:'../imagenes/mobile/icon-facebook-footer.png',
+					alt:'icono facebook'
+				},
+				{
+					href:'https://twitter.com/ABusinessSchool',
+					target: '_blank',
+					img:'../imagenes/mobile/icon-twitter-footer.png',
+					alt:'icono twitter'
+				},
+				{
+					href:'https://www.linkedin.com/school/aicad-business-school/',
+					target: '_blank',
+					img:'../imagenes/mobile/icon-linkedn-footer.png',
+					alt:'icono linkedin'
+				},
+				{
+					href:'https://www.instagram.com/aicad/',
+					target: '_blank',
+					img:'../imagenes/mobile/icon-instagram-footer.png',
+					alt:'icono instagram'
+				},
+				{
+					href:'https://www.youtube.com/channel/UCAAyP3cFOQMINoUAoyLvCIw',
+					target: '_blank',
+					img:'../imagenes/mobile/icon-youtube-footer.png',
+					alt:'icono youtube'
+				},
+			]
+		}
+	}
+}
+</script>
