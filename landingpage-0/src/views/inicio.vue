@@ -105,7 +105,7 @@ export default {
     deadline:"",
     Fecha: new Date(),     
     startTime: new Date().getMonth()+" "+new Date().getDay()+", "+new Date().getFullYear()+" " + 23+":"+18+":"+59,
-    endTime: '08 28, 2019 23:18:53',
+    endTime: '03 10, 2019 23:18:53',
     times: [
       { id: 0, class_:'days', _class:'timeRefDays', text: "Días", time: 1 },
       { id: 1, class_:'hours', _class:'timeRefHours', text: "Horas", time: 1 },
