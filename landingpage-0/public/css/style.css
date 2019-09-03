@@ -53,7 +53,7 @@ p{font-size: 14px;font-family: 'Lato', sans-serif;}
 /*----------------------</SECCIÓN GAMING>----------------------*/
 
 .home .seccion_gris,#final_form .seccion_gris{background-color: #545454;padding: 25px 0;font-family: 'Lato', sans-serif;color:#fff;letter-spacing: 13px;}
-    .home .circulo { background: url('../img/home/circulo.png') no-repeat center center; /*background-size:148px 144px; height:144px;*/ background-size:168px 158px; height:154px; position: relative; margin-top:12px; display: inline; float:left; /*width: 152px;*/ width: 164px; }
+    .home .circulo { background: url('../img/home/_circulo.png') no-repeat center center; /*background-size:148px 144px; height:144px;*/ background-size:168px 158px; height:154px; position: relative; margin-top:12px; display: inline; float:left; /*width: 152px;*/ width: 164px; }
     .home .cont_circulos ul{margin-left: 0;display: inline-block;}
         .home .circulo p{margin-top: 55px;font-family: 'Lato', sans-serif;font-size: 16px;color:#fff;line-height:16px;letter-spacing: -2px;}
         .home .circulo.circulo3 p{font-size: 11px;line-height: 11px;letter-spacing: -1px;}

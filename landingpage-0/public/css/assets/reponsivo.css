@@ -56,7 +56,7 @@
     .home h1{font-size: 38px;line-height: 32px;} 
     .home #slide .item{height:100vh;}
     .home .cont_circulos{margin-top: 20px;margin-bottom: 0;}
-    .home .circulo {background: url("../../img/home/circulo.png") no-repeat scroll center center rgba(0, 0, 0, 0);height: 207px;width: 100%;margin-top:0;}
+    .home .circulo {background: url("../../img/home/_circulo.png") no-repeat scroll center center rgba(0, 0, 0, 0);height: 207px;width: 100%;margin-top:0;}
     .home .circulo p{margin-top: 75px;}
     .home .seccion_gris {letter-spacing: 7px;}   
     /*----------------------<SECCIÓN: INSCRIBETE>----------------------*/
