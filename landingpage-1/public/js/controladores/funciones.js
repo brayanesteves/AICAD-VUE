@@ -36,4 +36,5 @@ function Acordeon(Actvr, Clasificacion){
     }
 }
 Acordeon(1, 0);
+alert(1);
 /*---------------------------</JAVASCRIPT  NATIVO>---------------------------*/
