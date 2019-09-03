@@ -196,10 +196,6 @@ export default {
   destroyed: function(){
     window.addEventListener('resize', this.mediaQueries);
   }
-  
-  
-  
-  
 }
 
 </script>
