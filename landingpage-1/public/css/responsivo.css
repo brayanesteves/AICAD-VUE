@@ -4600,7 +4600,7 @@ div.buscar{width:auto}
 .sliderHitoria{position:relative;float:left;margin:0}
 img.flechas_news,img.flechas_news_right{position:relative;z-index:90}
 ul.tematicas_formativas,ul.tematicas_formativas.executive,ul.tematicas_formativas.masters_posts{width:100%}
-,ul.tematicas_formativas li a,ul.tematicas_formativas.masters_posts li a{padding:0;width:14%}
+ul.tematicas_formativas li a,ul.tematicas_formativas.masters_posts li a{padding:0;width:14%}
 ul.tematicas_formativas.masters_posts li a{width:20%}
 ul.tematicas_formativas.executive li a{width:12%}
 ul.tematicas_formativas.executive{height:110px}
