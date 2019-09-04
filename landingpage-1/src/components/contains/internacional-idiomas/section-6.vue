@@ -1,31 +1,30 @@
 <template>
-  <section class="c-form-university c-form-mod-becas-ayudas" style="display:none">
+  <section class="c-form-university" id="formUniversityGeneral">
     <div class="wrapper">
-      <form class="material-form" method="POST" action="codigo/codigo.php" id="form_admisiones">
-        <input type="hidden" name="admisiones" value="1" />
-        <input type="hidden" name="pagina" value="grado/becas-ayudas/" />
-        <input type="hidden" name="origen" value />
+      <p id="gracias" style="display:none; font-size:30px; color: #ffffff; padding-left: 200px">
+        <strong>¡GRACIAS!</strong>
+        <br />Tu solicitud será atendida en breve
+      </p>
+
+      <form class="material-form" method="post" action id="form_contacto_grado">
+        <input type="hidden" name="validar_hashcash_contacto_grado" value="WkdEPWUFxVKRwsgSGCYH" />
+        <input type="hidden" name="contacto_grado" value="1" />
+        <input type="hidden" name="url" value="/grado-idiomas.php" />
+        <input type="hidden" name="id_analytics" value="15665122560773620" />
         <input type="hidden" name="originCampaignId" value />
-        <input type="hidden" name="validar_hashcash_admisiones" value="TJDJgIeYkOeVyVLkHDVu" />
-        <input type="hidden" name="IdCA" value />
 
         <div class="container">
-          <div class="c-form-university__title contacta">
-            <div
-              class="u-border-bottom u-border-bottom--white u-padding-bottom-sm u-margin-bottom-sm"
-            >
-              <img
-                src="imagenes/mobile/university/becas-ayudas/logo-esic-blanco-m.png"
-                alt="ESIC LOGO"
-                class="margin-bottom-neg"
-              />
-              <p class="u-text-center u-text-initial u-font-md u-margin-bottom-null">Contacta con</p>
-              <p
-                class="u-text-center c-title__blue c-title__blue--orange u-color-grado"
-                id="nombre_contacto"
-              ></p>
+          <div class="c-form-university__title">
+            <div>
+              <p class="c-form-university__title--color u-color-black">PROCESO DE ADMISIÓN ABIERTO</p>
+              <p class="c-form-university__title--medium">CURSO 2019 / 2020</p>
             </div>
+            <p class="c-form-university__title--big">
+              SOLICITA MÁS
+              <span>INFORMACIÓN</span>
+            </p>
           </div>
+
           <p class="select-options">Selecciona una opción*</p>
           <div class="contain__radio">
             <label class="container_radios">
@@ -45,8 +44,6 @@
             </label>
           </div>
 
-          <!-- Text input -->
-
           <section class="c-form-grid-desktop">
             <section class="c-form__contain-inputs">
               <div class="material-input">
@@ -57,7 +54,31 @@
 
               <div class="material-input">
                 <input class="input-item" type="text" name="apellido1" />
-                <label>Apellido*</label>
+                <label>Primer Apellido*</label>
+                <span class="bar"></span>
+              </div>
+
+              <div class="material-input">
+                <input class="input-item" type="text" name="apellido2" />
+                <label>Segundo Apellido</label>
+                <span class="bar"></span>
+              </div>
+
+              <div class="material-input">
+                <input class="input-item" type="email" name="email" />
+                <label>Email*</label>
+                <span class="bar"></span>
+              </div>
+
+              <div class="material-input">
+                <input
+                  class="input-item"
+                  type="tel"
+                  name="telefono"
+                  onkeypress="return soloNumeros(event)"
+                  maxlength="9"
+                />
+                <label>Teléfono*</label>
                 <span class="bar"></span>
               </div>
 
@@ -128,7 +149,7 @@
                   <option value="136">Filipinas</option>
                   <option value="59">Finlandia</option>
                   <option value="60">Francia</option>
-                  <option value="61">Gabán</option>
+                  <option value="61">Gabón</option>
                   <option value="62">Gambia</option>
                   <option value="65">Gana</option>
                   <option value="63">Georgia</option>
@@ -182,7 +203,7 @@
                   <option value="118">Marruecos</option>
                   <option value="112">Mauricio</option>
                   <option value="111">Mauritania</option>
-                  <option value="113">Mjico</option>
+                  <option value="113">Méjico</option>
                   <option value="114">Micronesia</option>
                   <option value="115">Moldavia</option>
                   <option value="116">Mónaco</option>
@@ -193,12 +214,12 @@
                   <option value="121">Nauru</option>
                   <option value="122">Nepal</option>
                   <option value="125">Nicaragua</option>
-                  <option value="126">Níger</option>
+                  <option value="126">NÍger</option>
                   <option value="127">Nigeria</option>
                   <option value="128">Noruega</option>
                   <option value="133">Nueva Guinea Papúa</option>
                   <option value="124">Nueva Zelanda</option>
-                  <option value="129">Om n</option>
+                  <option value="129">Omán</option>
                   <option value="130">Pakistán</option>
                   <option value="131">Palau</option>
                   <option value="132">Panama</option>
@@ -225,7 +246,7 @@
                   <option value="165">Siria</option>
                   <option value="156">Somalia</option>
                   <option value="159">Sri Lanka</option>
-                  <option value="148">Sto. Tom y Príncipe</option>
+                  <option value="148">Sto. Tomé y Príncipe</option>
                   <option value="157">Sudáfrica</option>
                   <option value="160">Sudán</option>
                   <option value="163">Suecia</option>
@@ -239,7 +260,7 @@
                   <option value="169">Togo</option>
                   <option value="170">Tonga</option>
                   <option value="171">Trinidad y Tobago</option>
-                  <option value="172">T nez</option>
+                  <option value="172">Túnez</option>
                   <option value="174">Turkmenistán</option>
                   <option value="173">Turquía</option>
                   <option value="175">Tuvalu</option>
@@ -257,40 +278,8 @@
                 </select>
               </div>
 
-              <p class="select-options u-align-center">Tipo de Bachillerato:*</p>
-              <div class="contain__radio u-align-center">
-                <label class="container_radios">
-                  <p>Español</p>
-                  <input type="radio" name="bachillerato" value="es" />
-                  <span class="checkmark"></span>
-                </label>
-                <label class="container_radios">
-                  <p>Extranjero</p>
-                  <input type="radio" name="bachillerato" value="ex" />
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-
               <div class="material-input">
-                <input class="input-item" type="email" name="email" />
-                <label>Email*</label>
-                <span class="bar"></span>
-              </div>
-
-              <div class="material-input">
-                <input
-                  class="input-item"
-                  type="tel"
-                  name="telefono"
-                  maxlength="20"
-                  onkeypress="return soloNumeros(event)"
-                />
-                <label>Tel&eacute;fono*</label>
-                <span class="bar"></span>
-              </div>
-
-              <div class="material-input">
-                <select name="curso" class="tipo">
+                <select class="select_arrow" name="curso">
                   <option value>Curso*</option>
                   <option value="1º Bachillerato">1º Bachillerato</option>
                   <option value="2º Bachillerato">2º Bachillerato</option>
@@ -301,72 +290,40 @@
               </div>
 
               <div class="material-input">
-                <select name="solicitud" class="tipo">
-                  <option value>Tipo de solicitud*</option>
-                  <option value="Prueba">Prueba de admisión</option>
-                  <option value="Información">Información</option>
-                  <option value="Prueba+Información">Prueba de admisión + Información</option>
+                <select name="sede" onchange="cambia_carrera(this.value)">
+                  <option value="0" disabled selected>Campus*</option>
+                  <option value="madrid">Madrid</option>
+                  <option value="barcelona">Barcelona</option>
+                  <option value="valencia">Valencia</option>
+                  <option value="sevilla">Sevilla</option>
+                  <option value="zaragoza">Zaragoza</option>
+                  <option value="malaga">Málaga</option>
+                  <option value="navarra">Navarra</option>
+                  <option value="granada">Granada</option>
                 </select>
               </div>
 
-              <div class="material-input material-input--icon icon-calendar diayhora">
-                <input
-                  class="input-item"
-                  type="text"
-                  id="fecha"
-                  name="fecha"
-                  readonly
-                  placeholder="¿Qué día quieres hacer la prueba?"
-                />
-                <span class="bar"></span>
-              </div>
-
-              <div class="material-input material-input--icon icon-clock diayhora">
-                <select name="hora">
-                  <option value>¿A qué hora?</option>
-                  <option value="9:30h">9:30h</option>
-                  <option value="10:00h">10:00h</option>
-                  <option value="10:30h">10:30h</option>
-                  <option value="11:00h">11:00h</option>
-                  <option value="11:30h">11:30h</option>
-                  <option value="12:00h">12:00h</option>
-                  <option value="12:30h">12:30h</option>
-                  <option value="15:30h">15:30h</option>
-                  <option value="16:00h">16:00h</option>
-                  <option value="16:30h">16:30h</option>
-                  <option value="17:00h">17:00h</option>
-                  <option value="17:30h">17:30h</option>
+              <div class="material-input u-width-full">
+                <select name="IdP">
+                  <option value="0" disabled selected>Titulación de interés*</option>
                 </select>
-              </div>
-
-              <div class="material-input" id="modalidad">
-                <select name="modalidad">
-                  <option value>Modalidad*</option>
-                  <option value="Presencial">Presencial</option>
-                  <option value="Online">Online</option>
-                </select>
-                <small
-                  id="paragraphMod"
-                  class="mod-warning u-color-white u-padding-left-xs u-padding-top-xs u-block"
-                >Únicamente podrán realizar pruebas de admisión online aquellos estudiantes que se encuentren estudiando en una provincia diferente donde ESIC tenga un campus o estudiantes que se encuentren estudiando fuera de España.</small>
-              </div>
-
-              <div class="material-input" id="carrera">
-                <select name="IdA"></select>
               </div>
             </section>
-
             <div class="material-input textarea">
-              <textarea name="comentarios" rows="4" placeholder="Mensaje "></textarea>
+              <textarea name="comentarios" cols="30" rows="7" placeholder="Mensaje"></textarea>
             </div>
           </section>
 
           <section class="c-form-university__foot">
             <div class="material-input material-check u-align-center check-politics">
-              <input type="checkbox" name="acepto" value="1" class="check" />
+              <input type="checkbox" name="privacidad" value="1" class="check" />
               <p>
                 He leído y acepto la
-                <a class="modal__btn" href="#">política de protección de datos*</a>
+                <a
+                  class="modal__btn"
+                  href="#"
+                  data-modal="#popup__privacidad"
+                >Política de privacidad</a>*
               </p>
             </div>
 
@@ -374,11 +331,12 @@
               <p class="c-form__paragraph">(*) Campos obligatorios</p>
             </div>
 
-            <div class>
+            <div class="butonEnviar">
               <a
-                href="javascript: validar(document.forms.form_admisiones)"
+                href="#"
+                onClick="javascript: return validar_contacto_grado('')"
                 class="c-button-round-filling c-button-round-filling--orange u-bold"
-              >Contactar</a>
+              >Enviar</a>
             </div>
           </section>
         </div>
