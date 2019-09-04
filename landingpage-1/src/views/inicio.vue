@@ -1,5 +1,4 @@
 <template>
-  <div class="home">
     <main>
 	<h1 class="u-hidden">Tu futuro en empresa y marketing empieza ahora</h1>
 	<!-- cabeceras -->
@@ -804,7 +803,6 @@
 </section>
 
   </main>
-  </div>
 </template>
 
 <script>
