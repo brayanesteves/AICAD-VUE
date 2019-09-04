@@ -4492,3 +4492,1382 @@ h1{font-weight:400}
 @media screen and (-webkit-min-device-pixel-ratio:0){
 .col-enlacesPeque.catala a{margin-top:15px!important}
 }
+@media screen and (-ms-high-contrast:none),(-ms-high-contrast:active){
+.control-agenda.carousel-control.left{left:81%}
+.bloque-eventos-noticias-new .carousel-control{top:-4.7rem}
+}
+@media screen\0{
+.control-agenda.carousel-control.left{left:81%}
+.bloque-eventos-noticias-new .carousel-control{top:-4.7rem}
+}
+@media (max-width:1200px){
+.tab{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+}
+@media (max-width:700px){
+.contain-list-info{width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}
+.list-info{width:100%}
+}
+@media (max-width:700px){
+.send-info{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}
+.send-info img:last-of-type{margin-left:0;display:block;margin:0 auto}
+.send-info p{text-align:center}
+}
+@media (max-width:370px){
+.send-info img:last-of-type{float:none}
+}
+@media (max-width:1600px){
+.text-dinamic-text{position:absolute;left:18%;top:1%}
+.text-dinamic-text{width:34%}
+}
+@media (max-width:1030px){
+.footer,.wrapper{padding:0 1%;width:98%;overflow:hidden;height:auto}
+.footer{padding-top:15px}
+#nav_top{position:relative;z-index:99}
+#menu{margin:0}
+div.contacta_con_nosotros{width:20.5%}
+.slider{margin-top:0;overflow:visible}
+.slider,.slider #carrusel_general,.slider #carrusel_general #carrusel_fondo{width:100%}
+.executive .header,.institucion .header,.master .header,.universitaria .header{height:30px}
+.executive .slider,.institucion .slider,.master .slider,.universitaria .slider{height:auto;float:left}
+.executive .slider #marquesina_general,.institucion .slider #marquesina_general,.master .slider #marquesina_general,.universitaria .slider #marquesina_general{position:relative;margin-top:0}
+.executive .slider #selector,.institucion .slider #selector,.master .slider #selector,.universitaria .slider #selector{display:none}
+img.flechas_news{margin-left:0}
+img.flechas_news,img.flechas_news_right{width:2%;margin:0}
+.rankin_vertical img.flechas_news,img.flechas_news_right,img.flechas_news_right.bottom{width:auto}
+.columna_02,.columna_03,.rankin_vertical .columna_01{width:89%}
+img.titulo_news{display:none}
+.actualidad,.actualidad.inferior{width:94%!important}
+.trends{width:94%!important;padding:0;margin:0}
+.trends_lit{width:48%;margin-right:4%}
+.emprendimiento{width:48%}
+.selecciona_tu.bis{margin:0;padding:2%;width:16%}
+.footer .content{width:100%}
+.columns .columna_01,.columns .columna_02,.columns .columna_03{width:22%}
+.wrapper_columns_trends{margin-top:23px}
+.cookies-box a.close{left:0!important}
+}
+@media (max-width:1037px){
+.bloqueProgramas{width:104%}
+}
+@media (max-width:1024px){
+img{max-width:100%!important}
+.footer ul:last-of-type li a img{max-width:3.5rem!important}
+.footer ul.nav-rrss.calidad-rrss li a img{max-width:2.5rem!important}
+#menu li a{font-size:16px}
+.busquedaCalendario{padding-bottom:50px!important}
+#filtradoCalendario{float:left!important;margin:0 -23px 0 0!important}
+.tabla-calendario{margin-top:124px!important}
+.dias-evento td{float:left!important;width:93%!important;border-bottom:1px solid #8c8c8c!important;border-right:none!important;height:auto!important}
+table{border-bottom:none!important}
+.dias-evento td:first-child{border-left:none!important}
+.dias-evento td:last-child{border-top:1px solid #8c8c8c!important}
+.dias-evento .fueraMes{display:none!important}
+table .dias-semana{display:none!important}
+#izquierda{float:left;margin:12px 2px!important}
+#derecha{float:left;margin:12px 0!important}
+.emp-ie7 #marquesina_general{display:none!important}
+.contenido.expe{width:95%}
+.footer-emprendedores .content{width:100%!important}
+.globo-contact{margin:-73px 0 0 629px}
+body.experience{background-image:none!important}
+#google_translate{display:none!important}
+div.buscar.empr{margin-left:0!important}
+.wrapper.emprendedores .columna_01,.wrapper.emprendedores .columna_02,.wrapper.emprendedores .columna_03,.wrapper.emprendedores .columna_04{padding:0 32px!important}
+.publis{width:50%!important}
+.list_carousel.campus{float:left!important}
+#foo2{width:100%!important}
+#marquesina_general,.hidden-slider{display:none}
+.marquesina-responsive{display:block;margin-bottom:40px!important}
+.nuevoLateral{margin-top:20px!important}
+.trade{height:309px!important}
+}
+@media (max-width:1013px){
+.pestanas-agenda-new{width:15%}
+.contain-tranparency-catalogue__item{width:31%}
+}
+@media (max-width:1007px){
+.nuevoLateral{margin:20px 344px!important}
+.tab .item-tab{width:22%}
+}
+@media (max-width:998px){
+.selecciona_tu,.selecciona_tu_ca,body{background:0 0}
+.header{height:30px;position:relative}
+#nav_top{background-color:#000;min-height:34px;float:left;height:auto}
+div.buscar{width:auto}
+#menu li a{font-size:16px}
+#nav_principal{width:100%}
+.slider{width:99%}
+.sliderHitoria{position:relative;float:left;margin:0}
+img.flechas_news,img.flechas_news_right{position:relative;z-index:90}
+ul.tematicas_formativas,ul.tematicas_formativas.executive,ul.tematicas_formativas.masters_posts{width:100%}
+,ul.tematicas_formativas li a,ul.tematicas_formativas.masters_posts li a{padding:0;width:14%}
+ul.tematicas_formativas.masters_posts li a{width:20%}
+ul.tematicas_formativas.executive li a{width:12%}
+ul.tematicas_formativas.executive{height:110px}
+.eventos img{height:100%;max-width:100%}
+.institucion .slider,.universitaria .slider{background:0 0;top:0}
+.institucion .slider img,.universitaria .slider img{max-width:100%;height:auto!important}
+.institucion .wrapper_columns_trends{height:auto}
+.slider .enlaces{position:absolute;bottom:0;left:0;height:auto!important}
+.slider div.enlaces ul li a{font-size:14px}
+.contacto_colores{display:none}
+.contenido.programas{margin-top:0}
+.executive .slider img,.master .slider img{max-width:100%;height:auto}
+.sedes-rsp .header{height:auto;margin-bottom:15px}
+.sedes-rsp .slider{background:0 0;top:10px;height:auto}
+.sedes-rsp .slider img{max-width:100%}
+.sedes-rsp .mapa{width:100%!important}
+.sedes-rsp .bloque-tematicas{padding:0}
+.sedes-rsp .bloque-tematicas .col-tematicas,.sedes-rsp .bloque-tematicas .title{width:100%}
+.sedes-rsp .bloque-tematicas .title h4{margin-bottom:0}
+.sedes-rsp .bloque-tematicas .col-tematicas{padding-bottom:20px}
+.sedes-rsp ul.nav_sede li{float:left}
+img.banner_pub{margin:50px 0 0}
+.sedes-rsp .visita-virtual-cont{width:100%}
+.sedes-rsp .visita-virtual-incrustada{width:31%;margin-right:2%}
+.sedes-rsp .visita-virtual-incrustada h4{font-size:16px}
+.sedes-rsp .visita-virtual-incrustada img{max-width:100%;height:auto}
+.slider .oneriete{position:relative;margin:0!important;height:auto;float:left;width:100%;background:#ededed}
+.title{width:100%!important}
+.title span{display:inline!important}
+.bloque-tematicas{height:auto!important}
+.col-tematicas{float:none!important;width:100%!important;padding-bottom:10px!important}
+.destacados{height:auto!important}
+.carreras-uni,.executive_home,.master-postgrado{width:100%!important;float:left!important;margin-bottom:10px}
+.carreras-uni .btn-destacado,.executive_home .btn-destacado,.master-postgrado .btn-destacado{width:5%!important}
+.nuevoColTematicas .nuevoTematicas{width:100%}
+.executive .slider,.institucion .slider,.master .slider,.universitaria .slider{position:relative!important;top:0!important}
+.carreras-uni .btn-destacado,.executive_home .btn-destacado,.master-postgrado .btn-destacado{width:24%!important}
+.carreras-uni,.executive_home,.master-postgrado{width:23%!important}
+.clearBottom,.clearTop{border:none}
+#menu li:hover .dropdown_esic{left:-40.3em}
+#menu li:hover .dropdown_carreras{left:-48em}
+#menu li:hover .dropdown_masters{left:-59em}
+#menu li:hover .dropdown_executive{left:-72em}
+.columns{width:100%;height:auto;float:left;padding-top:31px}
+.bloqueProgramas{width:112%}
+.nuevoLateral{margin:20px 288px!important}
+.center-block{margin-left:0}
+}
+@media (max-width:992px){
+.text-dinamic-text{left:7%;top:0}
+.width-column-central{width:471px!important}
+}
+@media (max-width:980px){
+.agenda-new-desp{padding-left:5%;padding-right:5%;width:100%;padding-bottom:4%}
+.bloque-eventos-noticias-new .col-md-9{padding-right:5%;padding-left:5%;width:100%}
+.title-blue-claro{min-height:auto}
+.bloque-eventos-noticias-new .col-md-9{padding-right:0;padding-left:10px}
+.title-event-agenda{width:80%}
+.bloque-eventos-noticias-new .carousel-inner .item.active .row div,.bloque-eventos-noticias-new .item .row{margin:0 auto}
+.noticia-item a,.noticia-item img,.noticia-item p{margin:0 auto;text-align:center}
+}
+@media (max-width:950px){
+.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{width:77%}
+}
+@media (max-width:949px){
+.height-control{height:59px!important}
+.header{height:59px}
+}
+@media (max-width:946px){
+.floatD{width:100%}
+}
+@media (max-width:938px){
+.bloqueProgramas,.col-enlacesGrande a,.enlacesProgramas,.infoProgramas{width:100%}
+.col-enlacesPeque{padding:10px}
+.col-enlacesPeque a{margin-top:8px;width:100%}
+.col-enlacesPeque a img{margin-top:-9px}
+.col-enlacesGrande a img,.col-enlacesGrande.catalan a img{left:0}
+.col-enlacesPeque.catala a{font-size:14px;margin-top:10px!important}
+.col-enlacesPeque.catala a img{left:0}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.col-enlacesPeque.catala a{margin-top:8px!important}
+}
+}
+@media (max-width:930px){
+.col-md-6{width:100%;float:left;margin-top:25px}
+.nuevo-contacto2 .special-select select{width:72.4%!important;margin-left:21%!important}
+.nuevo-contacto2 .special-select2 select{width:62.4%!important;margin-left:8%!important}
+.nuevo-contacto2 .special-select.pais select{margin-left:11%!important}
+.institucion .header{height:59px}
+}
+@media (max-width:920px){
+.visita-virtual-cont.barcelona{max-width:500px}
+}
+@media (max-width:910px){
+.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{width:75%}
+.eventos{width:25%}
+#calendario{clear:both;width:150px!important;margin:10px auto}
+.slider .oneriete{margin:155px 0 0}
+.eventos{width:18%!important;margin:0 auto!important;float:left!important}
+.columns .columna_01,.columns .columna_02,.columns .columna_03{width:19%}
+.nuevoLateral{margin:20px 0 0 -37px!important}
+.columna-8{width:100%}
+.columna-4{width:100%;margin-top:0}
+.columna-12{width:98%}
+.bandaDivisora{width:100%;margin-right:0}
+.nuevo-contacto2 .special-select select{width:73%!important;margin-left:18%!important}
+.nuevo-contacto2 .special-select2 select{width:62.4%!important;margin-left:2%!important}
+.nuevo-contacto2 .textarea-contacto{width:89%}
+.corrector-m .row-inst a{text-align:center}
+.cajaInput{width:50%;margin-right:0}
+.columna-4.margin-modification textarea{width:calc(100% - 20px)}
+.columna-8 .cajaInput input{width:calc(100% - 20px)}
+.columna-8 .cajaInput:nth-child(odd) input{width:calc(100% - 30px)}
+.columna-8 .cajaInput select{padding:9px}
+}
+@media (max-width:902px){
+.col-6{width:97%}
+.textLeft,.textRight{border:0;text-align:center}
+}
+@media (max-width:880px){
+div.contacta_con_nosotros .contct{font-size:14px;padding:9px 0 0}
+ul.idiomas{margin:0 10px 0 0}
+.columns .columna_01,.columns .columna_02,.columns .columna_03{width:26%;padding:2%}
+.trends_lit{width:100%;margin-right:0}
+.emprendimiento{width:100%}
+.footer ul{width:100%}
+}
+@media (max-width:852px){
+.corrector-clearfix{margin-bottom:0rem}
+.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{width:72.5%}
+.cuerpoCentralsubhome{width:95%}
+}
+@media (max-width:873px){
+.width-column-central{width:400px!important}
+.carousel-showmanymoveone .item__item-slider{width:100%}
+.carousel-showmanymoveone .item.active{flex-direction:column}
+}
+@media (max-width:789px){
+.text-dinamic-text2{position:relative;left:3%;top:0;width:100%}
+}
+@media (max-width:771px){
+.title-event-agenda{width:100%}
+}
+@media (max-width:770px){
+#nav_top{height:60px}
+div.buscar{float:none;margin-left:10px;width:60%}
+div.contacta_con_nosotros{position:absolute;top:0;right:0;width:25%}
+div.contacta_con_nosotros .contct{padding:18px 0}
+.columna_01,.columna_02,.columna_03{width:40%;height:300px;padding:2%;margin-bottom:0;border-right:none;border-bottom:1px #b1a5a5 dashed}
+.columna_03{border-bottom:none}
+.trends{width:80%;height:auto;border-bottom:1px #b1a5a5 dashed}
+.fechas_destacadas{height:auto!important;border-bottom:none}
+.informate_acerca_de_esicinstitucion{margin-left:0;width:90%!important}
+.contenedor_rankings{margin:10px 0;width:100%}
+#informate{margin:0 auto}
+.adcrispciones{width:45%}
+.institucion .wrapper_columns_trends{width:100%}
+.contenedor_rankings.carreras_univ{width:100%!important}
+#informate.univ{width:94%!important}
+ul.tematicas_formativas,ul.tematicas_formativas.executive,ul.tematicas_formativas.masters_posts{float:left;margin:10px 0;padding:30px 0 0;height:auto;background:0 0}
+ul.tematicas_formativas li,ul.tematicas_formativas.executive li,ul.tematicas_formativas.masters_posts li{width:33%;float:left}
+ul.tematicas_formativas li a,ul.tematicas_formativas.executive li a,ul.tematicas_formativas.masters_posts li a{margin:0 auto 10px;height:auto;background-color:#868686;padding:1.5%;border-radius:15px;width:100%;height:140px;float:none}
+ul.tematicas_formativas.executive li img,ul.tematicas_formativas.masters_posts li img{padding-top:5%}
+.rankin_vertical,.testimonios{width:100%}
+.selecciona_tu_ca{margin-left:0;width:25%!important}
+.selecciona_tu img,.selecciona_tu_ca img{max-width:100%}
+.selecciona_tu .timeline,.selecciona_tu_ca .timeline{width:100%!important}
+.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{margin:0 0!important;width:100%!important}
+.cuerpoCentralsubhome{width:100%}
+.slider .oneriete{margin:0!important}
+.eventos{width:50%!important;margin:0 116px!important}
+.columnaCentralEvento{margin:10px auto!important;float:none!important}
+.calendario-eventos{height:auto!important}
+.calendario-eventos h1{float:none!important;padding:0 0 43px!important}
+.calendario-eventos a{float:left!important}
+.columns .columna_01,.columns .columna_02,.columns .columna_03{width:40%}
+.banner-aaaa{display:none!important}
+.carreras-uni .btn-destacado,.executive_home .btn-destacado,.master-postgrado .btn-destacado{width:6%!important}
+.evento{margin:0!important}
+.proximos-eventos{width:41%;float:none!important;margin:20px auto!important;padding:0!important;clear:both!important}
+.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{margin:auto!important;width:100%!important;border:none!important}
+.eventos{margin:auto!important;width:50%;border:none!important;float:none!important}
+.nuevoColTematicas .nuevoTematicas{width:100%}
+.nuevoTematicas{height:auto!important}
+.destacados{margin-left:-22px!important;width:97%!important}
+.nuevoTematicas .title{width:100%!important;text-aling:center!important}
+.nuevoColTematicas{border-bottom:1px dashed #b1a5a5!important;padding:0 0 31px!important}
+.columns .columna_01{margin-left:35px!important}
+.nuevoColTematicas{width:100%!important}
+.columnaCentralEvento .evento{width:100%!important}
+.emp-ie7 .oculta{display:none!important}
+.contenido.expe .actualidad{width:61%!important}
+.wrapper_columns_trends.emp{margin-top:11px!important;height:auto!important}
+.wrapper_columns_trends.emp .busquedaIzq{min-height:100px!important;border:none!important}
+.wrapper_columns_trends.emp .columnaCentral{min-height:141px!important}
+.slider.emp-ie7 .grado-text-dos,.slider.experience .grado-text-dos{width:90%!important}
+.slider.emp-ie7 .grado-foto.vid2{width:100%!important;margin-right:0!important}
+.slider.experience .grado-foto.vid{width:100%!important;padding:0!important;margin:0 0 213px!important}
+.empr{margin-top:206px}
+.slider.experience{margin:0!important;background:0 0!important}
+.nuestros_campus{display:none;position:absolute;bottom:0;right:0}
+.btn-ir-agenda{margin-right:-89px}
+.slider #carrusel_general{display:none}
+.slider{width:99%;background:url(../imagenes/slider-home.jpg) no-repeat top center;background-size:cover;position:relative}
+.slider.zin{top:0!important}
+.mailInfoFicha{bottom:0;width:100%}
+.anoInfoFicha{float:left;width:auto;padding-bottom:10px;margin-left:6px}
+.fechaInfoFicha{float:left;width:auto!important}
+.lugarInfoFicha,.txtInfoFicha{float:left;width:100%}
+.whatssap{display:block!important}
+.video-left{border-right:none!important;height:auto!important}
+.min-height-escritorio{margin-top:0}
+.noticia-item img{display:block;margin:0 auto}
+.noticia-item p{text-align:center;padding-left:20%;padding-right:20%;padding-bottom:15px;padding-top:15px}
+.bloque-eventos-noticias-new .col-sm-6{border-bottom:1px solid #e4e4e4;min-height:auto}
+}
+@media (max-width:768px){
+body{font-size:15px!important}
+#nav_principal{height:auto;position:relative;z-index:8}
+#pull{background:none repeat scroll 0 0 #000;color:#fff;display:block;float:left;font-weight:700;padding:10px 0;width:100%;text-align:center;margin:10px 0 0;position:relative;z-index:98}
+#menu{margin:0!important;width:100%;position:relative;z-index:98;height:auto;border-bottom:2px solid #000;display:none}
+#menu li{width:100%;background-color:#e4e4e4}
+#menu li a{border:none;text-align:center;padding:10px 8px}
+#menu .prin.green{width:100%!important}
+#menu li ul{border:none;margin:0;padding:0}
+#menu li ul li{background:#000;padding:0;text-align:center}
+#menu li ul li a{color:#fff;text-align:left!important;padding-left:15px}
+#menu .prin a,#menu .prin a.contactar,#menu .prin a.contactar:hover{text-align:left!important;padding-left:15px}
+#menu .iconos,#menu div.iconos{display:none}
+#menu li ul,#menu li ul.carrerauniv,#menu li ul.conferencias,#menu li ul.conocesic,#menu li ul.dimension,#menu li ul.empresa,#menu li ul.empresa_carreras,#menu li ul.esicuniv,#menu li ul.experience,#menu li ul.faculty,#menu li ul.incompany,#menu li ul.nuetraescuela,#menu li ul.programas,#menu li ul.programasdireccion,#menu li ul.saladeprensa,#menu li ul.sociedad{margin:0;padding:0}
+#menu .col_1,#menu .col_2,#menu .col_3,#menu .col_4,#menu .col_5,#menu .col_6,#menu .col_7,#menu .col_8{width:100%;margin:0}
+.dropdown_carreras,.dropdown_esic,.dropdown_executive,.dropdown_experience,.dropdown_masters,.dropdown_sedes{position:relative;padding:10px 0;width:100%;left:0}
+#menu li:hover .dropdown_carreras,#menu li:hover .dropdown_esic,#menu li:hover .dropdown_executive,#menu li:hover .dropdown_experience,#menu li:hover .dropdown_masters,#menu li:hover .dropdown_sedes,.dropdown_carreras:hover,.dropdown_esic:hover,.dropdown_executive:hover,.dropdown_experience:hover,.dropdown_masters:hover,.dropdown_sedes:hover{left:0!important}
+.dropdown_carreras,.dropdown_esic,.dropdown_executive,.dropdown_experience,.dropdown_masters,.dropdown_sedes{display:none}
+.dropdown_sedes img{display:none}
+.social{position:relative;top:0;width:100%;left:0}
+.social .fondo{width:100%}
+.social ul{padding:0}
+.social ul li{width:12.5%;height:32px;overflow:hidden}
+.social ul li a.botonapp,.social ul li a.botonfb,.social ul li a.botongo,.social ul li a.botongplay,.social ul li a.botonin,.social ul li a.botonli,.social ul li a.botontr,.social ul li a.botontu,.social ul li a.botontw,.social ul li a.botonyt{margin:0 auto!important}
+.social ul li span{display:none!important}
+.modulo a{float:left;text-decoration:underline}
+.modulo a:after{content:" >"}
+.cuerpoCentralsubhome img.center,.trends.progs img.center{max-width:100%;height:auto}
+.selecciona_tu,.selecciona_tu_ca{width:216px!important;float:none;margin:20px auto!important;padding:0;clear:both}
+#selectorIdioma_ca{position:relative;margin:0;float:none}
+.selecciona_tu .jspContainer,.selecciona_tu div.twitter,.selecciona_tu_ca .jspContainer,.selecciona_tu_ca div.twitter{width:198px}
+.slider .enlaces{position:relative;margin:0}
+.slider .enlaces ul{margin:0}
+.banner-aaaa{bottom:-3px;width:100%;left:0;text-align:right}
+.flash-bolo h3,.flash-bolo object{display:none}
+p.cita{width:80%!important;margin-bottom:40px}
+.no-margin{margin:10px auto!important}
+.cont_modulo{padding-left:0!important}
+ul.lista_carreras.claustro{width:100%}
+ul.lista_carreras.claustro.dere{margin-bottom:20px}
+#practicas img{max-width:100%;max-height:100%;height:auto}
+.slider .enlaces.v2,.slider .enlaces.v3{display:none}
+.alternar-version{width:100%;text-align:center}
+.alternar-version a{display:none}
+.alternar-version a:first-child{display:block!important}
+div.marketinet{width:100%;margin:0;text-align:center}
+.footer{height:134px}
+.selecciona_tu.hidden-xs{display:none}
+ul.lista_carreras{margin-bottom:15px}
+.navbar-toggle{display:block}
+.footer ul:last-of-type li{float:left;margin-left:0;margin-bottom:.6rem;margin-top:1rem;margin-bottom:1rem}
+.footer ul.nav-rrss.calidad-rrss li a img{max-width:2.5rem!important}
+.carreras-uni .btn-destacado,.executive_home .btn-destacado,.master-postgrado .btn-destacado{width:6%!important}
+.evento{margin:0!important}
+.proximos-eventos{width:41%;margin:20px auto!important;padding:0!important;clear:both!important}
+.wrapper_columns_trends{float:left!important;margin:0 0 14px!important;width:100%;border:none!important}
+.wrapper_columns_trends_nueva_home{margin:auto!important;width:100%;border:none!important}
+.eventos{margin:0 116px!important;width:100%;border:none!important}
+.nuevoColTematicas .nuevoTematicas{width:100%}
+.nuevoTematicas{height:auto!important}
+.destacados{margin-left:-22px!important;width:97%!important}
+.nuevoTematicas .title{width:100%!important;text-aling:center!important}
+.nuevoColTematicas{border-bottom:1px dashed #b1a5a5!important;padding:0 0 31px!important}
+.columns .columna_01{margin-left:35px!important}
+.columns .columna_03{margin-left:174px!important}
+.nuevoColTematicas{width:100%!important}
+.columnaCentralEvento .evento{width:100%!important}
+.slider{background:url(../imagenes/marquesina/cabecera-sedes-movil-780.jpg) no-repeat top center}
+.contenido{margin:0 auto 0!important}
+.indicators{display:none!important}
+.carousel-indicators{display:none!important}
+.wrapper.emprendedores .columna_01,.wrapper.emprendedores .columna_02,.wrapper.emprendedores .columna_03{width:38%}
+.actus-emp{width:100%!important;border:none!important}
+.globo-contact{margin:-52px 0 0 145px!important}
+.footer-emprendedores{height:42px!important;margin:1em 0 3em!important}
+.contenido.expe img.flechas_news{margin-left:24px}
+.testimonios{margin:30px 15px 202px 0!important}
+.slider.emp-ie7 img{display:none!important}
+.emp .contenido.sinslider{margin:-167px 0 20px!important}
+.emp .contenido.sinslider img{max-width:100%!important}
+.slider.emp-ie7{background:url(../emprendedores/imagenes/cabeceras/cabecera-responsive-emprendedores-780.jpg) no-repeat -13px 25px!important;background-size:contain!important;top:155px!important}
+h1.grado{margin-top:-37px!important}
+a.desplegar{width:93%!important}
+.videos-protag{margin:10px 10px!important}
+.eventos-opend{width:100%!important}
+.texts-opend{margin:0 75px!important;width:90%!important}
+.volver-programa a{float:left!important}
+.OpenDay,.PracticeDay{width:90%!important;margin:20px 16px!important}
+.menu-masteres a{padding:10px!important;width:31%!important}
+.menu-masteres{width:76%!important;padding:0 0 20px 162px!important}
+.menu-masteres h2{padding:0!important;text-align:center!important;margin-left:-157px!important}
+.menu-executive a{padding:10px!important;width:31%!important}
+.menu-executive{width:76%!important;padding:0 0 20px 162px!important}
+.menu-executive h2{padding:0!important;text-align:center!important;margin-left:-157px!important}
+.testimonios.no-margin{text-align:center!important;margin:30px 15px 30px 0!important}
+.bloque-eventos-noticias-new .carousel-inner{width:100%}
+.background-grey-agenda{width:103%}
+.bloque-eventos-noticias-new .col-sm-6{width:103%}
+.wrapper_columns_trends.gesco .cuerpoCentralFicha{width:97%!important}
+.videos{width:100%!important;padding:15px 10px!important}
+.video-left{width:100%!important;text-align:center!important;padding-bottom:15px!important;margin:0!important}
+.video-right{float:left!important;width:100%!important}
+.column-right{padding-bottom:10px!important}
+.column-left{width:14%!important}
+.column-right.bottom{padding-bottom:24px!important}
+.column-right p{padding-bottom:22px!important}
+.perfil.auto{height:auto!important}
+.videos.logos-oculto{width:100%!important}
+#descripcion,#sec00{width:94%!important}
+.slider.zin img{display:none!important}
+.page_not_found{margin:15px!important}
+.selecciona_tu div.info-oculto{display:none!important}
+.designed,.factors{height:auto!important}
+#body-campus{background:#e5e5e5 top center!important}
+.contenito.campus{width:100%!important;height:auto!important;float:left;padding-bottom:0!important}
+ul.campus-virtual{width:100%!important;height:auto!important;float:left!important}
+.h2-campus{width:100%!important;height:auto!important;float:left!important}
+.campus-left{margin-left:102px!important}
+.campus-centrado{margin-left:251px!important}
+.div-campus{width:100%!important}
+.div-campus a{width:100%!important;height:auto!important;float:left!important}
+.div-campus a div{float:left!important;width:92%!important}
+.inferior-postgrado{display:0!important}
+.mejora{width:100%!important;margin-left:0!important}
+#cont_shadowbox{margin:0 auto 0 10px!important;width:100%!important}
+a.info.resp{width:100%!important}
+.tabla-resp{width:100%!important}
+.tabla-resp td{width:100%!important;float:left!important;text-align:center!important}
+table.formacion-emp.oculto.calidad td{padding:10px 0!important;width:97%!important}
+table.formacion-emp.oculto.calidad th{width:97%!important}
+table.formacion-emp.oculto.calidad.border td{border-bottom:1px solid #fff}
+table.formacion-emp.oculto.calidad.border td:last-child{border-bottom:2px solid #000}
+body.sh{margin:0 auto!important;width:95%!important}
+h2.visita-virt{width:100%!important}
+.contenido.programas.sh{margin-top:20px!important}
+ul.lista_carreras li a{padding:15px 5px 14px 0!important}
+.menuDespleInternas a.off,.menuDespleInternas a.on{padding:5px 0 5px 14px!important}
+.menuDespleInternas{padding-top:5px!important}
+.form-emprend{width:95%!important}
+.row-emprendedores{width:98%!important;padding:5px 0 10px 0!important}
+.textarea{width:98%!important}
+.styleSelect{width:99.5%!important}
+.catalogo{width:100%;padding-bottom:40px}
+.catalogo-postgrado{width:91%}
+.contenido.form h1{width:100%!important}
+.carreras-uni,.executive_home,.master-postgrado{width:100%!important}
+.prof{width:100%!important}
+#share_ficha.noti{width:100%;float:left;text-align:left;height:auto;margin-bottom:10px}
+#share_ficha ul li.facebook{width:16%;float:left}
+#share_ficha ul li.twitter{width:12%;float:left}
+#share_ficha ul li.linkedin{width:13%;float:left}
+#share_ficha ul li.googleplus{width:20%;float:left}
+.dropdown_carreras,.dropdown_executive,.dropdown_experience,.dropdown_masters,.dropdown_sedes,.nuevoMenu .dropdown_esic{position:relative;padding:10px 0;width:100%;left:0}
+img.logo{margin-top:47px}
+#selectorIdioma{display:block!important;width:100%;margin-top:20px;margin-right:-16px;margin-bottom:20px}
+#share_ficha ul{width:100%}
+#share_ficha ul li.facebook,#share_ficha ul li.googleplus,#share_ficha ul li.linkedin,#share_ficha ul li.mail,#share_ficha ul li.twitter,#share_ficha ul li.whatssap{width:auto!important;float:left!important}
+.nuevoLateral{margin:20px 200px!important;min-height:500px}
+.menuLateral{width:100%;float:left;height:auto;padding:20px 0}
+.text-dinamic-text{left:7%;position:relative;top:0;width:100%;margin-top:14rem}
+.min-height{min-height:39vh!important}
+.right.carousel-control.control-agenda{right:.4rem}
+.left.carousel-control.control-agenda{right:4rem}
+.bloque-eventos-noticias-new .left.carousel-control.control-agenda,.bloque-eventos-noticias-new .right.carousel-control.control-agenda{top:42rem}
+.background-grey-agenda{width:100%}
+.agenda-new-desp{padding-left:3%;padding-right:1%}
+.agenda-top .buton-ver-agenda{margin-right:0}
+.bloque-eventos-noticias-new .col-md-9{padding-right:0;padding-left:0}
+.agenda-new-desp{padding-left:0;padding-right:0}
+.edificios-contacto{padding:0 49% 0;text-align:center}
+.edificios-contacto~span span{float:none!important;text-align:center!important;width:50%;display:block;margin:0 auto!important}
+.edificios-contacto~span{float:none!important;display:block;margin:0 auto!important;width:47%;text-align:center!important;width:111%}
+.desplegar.contacto.width-full-responsive{width:100%!important}
+.column-6-bequal{width:49%}
+.height-control{height:119px!important}
+}
+@media (max-width:767px){
+.visita-virtual-cont{width:100%}
+.visita-virtual-cont.barcelona{max-width:100%;padding:15px 0}
+.visita-virtual-incrustada{width:100%;margin-bottom:18px}
+.visita-virtual-incrustada:last-child{margin-bottom:0}
+.visita-virtual-incrustada h4{width:216px;margin:0 auto}
+.visita-virtual-incrustada a{width:100%;text-align:center;height:auto;float:left}
+}
+@media (max-width:736px){
+.menu-gesco{padding:0 0 10px 39px!important;width:39%!important}
+.menu-gesco.centrado{padding-left:201px!important}
+.videos.logos-oculto{display:none!important}
+.videos.logos-visible{display:block!important}
+.row{padding-bottom:none!important}
+.column{width:33%!important;padding-bottom:10px!important}
+.column.ultimo{position:relative!important;top:-74px!important}
+.height-control{height:146px!important}
+.c-radio--inline{flex-wrap:wrap}
+.c-radio--inline p{width:100%;margin-bottom:1rem}
+.c-radio--inline__item{margin:0rem 0rem 0rem}
+}
+@media (max-width:700px){
+.header{height:520px}
+.wrapper.emprendedores .columna_01,.wrapper.emprendedores .columna_02,.wrapper.emprendedores .columna_03{width:37%}
+.actus-emp{width:100%!important;border:none!important}
+.globo-contact{margin:-62px 0 0 226px!important}
+.footer-emprendedores .content{width:100%!important}
+table.formacion-emp{display:none!important}
+table.formacion-emp.visible{display:block!important}
+table.formacion-emp.oculto{display:block!important}
+.formacion-emp.oculto{width:100%!important}
+.formacion-emp.oculto td,.formacion-emp.oculto th{width:100%!important;float:left!important}
+table.formacion-emp.oculto td{padding:0 0 0 21px!important}
+table.formacion-emp.oculto td p{width:70%!important}
+table.contactar_depts td{width:100%!important;float:left!important;padding:20px 0!important}
+.emp ul{padding:20px 0 26px!important;width:100%!important;margin:20px auto!important}
+#menu.emprendedores{padding-bottom:0!important}
+table.nombramientos{width:100%!important}
+.nombramientos td{width:100%!important;float:left!important}
+.menu-gesco div{text-align:left}
+.wrapper_columns_trends.gesco .menu-gesco div p{width:79%!important}
+.carrousel-ie .control-agenda.carousel-control.left{left:76%!important}
+.nuevo-contacto2 .special-select.pais select{margin-left:0!important}
+table.table-mod-respons{display:block!important}
+table.table-mod-respons .title-td{display:block!important}
+table.table-mod-respons th{display:none}
+table.table-mod-respons td{display:block;width:100%}
+table.table-mod-respons tr{margin-bottom:1rem;display:block}
+table.table-mod-respons img{display:block;margin:auto}
+}
+@media (max-width:699px){
+.shadow{background:#e4e4e4!important;overflow:scroll}
+.shadow ul.campus{width:50%}
+.shadow .cont_map a{display:none}
+.shadow .cont_map img{max-width:100%!important}
+.conti{width:100%}
+.wrapper_columns_trends{margin:0 0 14px!important;width:100%!important}
+.wrapper_columns_trends_nueva_home{margin:0 0!important;width:100%!important}
+.nuevoTematicas{width:100%!important}
+.carreras-uni .btn-destacado,.executive_home .btn-destacado,.master-postgrado .btn-destacado{width:8%!important}
+ul.programas_bullets_02 li{height:auto!important}
+.emp h1,.emp h2,.emp h3{width:90%!important;margin:22px auto!important}
+.menu-masteres{width:100%!important;padding:0 0 20px 109px!important}
+.menu-masteres h2{margin-left:-208px!important}
+.menu-executive{width:100%!important;padding:0 0 20px 109px!important;margin-top:-43px!important}
+.menu-gesco.centrado{padding-left:166px!important}
+.no-border{display:none!important}
+.column-left{width:18%!important}
+.ocultar-en-movil{display:none!important}
+table.formacion-emp.oculto.clientes td{width:189%!important}
+.campus-left{margin-left:66px!important}
+.campus-centrado{margin-left:211px!important}
+.div-campus{padding-bottom:207px!important}
+.cookies-box .text{width:85%!important}
+.menu-executive h2{position:relative;top:-263px;left:-210px}
+.nuevo-contacto2 .special-select select,.nuevo-contacto2 input{float:none;display:block;margin-top:10px!important;margin-left:0!important}
+.nuevo-contacto2 .special-select2 select{margin-left:0!important;float:none;display:block;width:87%!important}
+.nuevo-contacto2 input{width:97%}
+.nuevo-contacto2 .special-select select{width:101%!important}
+.section-send .check-label .check{margin:0!important}
+.section-send .check-label{width:100%}
+}
+@media (max-width:667px){
+.nuevoLateral{margin:20px 150px!important}
+.btnEnviar{width:34%}
+.tab .item-tab{width:100%}
+.item-info-tab{float:left}
+.contain-tranparency-catalogue__item{width:100%}
+}
+@media (max-width:640px){
+.globo-contact{margin:-62px 0 0 248px!important}
+.flex{flex-direction:column}
+.title-ranking-year{text-align:center}
+.tab .item-tab a{padding-top:1rem;min-height:auto}
+}
+@media(max-width:624px){
+.sobre-contacto{margin-top:10px!important}
+}
+@media (max-width:600px){
+.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{width:100%;margin-bottom:20px;margin:0 auto!important}
+.informate_acerca_de_esicinstitucion{margin:20px 0}
+.adcrispciones{width:90%;border:none}
+.adcrispciones p{height:auto}
+img.flechas_news,img.flechas_news_right{width:4%;margin:0}
+.actualidad,.actualidad.inferior{width:90%!important}
+#informate{width:89%!important}
+#informate.univ{width:88%!important}
+.informate_acerca_de_esicinstitucion{width:100%!important}
+ul.lista_carreras li.tit.menu{display:none}
+ul.lista_carreras li a span.clasificacion,ul.lista_carreras li a span.fecha,ul.lista_carreras li a span.publicacion,ul.lista_carreras li a span.tipo{width:100%;margin-bottom:10px}
+ul.lista_carreras li a img.publicacion{float:right}
+ul.lista_carreras li a span.publicacion:before{content:"PublicaciÃ³n:";text-decoration:underline;font-weight:900;padding-right:5px}
+ul.lista_carreras li a span.tipo:before{content:"Tipo:";text-decoration:underline;font-weight:900;padding-right:5px}
+ul.lista_carreras li a span.fecha:before{content:"Fecha:";text-decoration:underline;font-weight:900;padding-right:5px}
+ul.lista_carreras li a span.clasificacion:before{content:"ClasificaciÃ³n/Reconocimiento:";text-decoration:underline;font-weight:900;padding-right:5px}
+.slider .enlaces{position:relative;margin:0!important}
+.slider .enlaces ul{padding-left:5%}
+.box_logo.altomedio{width:100%}
+.box_logo{margin:10px 12px}
+#sb-wrapper{z-index:9999;overflow:auto!important}
+#sb-body{overflow:auto!important}
+.shadow ul.campus{width:100%}
+.conti{text-align:center;margin-top:15px}
+.conti h2{margin:20px 0 0!important}
+.conti:first-child h2{margin-top:0!important}
+.shadow ul.campus{margin:15px 0}
+.shadow .campus li{float:left;margin:5px 10px}
+.erietismo{width:100%;height:auto;margin-bottom:15px}
+.width-column-central{width:70%!important}
+.carousel-control{display:none!important}
+.fechas_destacadas{width:100%}
+.sedes-rsp .bloque-tematicas{height:auto!important;float:left;width:100%}
+.col-tematicas{padding-top:10px}
+.col-tematicas div img{float:none;margin:0}
+.sedes-rsp .visita-virtual-incrustada{width:100%;max-width:216px;margin:10px auto;display:block;float:none}
+.sedes-rsp .modulo{text-align:center}
+.sedes-rsp .modulo p{text-align:justify}
+.sedes-rsp .modulo img{float:none;margin-bottom:15px}
+.sedes-rsp .modulo a:after{content:""}
+.sedes-rsp .wrapper_columns_trends ul{padding-left:0}
+.sedes-rsp .direccion{position:relative;width:90%;margin:15px 0;padding:5%;height:auto}
+.sedes-rsp .direccion a.news{position:relative!important;top:0!important;right:0!important;margin-bottom:10px}
+.sedes-rsp .direccion .visita-virtual{position:relative;top:0;margin:15px auto 0}
+.sedes-rsp .cuerpoCentralsubhome p a strong{text-decoration:underline}
+.detalleEvento{bottom:0!important}
+.eventos,.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{margin:20px auto!important;width:100%;border-bottom:1px dashed #b1a5a5!important}
+.nuevoColTematicas{width:100%!important}
+.globo-contact{margin:-65px 0 0 160px!important}
+.columna_02,.columna_03,.wrapper.emprendedores .columna_01{width:35%!important}
+table.contactar{width:95%!important}
+table.contactar td{width:90%!important;float:left!important;padding:12px 35px 0!important}
+.publis{width:94%!important}
+.emp .historia{width:95%!important}
+.slider.emp-ie7{width:100%!important;background:url(../emprendedores/imagenes/cabeceras/cabecera-responsive-emprendedores-480.jpg) no-repeat top center!important;background-size:contain!important;top:180px!important}
+.wrapper_columns_trends p{width:93%;padding:0 0 25px!important;float:left}
+.texts-opend{margin:0 57px!important}
+.wrapper_columns_trends.gesco p{width:100%!important}
+.titleGesco{text-align:center!important}
+.menu-gesco{padding-left:16px!important;width:46%!important}
+.menu-gesco.pad{padding-bottom:50px!important}
+.menu-gesco.centrado{padding-left:153px!important}
+.ocultar-movil{display:none!important}
+.visible-en-movil{display:block!important}
+.contenido.page_404{margin-bottom:100px!important}
+.contenido.page_404 a.info_block{width:100%!important;text-align:center!important}
+.contenido.page_404 .vertical{display:none!important}
+table.formacion-emp.oculto.clientes td{width:168%!important}
+.campus-left{margin-left:36px!important}
+.campus-centrado{margin-left:180px!important}
+.caroufredsel_wrapper{width:100%!important}
+body.sh{width:90%!important}
+.evento p{padding-bottom:0!important}
+.eventos{margin:0 102px!important}
+.menu-executive h2{top:-242px!important;left:-191px!important}
+.nuevoLateral{margin:20px 100px!important}
+.col-texto img{float:none;margin-right:0;margin-bottom:5px}
+.col-texto{width:100%;margin-right:0;text-align:center}
+.col-texto p{float:none;text-align:center;padding:0;width:100%}
+.infoProgramas{padding-top:20px}
+.agenda-new-desp{padding-left:1%;padding-right:1%}
+.cuerpoCentralsubhome{width:100%}
+.sede-madrid-catalogo .floatD{width:100%;margin:10px 0 20px}
+.sede-madrid-catalogo .floatD p{padding-bottom:0rem!important;margin-top:0rem;margin-bottom:0rem;width:100%;display:inline-block;border-left:none}
+.sede-madrid-catalogo .floatD p:before{width:20%;margin:auto;display:block;content:"";border-top:1px solid #c55e14;position:relative;top:3px}
+.sede-madrid-catalogo .floatD p:nth-child(2){margin:0}
+.sede-madrid-catalogo .floatD p:nth-child(2):before{border-top:none}
+.sede-madrid-catalogo .floatD a{padding-right:0rem;padding-bottom:.5rem}
+}
+@media(max-width:590px){
+.carrousel-ie .control-agenda.carousel-control.left{left:73%!important}
+.control-agenda.carousel-control.left{left:1rem}
+}
+@media (max-width:568px){
+.eventos{border:none!important}
+.globo-contact{margin:-65px 0 0 126px!important}
+.menu-masteres{padding:0 0 20px 70px!important}
+.menu-executive{padding:0 0 20px 70px!important}
+.menu-gesco{padding-left:13px!important}
+.menu-gesco.centrado{padding-left:136px!important}
+table.formacion-emp.oculto.clientes td{width:159%!important}
+.campus-left{margin-left:15px!important}
+.campus-centrado{margin-left:159px!important}
+.row-emprendedores,.textarea{width:97%!important}
+.menu-executive h2{left:31px!important;width:60%!important}
+}
+@media (max-width:554px){
+.noticia-item p{padding-left:10%;padding-right:10%}
+}
+@media (max-width:550px){
+#marquesina-new .carousel-inner>.item>a>img:not(.width100){max-width:156%!important;transform:translateX(-18%)}
+#marquesina-new .carousel-inner>.item>a>img.width115{max-width:115%!important;transform:translateX(-4%)}
+#marquesina-new .carousel-inner>.item>a>img.translate-14{transform:translateX(-14%)}
+#marquesina-new .carousel-inner>.item>a>img.translate-4{transform:translateX(-4%)}
+#marquesina-new .carousel-inner>.item>a>img.translate-2{transform:translateX(-2%)}
+#marquesina-new .carousel-inner>.item>a>img.translate-no{transform:none}
+.text-dinamic-text2 span{width:90%}
+}
+@media(max-width:530px){
+.carrousel-ie .control-agenda.carousel-control.left{left:69%!important}
+}
+@media (max-width:507px){
+div.contacta_con_nosotros{width:40%;position:relative}
+div.contacta_con_nosotros .contct{padding:3px 0}
+#sec51 img.center{max-width:100%;height:auto}
+.wrapper_columns_trends.nuevoProgramas{margin-top:10px!important}
+.wrapper_columns_trends.nuevoProgramas{margin-top:10px!important}
+#comparte a{float:left!important;clear:both!important;margin:2px 0 40px!important}
+#comparte .rrss a{clear:none!important;margin-right:10px!important}
+.title{margin-bottom:0;width:100%!important}
+.contenido.programas.emprend{margin:-237px auto 0!important}
+.wrapper.emprendedores .columna_03{border-bottom:1px #b1a5a5 dashed!important}
+}
+@media (max-width:480px){
+.col-tematicas div,.nuevoColTematicas div{width:100%;height:auto;text-align:left}
+.wrapper_columns_trends,.wrapper_columns_trends_nueva_home{margin:20px auto!important;width:100%;border:none!important}
+.eventos{margin:20px 40px!important;width:100%;border:none!important}
+.carreras-uni .btn-destacado,.executive_home .btn-destacado,.master-postgrado .btn-destacado{width:15%!important}
+.columns .columna_01{width:80%!important;border-top:1px dashed #b1a5a5!important;height:auto!important;padding:20px 0 30px!important}
+.columns .columna_02{width:80%!important;margin-left:35px!important;height:auto!important;padding:20px 0 30px!important}
+.columns .columna_03{width:80%!important;margin-left:35px!important;border-bottom:1px dashed #b1a5a5!important;height:auto!important;padding:20px 0 30px!important}
+.columns .columna_01 h2,.columns .columna_02 h2,.columns .columna_03 h2{text-align:center!important}
+.columns .columna_01 .center-responsive,.columns .columna_02 .center-responsive{margin:0 103px!important}
+.columns .columna_03 .center-responsive{margin:0 144px!important}
+.nuevoTematicas .title{margin:0 86px!important}
+.nuevoColTematicas{margin:0 -100px!important;border:none!important}
+.arrow-bottom{left:189px!important}
+.detalleEvento{width:89%!important;height:300px!important}
+.slider{width:100%;background:url(../imagenes/marquesina/cabecera-sedes-movil-480.jpg) no-repeat top center}
+.contenido.sedes{margin:-1px auto 0!important}
+.prox-evento{width:119%!important}
+.columna-8 .cajaInput:nth-child(odd) input{width:calc(100% - 20px)}
+.footer{height:126px}
+.trends.emprend{height:auto!important}
+.actus-emp{width:100%!important;margin-bottom:12em!important}
+.actus-emp p{width:100%!important;float:left!important}
+a.admision-agosto.empr{padding:1px 22px 4px 0}
+.footer-emprendedores{height:119px!important}
+.columna_02,.columna_03,.wrapper.emprendedores .columna_01{width:75%!important}
+.footer-emprendedores .content a{width:68%!important;padding:6px 4px!important}
+.contenido.expe .actualidad{width:84%!important}
+.wrapper.emprendedores .columna_01 h2,.wrapper.emprendedores .columna_02 h2,.wrapper.emprendedores .columna_03 h2{width:91%!important}
+.wrapper_columns_trends.emp p img.aligncenter{width:100%!important}
+.emp ul.programas_bullets{padding:12px 4px!important;margin:0 auto!important}
+.info_revista p{float:left!important}
+div.emprend h1{font-size:16px!important}
+a.ocult{display:none!important}
+.globo-contact{margin:26px -126px!important}
+.texts-opend{margin:0 37px!important}
+.menu-masteres a{padding:10px!important;width:100%!important}
+.menu-masteres{padding:0 0 0 91px!important}
+.menu-executive a{padding:10px!important;width:100%!important}
+.menu-executive{padding:0 0 0 91px!important}
+.trends informate_acerca_de_esicinstitucion.carreras{padding:0!important}
+.menu-gesco{width:69%!important}
+.wrapper_columns_trends.gesco .column-right p{width:100%!important;text-align:center!important}
+.menu-gesco,.menu-gesco.centrado{padding-left:42px!important}
+.column-left{width:100%!important;padding-bottom:10px;text-align:center!important}
+.column-right{width:100%!important;text-align:center!important}
+.column{width:50%!important}
+.column.ultimo{position:initial!important;top:0!important}
+#descripcion,#sec00{width:96%!important}
+.contenido.page_404{margin-top:-157px!important}
+table.formacion-emp.oculto.clientes td{width:114%!important}
+ul.campus-virtual li{margin-left:77px!important}
+ul.campus-virtual li a{border:none!important}
+.caroufredsel_wrapper{height:323px!important}
+.caroufredsel_wrapper ul li{width:68%!important}
+.act{width:44%!important}
+ul.opciones-calidad li{float:left!important;width:100%!important;padding:10px 0!important}
+ul.opciones-calidad{text-align:left!important}
+.contenido.esic-exp-grado{margin:389px auto 0!important}
+.styleSelect{width:100.5%!important}
+.enviar-btn.postgrado,.obligatorios.postgrado{width:100%!important}
+.guias-academicas img{float:left;padding-bottom:8px}
+.menu-executive h2{left:131px!important;width:34%!important;margin-bottom:-10px!important}
+.inferior-postgrado p,.info-oculto.grado p,.info-visible.grado p,.info-visible.postgrado p{padding:8px 0 0 57px;width:89%}
+.menuDespleInternas.open-day{width:89%}
+.cajaInput{width:100%;margin-right:0}
+.privacidad{width:100%;margin:10px 0 20px}
+.btnEnviar a{width:144px}
+.col-6{width:96%}
+.textRight p span{font-size:23px}
+.textLeft p{font-size:19px;margin:0}
+}
+@media (max-width:460px){
+.menuDespleInternas{width:100%}
+a.admision-agosto{margin-left:0}
+ul.tematicas_formativas li,ul.tematicas_formativas.executive li,ul.tematicas_formativas.masters_posts li{width:50%}
+.banner-aaaa img{width:30%}
+.footer{height:136px}
+#filtradoCalendario select{margin-right:10px!important}
+.detalleEvento{width:89%!important;bottom:3.5em!important}
+.columns .columna_01,.columns .columna_02,.columns .columna_03{width:77%!important}
+.columns .columna_01 h2,.columns .columna_02 h2,.columns .columna_03 h2{text-align:center!important}
+.columns .columna_01 .center-responsive,.columns .columna_02 .center-responsive{margin:0 65px!important}
+.columns .columna_03 .center-responsive{margin:0 102px!important}
+.arrow-bottom{left:179px!important}
+.contenido.expe img.flechas_news_right{margin-right:0!important}
+.contenido.expe img.flechas_news{margin-left:0!important}
+.wrapper.emprendedores{margin-top:57px!important}
+.menu-masteres{padding:0 0 0 91px!important}
+.menu-masteres h2{margin-left:-171px!important}
+.menu-executive{padding:0 0 0 91px!important}
+.selecciona_tu{margin:20px 112px!important}
+.cookies-box .text p{font-size:11px!important}
+.carrousel-ie .control-agenda.carousel-control.left{left:66%!important}
+.bloque-eventos-noticias-new .carousel{width:80%}
+.bloque-eventos-noticias-new .left.carousel-control.control-agenda,.bloque-eventos-noticias-new .right.carousel-control.control-agenda{top:44rem}
+.edificios-contacto{padding:0 33% 0}
+.edificios-contacto~span{width:90%}
+ul.lista_carreras.width-auto-carrera{width:100%!important}
+.label-ce{float:left!important;margin-top:10px;margin-right:10px!important}
+}
+@media (max-width:414px){
+.menu-masteres h2{margin-left:-200px!important}
+.menu-executive h2{margin-left:-200px!important}
+#descripcion,#sec00{width:95%!important}
+.col-enlacesPeque{width:100%;margin:10px 0}
+.col-enlacesGrande{width:98%;margin:10px 0}
+.bandaDivisora img{margin-top:0}
+.c-radio--inline__item{width:100%;justify-content:flex-start;margin-bottom:.2rem}
+}
+@media (max-width:400px){
+.contacta_con_nosotros,.contacto_colores{display:none}
+div.buscar{width:50%;float:left}
+input.buscar{width:50%}
+.columna_01,.columna_02,.columna_03,.trends,.wrapper_columns_trends{width:90%;margin:0 auto;float:none;height:250px;clear:both}
+.columna_01{height:auto}
+.universitaria .wrapper_columns_trends{height:auto}
+.master .wrapper_columns_trends{height:auto}
+.executive .wrapper_columns_trends{height:auto}
+.fechas_destacadas{height:auto!important;float:left!important;width:100%;padding:5px}
+.eventos{clear:both;width:90%;padding-top:10px;margin:0 auto;float:none}
+.trends{height:auto;border:none;padding:25px 0}
+.trends_lit{margin-bottom:30px}
+img.trends_logo{float:none;margin:0}
+#informate{width:88%!important}
+.informate_acerca_de_esicinstitucion h2{margin:0 auto;width:90%;padding-top:30px}
+a.info_big.bigger{margin:10% 2%;width:80%}
+div.cuerpoCentralFicha ol,div.cuerpoCentralFicha ul{padding:5%}
+.footer ul{margin-bottom:10px}
+.footer li{margin-bottom:5px}
+iframe{width:100%!important;height:100%!important}
+body>iframe{width:100%!important;height:13px!important}
+.cuerpoCentralsubhome{padding:0}
+.wrapper_columns_trends.not .cuerpoCentralsubhome{padding:25px!important}
+ul.programas_bullets_02{padding:14px!important}
+.eventos{margin:0 0!important;width:100%}
+ul.inicio{margin:0}
+#nav_top li a{font-size:10px}
+.sedes-rsp .wrapper_columns_trends{height:auto;float:left;width:98%}
+.wrapper_columns_trends{width:100%}
+.eventos,.wrapper_columns_trends_nueva_home{margin:20px auto!important;width:100%}
+.arrow-bottom{left:157px!important}
+.actualidad{margin-bottom:-40px!important}
+.actualidad ul li{width:309px!important}
+.trends.emprend{height:700px!important;margin-top:20px!important}
+.wrapper_columns_trends.emp.noticias{margin-top:-252px!important}
+table.formacion-emp.oculto.clientes td{width:95%!important}
+.selecciona_tu.nuevoLateral{margin:20px 44px!important}
+.carrousel-ie .control-agenda.carousel-control.left{left:61%!important}
+.element-top-slider{margin-right:5rem}
+.bloque-eventos-noticias-new .carousel{width:67%;margin:0 auto}
+.bloque-eventos-noticias-new .left.carousel-control.control-agenda,.bloque-eventos-noticias-new .right.carousel-control.control-agenda{top:41rem}
+.formularioSedes{padding:30px 0 20px}
+.footer{height:194px;padding-top:22px}
+.footer ul:last-of-type li{width:auto}
+.footer ul.nav-rrss.calidad-rrss li a img{max-width:2.5rem!important}
+}
+@media (max-width:385px){
+.box_logo{width:80%}
+ul.nav_sede{width:100%;padding:0}
+ul.nav_sede li,ul.nav_sede li a{width:100%;text-align:center;padding-left:0;padding-right:0}
+.sedes-rsp .donde_estamos>div{position:relative;float:left;width:100%;margin-left:0}
+.sedes-rsp .donde_estamos>.direccion{margin:0;position:relative;float:left;height:auto;width:96%;padding:20px 2%}
+.sedes-rsp .donde_estamos>.direccion a{position:relative!important;bottom:0!important;margin-bottom:5px}
+.sedes-rsp .donde_estamos>.direccion .visita-virtual{position:relative;top:0;margin-top:10px;width:100%;text-align:center}
+.col-tematicas div{width:100%;height:auto;text-align:left}
+#nav_top li a{padding:0 2px}
+.actualidad,.actualidad .noticia,.actualidad li{height:auto!important;padding-bottom:10px}
+.noticia p.arriba{height:auto}
+.actualidad,.actualidad .noticia,.actualidad.inferior{width:85%!important}
+img.flechas_news,img.flechas_news_right{width:7.5%}
+img.flechas_news_right{margin-right:-1px}
+.actualidad .noticia{float:none;margin:0 auto;text-align:center}
+.actualidad .noticia img{float:none;margin-top:10px}
+.actualidad .noticia p{padding:0 30px}
+#informate{width:86%!important}
+ul.tematicas_formativas li,ul.tematicas_formativas.executive li,ul.tematicas_formativas.masters_posts li{width:100%}
+.abajo{padding-top:80px!important}
+.busquedaCalendario{padding-bottom:100px!important}
+#filtradoCalendario select{margin-bottom:10px!important}
+.eventos,.proximos-eventos{width:54%}
+.proximos-eventos{margin:20px 22px!important}
+.destacados{padding:20px 0!important;margin-left:-17px!important}
+.nuevoTematicas .title{margin-bottom:0!important;width:100%!important;margin:0 -23px!important;text-align:center!important}
+.nuevoColTematicas{margin-right:-4px!important;width:100%!important}
+.nuevoColTematicas div{margin:0 65px!important}
+.eventos{margin:20px 36px!important}
+.clearBottom{width:100%!important;margin-left:0!important}
+.columns .columna_01,.columns .columna_02,.columns .columna_03{width:90%!important;margin-left:13px!important;height:250px!important;padding:0!important;margin-left:11px!important}
+.detalleEvento{height:340px!important}
+.menu-masteres{padding:0 0 0 69px!important}
+.menu-masteres h2{margin-left:-157px!important}
+.menu-executive{padding:33px 0 0 69px!important}
+.wrapper_columns_trends.gesco{margin:10px auto!important}
+.wrapper_columns_trends.gesco .column-right p{width:100%!important;text-align:center!important}
+.menu-gesco,.menu-gesco.centrado{padding-left:22px!important;margin-left:-11px}
+.column-left{width:100%!important;padding-bottom:10px;text-align:center!important}
+.column-right{width:100%!important;text-align:center!important}
+.selecciona_tu{margin:19px 84px!important}
+ul.campus-virtual li{margin-left:66px!important}
+.caroufredsel_wrapper ul li{width:60%!important}
+.menu-executive h2{top:-335px!important;left:151px!important}
+#descripcion,#sec00{width:91%!important}
+.selecciona_tu.nuevoLateral{margin:20px 45px!important}
+.buton-ver-agenda{display:block;width:40%;text-align:center;float:right;padding-right:0;margin-right:12px;border:none;text-align:right}
+.bloque-eventos-noticias-new .left.carousel-control.control-agenda,.bloque-eventos-noticias-new .right.carousel-control.control-agenda{top:39rem}
+.agenda-top .buton-ver-agenda{padding-right:12px}
+}
+@media (max-width:356px){
+.selecciona_tu.nuevoLateral{margin:20px auto!important}
+.selecciona_tu.nuevoGrado,.selecciona_tu_ca.nuevoGrado{margin:17px 43px!important}
+.pestanas-agenda-new{margin-right:10px;width:16.9%}
+}
+@media (max-width:335px){
+.carrousel-ie .control-agenda.carousel-control.left{left:58%!important}
+}
+@media (max-width:320px){
+.detalleEvento{bottom:0!important;height:373px!important}
+.eventos{width:57%!important;margin:20px 18px!important}
+.columns .columna_01 .center-responsive,.columns .columna_02 .center-responsive{margin:0 54px!important}
+.columns .columna_03 .center-responsive{margin:0 56px!important}
+.actualidad ul li{margin-left:-23px!important}
+.globo-contact{margin:26px -172px!important}
+.texts-opend{float:left!important;margin:0!important}
+.menu-gesco,.menu-gesco.centrado{padding-left:0!important;margin-left:-11px}
+.column{width:100%!important}
+.contenido.page_404{margin-top:-120px!important}
+.selecciona_tu{margin:20px 44px!important}
+ul.campus-virtual li{margin-left:39px!important}
+.caroufredsel_wrapper ul li{width:50%!important}
+.menu-executive a,.menu-masteres a{margin-left:-27px!important}
+.nuevoColTematicas div{margin:0 46px!important}
+.info-oculto.grado,.info-visible.postgrado{left:-31px}
+.selecciona_tu{margin:19px 12px!important}
+.agenda-top .buton-ver-agenda{padding-right:9px}
+}
+@media (max-width:319px){
+.pestanas-agenda-new{margin-right:9px;width:16%}
+}
+@media (max-width:240px){
+.slider .onriete{margin:185px 0 0!important}
+.arrow-bottom{left:98px!important}
+.proximos-eventos{width:67%!important;margin:20px 16px!important}
+.carreras-uni .btn-destacado,.executive_home .btn-destacado,.master-postgrado .btn-destacado{width:19%!important}
+.nuevoColTematicas{margin-right:41px!important}
+.columns .columna_01 .center-responsive,.columns .columna_02 .center-responsive{margin:0 18px!important}
+.columns .columna_03 .center-responsive{margin:0 45px!important}
+.detalleEvento{height:560px!important}
+.actualidad ul li{width:270px!important}
+.menu-masteres h2{margin-left:-109px!important}
+.menu-masteres{padding:0 0 0 43px!important}
+.menu-executive h2{margin-left:-109px!important}
+.menu-executive{padding:0 0 0 43px!important}
+}
+@media screen\9{
+.arrow{background:0 0}
+}
+@media \0screen\,screen\9{
+.arrow{background:0 0}
+}
+@media screen\9{
+.arrow_select{background:0 0}
+}
+@media \0screen\,screen\9{
+.arrow_select_sedes{background:0 0}
+}
+@media screen\9{
+.arrow_select_contacto{background:0 0}
+}
+@media \0screen\,screen\9{
+.arrow_select_contacto{background:0 0}
+}
+@media screen\9{
+.select_arrow{background:0 0}
+}
+@media \0screen\,screen\9{
+.select_arrow{background:0 0}
+}
+@media (max-width:1900px){
+.info-btn{top:60%}
+}
+@media (max-width:1620px){
+.info-btn{top:66%}
+}
+@media (max-width:1366px){
+.desplegable{width:14%}
+.info-btn{top:62%}
+}
+@media (max-width:1280px){
+.info-btn{top:63%}
+}
+@media (max-width:1280px) and (orientation:portrait){
+.info-btn{top:80%}
+}
+@media (max-width:1024px){
+.row-inst{width:31.87%;margin-right:12px}
+.caja-sh{left:18px}
+.textDatos{width:47.79%}
+.titleDatos{width:97.85%}
+.selecciona_tu.cortaDura{margin-top:-30px!important}
+.columnTexto{width:22%}
+.masWidth,.masWidth2{width:90%!important}
+.columnPrograma p{width:90%}
+.bloqueDerecho .espacio{width:82%}
+.desplegable{width:18%;margin-top:65px}
+.masWidth4,.masWidth6,.masWidth7{width:88%!important}
+.titlePrincipal{width:auto}
+.wrapper_columns_trends.gesco{margin-bottom:20px!important}
+.info-btn{top:70%}
+.bloqueIconosDos .bloqueDos{width:50%;padding-top:27px}
+.nuevoMenu li .drop.padding-granada-correction{padding:20px 18px 0!important}
+}
+@media (max-width:998px){
+.bloqueSoluciones{width:34%;height:282px}
+.corrector-m .bloqueSoluciones{width:36.5%;height:321px}
+.bloqueIconos{width:95%}
+.bloqueIconosDos{width:100%}
+.bloqueIconosDos .bloqueDos{width:16%}
+.corrector-m .tematics .col-1.tematicas-a-coruna{width:27%}
+}
+@media (max-width:992px){
+.col-1-bloques{width:100%}
+.col-1-bloques .title-programas{text-align:center}
+.col-1-bloques .texto{width:100%;padding:10px 0 10px}
+.corrector-m .col-1-bloques{width:100%}
+.col-3.no-background.como-llegar-a-coruna{margin-top:2rem;width:48%}
+.col-1-bloques.masteres.sedeC.a_coruna-postgrado{width:98%;text-align:center}
+.center-block-gobierno{margin-left:0rem}
+}
+@media(max-width:980px){
+.inline-form-pais{width:42%}
+}
+@media(max-width:957px){
+.corrector-m .tematics .col-1.tematicas-a-coruna{width:20%}
+}
+@media (max-width:949px){
+.height-control{height:59px!important}
+.header{height:59px}
+}
+@media (max-width:945px){
+.menu-granada{margin:0 -28px 0 0!important}
+.col-1.width-control-zaragoza-max{width:33.33333%!important}
+.col-1.width-control-zaragoza{width:100%!important;text-align:center;margin-bottom:1rem;border-right:0 solid transparent}
+}
+@media (max-width:926px){
+.nuevoMenu li .drop.padding-granada-correction{padding:20px 8px 0!important}
+.corrector-m .bloqueSoluciones{width:100%;height:auto;margin-bottom:6px}
+.corrector-m .bloqueTitle{width:100%;height:auto}
+}
+@media(max-width:910px){
+.corrector-m .row-inst{width:103%}
+.corrector-m .bloque-info-inst{width:103%}
+.col-6{width:100%;border-bottom:1px #999 dashed}
+.border-bottom-dotted-grey{border-bottom:none}
+.align-margin-alimarket,.align-margin-ecases,.align-margin-elibro{margin-top:1rem}
+}
+@media (max-width:900px){
+.nuevo-menus{width:99%!important}
+}
+@media (max-width:852px){
+.titlePrincipal{margin-bottom:0}
+.bloqueSoluciones{width:99%;height:auto;margin:0;margin-bottom:6px}
+.bloqueTitle,.bloqueTitleDos{width:95%;height:auto}
+.info-btn{display:none}
+.info-btn2{display:block}
+.img-cabecera{margin-top:121px}
+.col-2{width:100%;margin-right:0;margin-bottom:10px}
+.texto{width:96%}
+.bloque-programas{height:auto}
+.bloque-tematicasNuevo.homeE{width:100%;margin-right:0}
+.col-3{width:99%;top:0}
+.bloque-eventos,.bloque-noticias{width:100%}
+.margen{margin-top:0}
+.bloqueIconos{width:99%}
+}
+@media (max-width:822px){
+.campus-sede-logo{width:10%;float:left;position:relative;top:5px}
+.campus-sede-logo-granada{top:9px;left:45px}
+}
+@media(max-width:812px){
+.inline-form-pais{width:41%}
+}
+@media(max-width:772px){
+.col-3.no-background.como-llegar-a-coruna{margin-top:2rem;width:100%}
+}
+@media (max-width:768px){
+.wrapperHome{width:98%}
+#nuevo-menu div.buscar{width:auto;text-align:left}
+#nuevo-menu input.buscar{width:auto}
+.contacto{width:auto;float:right;text-align:left}
+.nuevo-menus{width:100%!important}
+.logo-granada{top:60px}
+.col-2,.col-3{width:100%;margin-right:0;margin-bottom:20px;padding-right:0}
+.col-1,.col-1.titulo-tem,.madridT .col-1,.madridT .col-1.titulo-tem{width:97%!important;border-right:none}
+.header{height:154px!important;width:102%!important}
+.header.nuevoSed{height:66px!important}
+.header.nuevoSed img.logo{margin-top:36px}
+.img-cabecera,.img-cabecera.back,.img-cabecera.back.experience-grado,.img-cabecera.back.experience-post,.img-cabecera.generica{width:103%;position:relative;margin:0;background:0 0;height:auto;border:none}
+.contenedor{width:100%;margin-top:0!important}
+.img-cabecera.back{float:none}
+.img-cabecera.generica-back{width:102%}
+.img-cabecera.generica-back .contenido-home{padding:0}
+#pull{width:100.6%!important;margin:16px 0 20px!important}
+.icono-tem,.tematics .icono-tem{width:auto;margin-right:10px}
+.img-cabecera.generica,.img-cabecera.granada,.img-cabecera.madrid{background:0 0}
+.row-como-llegar a,.row-visita-virtual a{text-align:left}
+.col-3.no-background,.row-visita-virtual{float:left}
+.bloque-eventos,.bloque-noticias{width:100%;margin-right:0}
+#nuevo-menu ul.inicio,#nuevo-menu ul.inicio.sedes{width:auto;height:30px}
+.enlace-eventos,.enlace-noticias,.fecha-ev{width:100%}
+.row-tam.tem{width:91%}
+.select{width:100%}
+.select select{width:103%}
+.col-4{width:100%;float:left}
+.sedeMapa .direccion{width:auto}
+.tematics .col-1{height:auto;width:97%}
+.col-3-tem{width:84%;float:left;padding:40px 15px 0}
+.dropdown_carreras,.dropdown_executive,.dropdown_experience,.dropdown_masters,.dropdown_sedes,.nuevoMenu .dropdown_esic{width:100%!important;left:0;padding:10px 0;position:relative}
+.nuevoMenu li .drop{height:auto!important;padding:12px 0!important}
+.bloque-programas,.contenedor.sedes .bloque-programas{height:auto}
+.bloque-tematicasNuevo{width:100%}
+.col-3{top:0}
+.row-ev,.row-not{height:auto!important}
+.row-inst{width:48%;margin-bottom:10px;margin-right:10px}
+.bloque-info-inst{width:96%}
+.row-inst a{text-align:center}
+.bloque-info-inst .col-1.no-bord{border-bottom:1px solid #ababab}
+.contenido.prueba{margin:150px auto 0!important}
+.bloqueMenu{width:100%}
+.slider.form{background:0 0}
+.wrapper_columns_trends .formRa p{width:54%!important}
+#infogestion,#infotri,.caja-sh{left:26px}
+.wrapper_columns_trends .cajita-sh p{width:100%!important}
+.wrapper_columns_trends .formRa p.ocu{width:38%!important}
+.fact .bloqueRa.trans{width:auto;margin-right:13px}
+.tablaAlumno,.tablaFactura{width:100%;margin-bottom:10px}
+.height{height:auto}
+.datosAlumno,.datosFact,.tablaAlumno,.tablaFactura{width:108%}
+.btnInscribete{margin-left:196px;top:0}
+.textDatos{width:47.75%}
+.titleDatos{width:97.75%}
+.logoIcemd,.logoIcemd.noMar{float:none;margin-left:7px;margin-right:0}
+.logoIcemd.float{float:none;margin-left:0}
+.logo-galicia{margin:21px 0 0}
+.campus-sede-logo.galicia{top:37px}
+.logo-bilbao{top:36px;left:0}
+.campus-sede-logo.bilbao{display:block;top:58px;left:38px;width:auto}
+.bloqueDerecho,.bloqueIzquierdo{width:100%;margin-right:0}
+.bloqueDerecho .espacio{width:38%;clear:both;text-align:center;display:inline-block;float:none;position:initial;margin-top:-10px}
+.bloqueDerecho{text-align:center;margin-top:30px}
+.bloqueDerecho a{text-align:center;display:inline-block;width:100%;float:left}
+.bloqueDerecho a img{clear:both;text-align:center}
+.bloqueDerecho .espacio a{text-align:left!important}
+.desplegable{width:27%}
+.bulletPost,.desplegable .bulletPost{width:auto!important}
+.contenedorPostgrado{padding:0}
+.bloqueSoluciones{height:163px}
+.noMarg{height:auto}
+.bloque-tematicasNuevo.homeE{width:100%}
+.columnTexto ul{height:auto}
+.bloqueIconosDos .bloqueDos{width:16.5%;padding-top:0}
+.campus-sede-logo{width:75px;float:left;position:relative;top:59px}
+.campus-sede-logo-granada{top:18px;left:45px}
+.top-height{height:186px!important}
+.corrector-m .bloqueIconosDos{width:100%}
+.corrector-m .bloqueDerecho .espacio{width:44%}
+.corrector-m .tematics .col-1.tematicas-a-coruna{height:auto}
+}
+@media(max-width:760px){
+.row-contacto{width:97%}
+.margin-custom{margin-left:0}
+.inline-form-pais{width:93%}
+.marco_img2{height:365px}
+}
+@media (max-width:736px){
+.contenido.prueba{margin:150px auto 0!important}
+.textDatos,.titleDatos{width:97.6%}
+.catalogoNuevo{width:108%}
+.masWidth4,.masWidth6,.masWidth7{width:74%!important}
+.btnInscribete{margin-left:183px}
+}
+@media (max-width:667px){
+.col-3-tem{width:94%}
+.col-4-contacto,.col-8-formulario{width:98%}
+.slider.form{background:0 0}
+.estirado .formularioA{margin-bottom:15px}
+.formularioA,.rightForm{width:100%}
+.caja-sh{width:52%;left:-9px}
+.rowActivo input,.rowInput input{width:98%}
+.bloqueRa,.fact .bloqueRa,.fact .bloqueRa.dos{width:auto;margin-right:13px}
+.bloqueRa:last-child,.fact .bloqueRa:last-child{margin-right:0}
+.rowActivo input{width:97%}
+.textDatos{width:47.4%}
+.titleDatos{width:97.3%}
+.columnTexto,.columnTexto.duo{width:100%}
+.catalogoNuevo{width:112%}
+.presentacionExecutive .columnTexto ul{border-right:0;border-bottom:1px solid #822022}
+.presentacionExecutive .columnTexto ul.last{border-bottom:0}
+.masWidth4,.masWidth6,.masWidth7{width:89%!important}
+.bloqueTitle,.bloqueTitleDos{width:95%;height:auto;margin-bottom:6px}
+.descPrincipal,.titlePrincipal{margin-bottom:10px}
+.presentacionExecutive .textBullet{width:94%}
+.bloqueIconos,.bloqueIconosDos{width:100%}
+.btnInscribete{margin-left:138px}
+.row-contacto{width:46.7%}
+.margin-custom{margin-left:24px}
+.inline-form-pais{width:42%}
+}
+@media (max-width:603px){
+.header{height:154px!important}
+.header.nuevoSed{height:99px!important}
+#nuevo-menu ul.idiomas,#nuevo-menu ul.idiomas.sedes{float:right;margin:0}
+#nuevo-menu div.buscar{width:calc(100% - 100px);margin-left:4px}
+.row-inst{width:46%}
+.contenido.prueba{margin:60px auto 0!important}
+.wrapper_columns_trends .cols-3 p{padding-bottom:0!important}
+#infogestion,#infotri,.caja-sh{left:10px}
+.wrapper_columns_trends .textLegal p{padding-bottom:0!important}
+.textDatos,.titleDatos{width:97%}
+.bloqueDerecho .espacio{width:49%;margin-left:0}
+.columnPrograma{width:100%;margin-bottom:20px}
+.desplegable{width:89%}
+.columnPrograma p{width:88%}
+.masWidth2{width:90%!important}
+.masWidth,.masWidth3{width:89%!important}
+.masMargin{margin-right:21px!important}
+.catalogoNuevo{width:100%}
+.catalogoNuevo .desplegable{width:89%}
+.desplegable{margin-top:36px}
+.masWidth4,.masWidth5,.masWidth6,.masWidth7{width:89%!important}
+.texto{width:94%}
+.btnInscribete{margin-left:111px}
+.col-1.width-control-zaragoza-max{width:100%!important;margin:0 33% 0}
+.empresas-ficha-titulacion-master{width:30%;float:left;padding:.1rem}
+}
+@media (max-width:568px){
+.cols-3{width:100%;margin-bottom:5px;margin-right:0}
+#infogestion,#infotri,.caja-sh{left:17px}
+.btnInscribete{margin-left:89px}
+.bloqueIconosDos .bloqueDos{width:100%;padding-top:7px;padding-bottom:7px}
+}
+@media(max-width:494px){
+.row-contacto{width:97%;padding:5px 0 10px 0}
+.inline-form-pais{width:94%}
+.margin-custom{margin-left:0}
+}
+@media (max-width:480px){
+.ocultar-borde{display:none}
+.campus{width:40%}
+.sedeMapa .direccion{padding:15px 13px 15px;width:86%}
+.select select{width:105%}
+.row-contacto{width:97%;padding:5px 0 10px 0}
+.styleSelect-contacto{width:93%}
+.checkbox-contacto{width:100%}
+.noticia-actualidad{width:100%}
+.caja-sh{left:38px;top:-10px}
+.enlaceRight{float:left;margin-top:20px}
+.selectFact{width:101%}
+.estirado{width:95%}
+.modificarDatos .enlaceRight img{margin-left:10px}
+.descargarReserva .enlaceRight{padding:5px 15px 15px}
+.selecciona_tu.formExecutive{margin:19px 64px!important}
+.rowActivo input{width:97%}
+.textDatos,.titleDatos{width:96%}
+.galicia .header.nuevoSed img.logo{margin:36px 120px 0 0}
+.galicia .logo-galicia{margin:0 0 20px -11px}
+.galicia .campus-sede-logo.galicia{top:17px}
+.desplegable{width:83%}
+.masWidth2{width:87%!important}
+.columnPrograma p{width:84%}
+.masWidth,.masWidth3{width:86%!important}
+.bloqueDerecho .espacio{width:62%}
+.columnImg{width:100%}
+.catalogoNuevo .desplegable{width:86%}
+.selecciona_tu{margin:19px 62px!important}
+.catalogoNuevo .columnPrograma p{width:80%}
+.masWidth4,.masWidth5,.masWidth6,.masWidth7{width:85%!important}
+.bloqueTitle,.bloqueTitleDos{width:92%}
+.bloqueSoluciones{width:98%}
+.bloqueIconos,.bloqueIconosDos{width:98%}
+.info-btn2 img{width:5%;top:4px}
+.texto{width:91%}
+.btnInscribete{margin-left:24px}
+}
+@media(max-width:450px){
+.empresas-ficha-titulacion-master{width:100%;float:left;padding:.1rem;text-align:center}
+.empresas-ficha-titulacion-master ul{margin-bottom:5px;margin-top:5px}
+}
+@media (max-width:414px){
+.wrapper_columns_trends{height:auto!important}
+#infogestion,#infotri,.caja-sh{left:61px}
+.bloqueDerecho .espacio{width:73%}
+.granada .header.nuevoSed img.logo{margin-right:100px}
+.granada .logo-granada{top:16px}
+.granada .campus-sede-logo{top:16px}
+}
+@media (max-width:385px){
+.select select{width:106%}
+.contenido.prueba{margin:10px auto 0!important}
+.wrapper_columns_trends .cajita-sh p.anchoE{width:100%!important}
+.textDatos,.titleDatos{width:95%}
+.tablaAlumno,.tablaFactura{width:109%}
+.selecciona_tu.formExecutive{margin:19px 44px!important}
+.selecciona_tu{margin:19px 64px!important}
+.columnPrograma p{width:76%}
+.masWidth2{width:79%!important}
+.masWidth,.masWidth3{width:78%!important}
+.bloqueDerecho .espacio{width:81%}
+.bulletPost,.desplegable .bulletPost{width:auto!important}
+.bloqueDos{width:48%;margin-bottom:10px;margin-right:5px}
+.bloqueTitle,.bloqueTitleDos{width:90%}
+}
+@media (max-width:375px){
+.header.nuevoSed{height:130px!important}
+#nuevo-menu ul.idiomas,#nuevo-menu ul.idiomas.sedes{margin-top:30px}
+#nuevo-menu input.buscar{width:180px}
+.masWidth4,.masWidth5,.masWidth6,.masWidth7{width:78%!important}
+.col-1.width-control-zaragoza-max{width:100%!important;margin:0 25% 0}
+}
+@media (max-width:345px){
+.bilbao .header.nuevoSed img.logo{margin-right:90px}
+.bilbao .logo-bilbao{top:12px;left:-6px}
+.bilbao .campus-sede-logo.bilbao{top:34px}
+.bilbao #pull{margin:26px 0 20px!important}
+}
+@media (max-width:320px){
+.bloqueDos{width:45%}
+.col-1,.col-1.titulo-tem{width:94%}
+.col-3-tem{width:89%}
+.select select{width:107%}
+.row-inst{width:100%}
+.radio{width:32%}
+.wrapper_columns_trends .formRa p{width:60%!important}
+.caja-sh{width:67%}
+#infogestion{width:40%;left:10px}
+#infotri{width:67%;left:40px}
+.datosFact .radio{width:100%}
+.selecciona_tu.formExecutive{margin:19px 24px!important}
+.selecciona_tu{margin:19px 54px!important}
+.catalogoNuevo .desplegable{width:80%}
+.catalogoNuevo .columnPrograma p{width:75%}
+.bulletPost,.catalogoNuevo .desplegable .bulletPost,.desplegable .bulletPost{width:auto!important}
+.info-btn2 img{width:7%}
+.texto{width:89%}
+.btnInscribete{margin-left:15px}
+}
