@@ -2,8 +2,8 @@
   <main>
     <h1 class="u-hidden">Convalidaciones y traslado de expediente</h1>
     <!-- <CABECERA Nº0> -->
-	<cabecera0 />    
-	<!-- </CABECERA Nº0> -->
+    <cabecera0 />
+    <!-- </CABECERA Nº0> -->
 
     <!--<SECCIÓN Nº0>-->
     <section0 />
@@ -25,7 +25,7 @@ import section1 from "@/components/contains/convalidaciones/section-1.vue";
 import section2 from "@/components/contains/convalidaciones/section-2.vue";
 export default {
   components: {
-	cabecera0,
+    cabecera0,
     section0,
     section1,
     section2

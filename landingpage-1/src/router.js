@@ -14,7 +14,7 @@ export default new Router({
     {
       path: '/',
       name: 'inicio',
-      component: inicio
+      component: inicio,
     },
     {
       path: '/institucion',
@@ -27,8 +27,9 @@ export default new Router({
     {
       path: '/grado/becas-ayudas',
       name: 'becas-ayudas',
-      component: becasayudas
+      component: becasayudas,
       //component: () => import(/* webpackChunkName: "about" */ '@/views/grado/becas-ayuda/index-n-0.vue')
+      props: true 
     },
     {
       path: '/grado/convalidaciones',
