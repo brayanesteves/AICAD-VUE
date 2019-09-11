@@ -5164,8 +5164,8 @@ div.resaltado{font-weight:700;margin:17px 0 4px}
 .cuerpoFichaListado2 ul,.fichaListado ul,.fichaListado2 ul,ul.fichaListado2{margin:0 0 13px 2px;padding:0;width:95%;padding:12px 25px}
 .cuerpoFichaListado2 ul li,.fichaListado ul li,.fichaListado2 ul li,ul.fichaListado2 li{background:url(../imagenes/bullet_programas.png) no-repeat left 8px;padding:3px 10px;margin-left:3%}
 ul.fichaListado3 li{background:url(../imagenes/bullet_programas.png) no-repeat left 8px;padding:3px 10px;margin-left:3%;float:left;width:220px}
-,ul.fichaListado{margin:0 0 20px 2px;padding:12px 25px;width:95%;background:#666;color:#ccc}
-,ul.fichaListado li{background:url(../imagenes/bullet_programas_blanco.png) no-repeat left 7px;padding:3px 10px}
+ul.fichaListado{margin:0 0 20px 2px;padding:12px 25px;width:95%;background:#666;color:#ccc}
+ul.fichaListado li{background:url(../imagenes/bullet_programas_blanco.png) no-repeat left 7px;padding:3px 10px}
 div#programa .deplegable ul,ul.sinborde{border:none}
 .cuerpoCentralFicha table{background:#f3f3f3;border-bottom:7px groove #000;margin:15px 0;padding:4px 27px;width:100%!important}
 .cuerpoCentralFicha table.min{border-bottom:none;margin:0;padding:0;width:100%!important}

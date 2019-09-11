@@ -35,11 +35,11 @@ export default {
   @import "https://fonts.googleapis.com/css?family=Lato&display=swap";
   @import '/css/bootstrap/version/v3.3.1/bootstrap.min.css';
   @import '/css/fontawesome/version/v5.10.0/css/all.min.css';
-  @import '/css/prettyPhoto.css';
+  
   @import '/css/assets/fuentes.css';
   @import '/css/assets/menu.css';
   @import '/css/style.css';
-  @import '/css/assets/carousel.css';
+  @import '/css/assets/carrusel.css';
   @import '/css/assets/footer.css';
   @import '/css/assets/reponsivo.css';
   @import '/css/bootstrap/plugin/bootstrap-dialog.min.css';
