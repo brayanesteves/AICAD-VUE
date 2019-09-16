@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import index from './views/inicio.vue'
+import inicio from './views/inicio.vue'
 
 Vue.use(Router)
 
@@ -11,7 +11,7 @@ export default new Router({
     {
       path: '/',
       name: 'inicio',
-      component: index
+      component: inicio
     },
     
   ]

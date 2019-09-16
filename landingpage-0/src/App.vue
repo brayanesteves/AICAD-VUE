@@ -19,16 +19,7 @@ export default {
     navegacion,
     footerweb
   },
-  data: () => ({
-    navLinks: [
-      {
-        text: "",
-        path: "",
-        icon: "",
-        img: ""
-      }
-    ]
-  })
+  
 }
 </script>
 <style>

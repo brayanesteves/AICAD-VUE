@@ -1,0 +1,139 @@
+@media(max-width:400px){
+.button_menu{margin-top:20px}
+.contenido_derecha{margin-top:0!important}
+.logos{padding-left:0!important;padding-right:0!important}
+.contenido_derecha .panel-body .telefono{padding:0!important}
+.home .seccion_gris{letter-spacing:0}
+.home .seccion_tiempo ul li .days,.hours,.minutes,.seconds{font-size:40px!important}
+.last_footer .no-padding-left{padding-left:15px!important}
+}
+@media(max-width:767px){
+.btn-default{font-size:16px;padding:24px}
+.no-padding,.no-padding-left,.no-padding-right{padding-right:15px!important;padding-left:15px!important}
+.cierre .btn-default{font-size:15px;margin-bottom:30px}
+.contenido_izq .migas{margin-top:30px}
+.btn-default{padding:14px 20px}
+.contacto h2,.faqs h1{font-size:40px}
+.padding-top80{padding-top:85px;padding-bottom:10px}
+.quienes_pueden .participantes ul{padding-left:25px}
+.imagenes .btn-imagenes{position:static;float:right;margin-bottom:20px}
+.contenido_derecha{padding-bottom:0}
+.logo_aicad{margin-top:30%}
+.nav>li{display:inline}
+.nav-pills li{display:block}
+nav{right:0!important;position:relative!important;width:auto!important;background-color:transparent!important;border:0 none!important}
+.navbar-collapse .nav li{display:block}
+.navbar-collapse .nav li a{top:0;cursor:pointer;color:#fff!important}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover{background-color:#232323}
+.navbar-collapse,.navbar-collapse li{border:0 none;box-shadow:none}
+header .navbar-nav>li>a i{top:8px}
+.header .button_text{left:18px}
+.menu_movil,.navbar-collapse{padding:0!important}
+.navbar-toggle{margin-top:0}
+.navbar-toggle{margin-right:0}
+header .navbar-nav>li>a{top:0}
+header .navbar-nav>li>span{top:0}
+.home .participar h3{font-size:22px}
+.home h1{font-size:38px;line-height:32px}
+.home #slide .item{height:100vh}
+.home .cont_circulos{margin-top:20px;margin-bottom:0}
+.home .circulo{background:url(../../img/home/_circulo.png) no-repeat scroll center center rgba(0,0,0,0);height:207px;width:100%;margin-top:0}
+.home .circulo p{margin-top:75px}
+.home .seccion_gris{letter-spacing:7px}
+.home .inscribete .rec_inscribete{font-size:22px}
+.home .inscribete_home .secc_entiende h2{font-size:30px}
+.home .inscribete_home .secc_entiende p{font-size:20px;line-height:25px}
+.home .inscribete .rec_inscribete{padding:35px 0}
+.home .inscribete .btn-default{top:20px;margin-bottom:50px}
+.inscribete .cierre{padding-bottom:0}
+.contacto .contenido_izq,.inscribete .contenido_izq{margin-bottom:0}
+.home .btn-inscribete-home{font-size:18px}
+.inscribete .disponible{margin-top:0}
+.home .inscribete .cont_inscribete{margin-top:30px}
+.logo_aicad>img{margin-left:-75px}
+.home .seccion_tiempo p{font-size:22px}
+.home .seccion_tiempo{background:#169fdb;padding-bottom:50px}
+.home .seccion_tiempo h3{font-size:25px}
+.home .seccion_tiempo .texto{letter-spacing:4px;font-size:20px;margin-top:30px}
+.home .seccion_tiempo ul li .days,.hours,.minutes,.seconds{font-size:48px!important}
+.home .seccion_tiempo ul li .timeRefDays,.timeRefHours,.timeRefMinutes,.timeRefSeconds{font-size:18px!important}
+.home .seccion_gaming h2{padding:10px 0;font-size:21px}
+.footer #cont_patrocinadores h2{font-size:26px}
+.footer #patrocinadores{background:0 0;padding:0}
+.footer #patrocinadores img{float:none!important;margin:0 auto!important}
+.footer #patrocinadores .santander{background-color:#e5171b;padding:15px;text-align:center}
+.footer #patrocinadores .abc{background-color:#014962;padding:15px;text-align:center}
+.footer .marcas>.container{margin-top:0}
+.footer .redes_sociales h3{font-size:30px}
+}
+@media(max-width:990px) and (min-width:768px){
+.faqs .last{margin-bottom:50px}
+.reto{min-height:40px}
+.logo-esic img{width:105px}
+.logo-aicad img{width:75px}
+.btn-default{font-size:18px;padding:10px 22px}
+.quienes_pueden .recuadro-gris span{font-size:15px}
+.premios .ganadores .premio{min-height:350px}
+.premios .ganadores h3 strong{font-size:90px}
+.premios .ganadores h3 strong span{font-size:52px}
+.contenido_derecha{margin-top:0}
+header .navbar-nav>li>a{font-size:11px}
+header .navbar-nav>li>a i{font-size:12px}
+header .navbar-nav>li>a i{font-size:28px}
+.nav-menu ul.main-menu{margin-top:10px}
+header .navbar-nav>li>a{font-size:13px;padding:10px 2px 9px;top:7px}
+header .navbar-nav>li>span{top:6px}
+header .nav-expander{width:54px;min-height:47px}
+.header .top_links{left:0}
+.header .button_text{left:23px;font-size:10px;top:-1px}
+nav{top:47px!important}
+.home .seccion_gris{letter-spacing:4px}
+.home .circulo p span,.home .inscribete .rec_inscribete,.home .participar h3,header .navbar-nav>li>a i{font-size:28px}
+.home .cont_circulos ul{width:100%}
+.home .circulo{width:16.5%;margin-top:5px;background-size:103%}
+.home .circulo p{font-size:12px;line-height:14px}
+.home .circulo.circulo3 p{font-size:10px;line-height:10px}
+.home .circulo p strong{font-size:30px}
+.home .inscribete{background-position:-550px 0}
+.home .inscribete .cont_inscribete{margin-top:80px}
+.home #slide .item{height:100vh}
+.home .seccion_gaming h2{font-size:22px;letter-spacing:3px}
+.home .inscribete .rec_inscribete{font-size:28px}
+.home .rec_inscribete{font-size:22px!important}
+.inscribete .cierre{padding-bottom:10px}
+.contacto .contenido_izq,.inscribete .contenido_izq{margin-bottom:20px}
+.home .seccion_tiempo p{letter-spacing:1px!important}
+.home .seccion_tiempo h3{font-size:26px}
+.home .seccion_gaming h2{padding:8px 0}
+.home .inscribete_home .secc_entiende p{font-size:26px}
+.home #myCarousel .carousel-control i,.home #myCarousel2 .carousel-control i{top:140px}
+.home #myCarousel .right i,.home #myCarousel2 .right i{top:85px}
+.padding-top80{padding-top:85px;padding-bottom:10px}
+.inscribete .cont_identificate{padding:10px}
+.footer #patrocinadores img{margin-left:0;margin-right:0}
+.footer .marcas>.container{margin-top:0}
+footer .marcas .educacion .no-padding,footer .marcas .patrocinadores .no-padding{padding-left:15px!important;padding-right:15px!important}
+}
+@media only screen and (min-device-width :320px) and (max-device-width :414px) and (-webkit-min-device-pixel-ratio:1){
+
+.content{position:relative;background:url(../../img/home/0-banner-principal-movil.jpeg) no-repeat;background-size:100% 100%;transition-duration:4s;animation-delay:2s}
+
+}
+@media only screen and (device-width :800px) and (orientation:portrait){
+body{overflow-x:hidden}
+}
+@media only screen and (width :966px) and (orientation:landscape){
+body{overflow-x:hidden}
+}
+
+@media only screen and (device-width :1280px) and (orientation:landscape){
+body{overflow-x:hidden}
+}
+@media(max-width:1200px) and (min-width:991px){
+header .navbar-nav>li>a{font-size:11px}
+header .navbar-nav>li>a i{font-size:14px}
+.header .top_links{position:relative;left:10px}
+.header .button_text{left:33px}
+.home .seccion_gris{letter-spacing:11px}
+.home .seccion_gaming h2{font-size:24px}
+}

@@ -1,0 +1,7 @@
+.slideshow{min-height:110vh;width:100%;background:url(../../img/home/_banner_principal.jpg) no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;animation:slide 28s infinite;transition-duration:4s;animation-delay:2s}
+.content{position:absolute;top:10%;width:100%;color:#fff}
+@keyframes slide{
+25%{background:url(../../img/home/_banner_principal_1.jpg) no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;transition-duration:4s;animation-delay:2s}
+50%{background:url(../../img/home/_banner_principal.jpg) no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;transition-duration:4s;animation-delay:2s}
+75%{background:url(../../img/home/_banner_principal_1.jpg) no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;transition-duration:4s;animation-delay:2s}
+}

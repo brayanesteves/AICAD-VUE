@@ -1,11 +1,9 @@
 <template>
   <!--*****************************<CONTENIDO>*********************************-->
-  
     <div class="home text-center">
       <!--********************<SECCIÓN Nº0>********************-->
       <section0 />
       <!--********************</SECCIÓN Nº0>********************-->
-
       <!--********************<SECCIÓN: INSCRIBETE>********************-->
       <div class="inscribete_home">
         <!--********************<SECCIÓN: TIEMPO>********************-->
@@ -23,9 +21,9 @@
               <div class="col-xs-12">
                 <div id="countdown" class="countdown text-center">
                   <ul>
-                    <li v-for="time in times" :key="time">
-                      <p v-bind:class="time.class_">{{time.time}}</p>
-                      <p v-bind:class="time._class">{{time.text}}</p>
+                    <li v-for="(clock, index) in times" :key="index">
+                      <p :class="clock.class_">{{clock.time}}</p>
+                      <p :class="clock._class">{{clock.text}}</p>
                     </li>
                   </ul>
                 </div>
@@ -38,8 +36,6 @@
       <!--********************</SECCIÓN: INSCRIBETE>********************-->
       <!--********************</SECCIÓN Nº1>********************-->
     </div>
- 
-
   <!--*****************************</CONTENIDO>*********************************-->
 </template>
 
@@ -47,7 +43,6 @@
 import section0 from "@/components/contain/sections/section-0/section-0.vue"
 export default {
   name: "inicio",
-  props: ["time"],
   components: {
    section0
   },
@@ -56,8 +51,8 @@ export default {
       empresa: "AICAD",
       deadline: "",
       Fecha: new Date(),
-      startTime:
-        new Date().getMonth() +
+      startTime: 
+        String(new Date().getMonth() +
         " " +
         new Date().getDay() +
         ", " +
@@ -67,8 +62,9 @@ export default {
         ":" +
         18 +
         ":" +
-        59,
-      endTime: "03 10, 2019 23:18:53",
+        59),
+        // <MM> <DD>, <YYYY> <H>:<M>:<S>
+      endTime: "09 12, 2019 23:18:53",
       times: [
         { id: 0, class_: "days", _class: "timeRefDays", text: "Días", time: 1 },
         {
@@ -139,11 +135,6 @@ export default {
   created: function() {
     this.updateTimer();
     this.timeinterval = setInterval(this.updateTimer, 1000);
-    window.addEventListener("resize", this.mediaQueries);
-    this.mediaQueries();
-  },
-  destroyed: function() {
-    window.addEventListener("resize", this.mediaQueries);
   }
 };
 </script>
