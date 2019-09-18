@@ -8,12 +8,15 @@
 <script>
 import navAicad from '@/components/nav/nav'
 import footerAicad from '@/components/footer/footer'
+import {mapState} from 'vuex'
+
 export default {
   name:"app",
   components: {
     navAicad,
     footerAicad
-  }
+  },
+  
 }
 </script>
 <style>
@@ -21,7 +24,6 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   background-color:#f2f2f2;
 }

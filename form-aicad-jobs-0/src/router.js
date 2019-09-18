@@ -21,11 +21,16 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "ajustes" */ './views/Profile.vue'),
       children: [
-        { path: 'ajustes', name:'ajustes', component: () => import(/* webpackChunkName: "ajustes" */ '@/views/profile/ajustes/ajustes.vue') },
-        { path: 'ayuda', name:'ayuda' },
-        { path: 'formacion', name:'formacion' },
-        { path: 'consejos', name:'consejos' },
+        { path: '', name:'ajustes', component: () => import(/* webpackChunkName: "ajustes" */ '@/views/profile/main/ajustes.vue') },
+        { path: '/ajustes/datos-acceso/change-email', name:'change-email', component: () => import(/* webpackChunkName: "change-email" */ '@/views/profile/ajustes/datos-acceso/change-email.vue') },
+        { path: '/ajustes/datos-acceso/change-password', name:'change-password', component: () => import(/* webpackChunkName: "change-password" */ '@/views/profile/ajustes/datos-acceso/change-password.vue') },
+        { path: '/ajustes/notificaciones-y-consejos/alertas-de-empleo-por-email', name:'alertas-de-empleo-por-email', component: () => import(/* webpackChunkName: "alertas-de-empleo-por-email" */ '@/views/profile/ajustes/notificaciones-y-consejos/alertas-de-empleo-por-email.vue') },
+        { path: '/ajustes/notificaciones-y-consejos/settings-comunications', name:'settings-comunications', component: () => import(/* webpackChunkName: "settings-comunications" */ '@/views/profile/ajustes/notificaciones-y-consejos/settings-comunications.vue') },
+        { path: '', name:'ayuda' },
+        { path: '', name:'formacion' },
+        { path: '', name:'consejos' },
       ]
-    }
+    },
+    
   ]
 })

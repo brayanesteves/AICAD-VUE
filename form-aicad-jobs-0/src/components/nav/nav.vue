@@ -7,8 +7,8 @@
         </b-navbar>
       </div>
       <div v-else-if="$route.name === 'profile'" class="navbar-profile">
-        <b-navbar toggleable="lg" type="dark" variant="info">
-          <b-navbar-brand href="#">LOGIN</b-navbar-brand>
+        <b-navbar toggleable="lg" type="info" variant="info">
+          <b-navbar-brand href="#">AICAD</b-navbar-brand>
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
           <b-collapse id="nav-collapse" is-nav>
@@ -17,7 +17,6 @@
               <b-nav-item href="#">Mis ofertas</b-nav-item>
               <b-nav-item href="#">CV</b-nav-item>
               <b-nav-item href="#">Quien me ve</b-nav-item>
-              <b-nav-item href="#">{{$route.name}}</b-nav-item>
             </b-navbar-nav>
 
             <!-- Right aligned nav items -->
@@ -35,11 +34,11 @@
                 <template v-slot:button-content>
                   <em>User</em>
                 </template>
-                <b-dropdown-item href="#">Ajustes</b-dropdown-item>
-                <b-dropdown-item href="#">Ayuda</b-dropdown-item>
-                <b-dropdown-item href="#">Formación</b-dropdown-item>
-                <b-dropdown-item href="#">Consejos</b-dropdown-item>
-                <b-dropdown-item href="#">Cerrar Sesión</b-dropdown-item>
+                <b-dropdown-item to="/profile/ajustes">Ajustes</b-dropdown-item>
+                <b-dropdown-item to="/profile/ayuda">Ayuda</b-dropdown-item>
+                <b-dropdown-item to="/profile/formacion">Formación</b-dropdown-item>
+                <b-dropdown-item to="/profile/consejos">Consejos</b-dropdown-item>
+                <b-dropdown-item to="/">Cerrar Sesión</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>
           </b-collapse>
@@ -47,8 +46,8 @@
       </div>
 
       <div v-else class="navbar-profile">
-        <b-navbar toggleable="lg" type="dark" variant="info">
-          <b-navbar-brand href="#">LOGIN</b-navbar-brand>
+        <b-navbar toggleable="lg" type="info" variant="info">
+          <b-navbar-brand href="#">AICAD</b-navbar-brand>
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
           <b-collapse id="nav-collapse" is-nav>
@@ -57,7 +56,6 @@
               <b-nav-item href="#">Mis ofertas</b-nav-item>
               <b-nav-item href="#">CV</b-nav-item>
               <b-nav-item href="#">Quien me ve</b-nav-item>
-              <b-nav-item href="#">{{$route.name}}</b-nav-item>
             </b-navbar-nav>
 
             <!-- Right aligned nav items -->
@@ -75,11 +73,11 @@
                 <template v-slot:button-content>
                   <em>User</em>
                 </template>
-                <b-dropdown-item href="#">Ajustes</b-dropdown-item>
-                <b-dropdown-item href="#">Ayuda</b-dropdown-item>
-                <b-dropdown-item href="#">Formación</b-dropdown-item>
-                <b-dropdown-item href="#">Consejos</b-dropdown-item>
-                <b-dropdown-item href="#">Cerrar Sesión</b-dropdown-item>
+                <b-dropdown-item to="/profile/ajustes">Ajustes</b-dropdown-item>
+                <b-dropdown-item to="/profile/ayuda">Ayuda</b-dropdown-item>
+                <b-dropdown-item to="/profile/formacion">Formación</b-dropdown-item>
+                <b-dropdown-item to="/profile/consejos">Consejos</b-dropdown-item>
+                <b-dropdown-item to="/">Cerrar Sesión</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>
           </b-collapse>
@@ -103,4 +101,7 @@ export default {
 .navbar {
   background-color: #167db7 !important;
 }
+.navbar-profile nav { background-color: #fff !important; }
+.navbar-profile nav ul > li a { color: #8c9397 !important; }
+.navbar-profile nav ul > li a:hover { color: #007bff !important; transition:1s; }
 </style>

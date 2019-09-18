@@ -139,7 +139,7 @@ export default {
   },
   methods: {
     iniciar_sesion(){
-      this.$router.push('Profile') 
+      this.$router.push('profile') 
     }
   }
 };
