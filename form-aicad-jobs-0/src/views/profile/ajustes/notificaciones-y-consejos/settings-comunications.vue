@@ -60,7 +60,7 @@
                     class="btn btn-primary js-btn-save margin-top"
                     type="submit"
                   >Guardar</button>
-                  <button class="btn btn-outline-primary js-btn-cancel  margin-top" id="cancelar_button">
+                  <button class="btn btn-outline-primary js-btn-cancel margin-top" id="cancelar_button">
                     <span class="hide-small-device">Cancelar</span>
                   </button>
                 </b-form-group>

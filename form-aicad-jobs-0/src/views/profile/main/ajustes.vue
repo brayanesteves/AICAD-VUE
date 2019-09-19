@@ -69,37 +69,37 @@
                 <div class="body">
                   <ul>
                     <li>
-                      <a href>
+                      <a href="/ajustes/privacy/settings-privacy">
                         Que ven las empresas
                         <span class="fa fa-arrow-right"></span>
                       </a>
                     </li>
                     <li>
-                      <a href>
+                      <a href="/ajustes/privacy/settings-privacy">
                         Que se ve en el internet de tu perfil
                         <span class="fa fa-arrow-right"></span>
                       </a>
                     </li>
                     <li>
-                      <a href>
+                      <a href="/ajustes/privacy/settings-privacy">
                         Bloquear empresas
                         <span class="fa fa-arrow-right"></span>
                       </a>
                     </li>
                     <li>
-                      <a href>
+                      <a href="/ajustes/privacy/settings-privacy">
                         Publicidad inteligente
                         <span class="fa fa-arrow-right"></span>
                       </a>
                     </li>
                     <li>
-                      <a href>
+                      <a href="/ajustes/privacy/settings-privacy">
                         Como gestionamos tus datos
                         <span class="fa fa-arrow-right"></span>
                       </a>
                     </li>
                     <li>
-                      <a href>
+                      <a href="/ajustes/privacy/settings-privacy">
                         Descarga una copia de datos
                         <span class="fa fa-arrow-right"></span>
                       </a>
