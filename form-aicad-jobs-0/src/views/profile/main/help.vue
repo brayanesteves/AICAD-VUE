@@ -65,7 +65,7 @@
                         </li>
                         <li>
                           <router-link to="/help/access-data/question-email-password"
-                          >¿Puedo cambiar mi email o contraseña de InfoJobs?</router-link>
+                          >¿Puedo cambiar mi email o contraseña de AICAD Jobs?</router-link>
                         </li>
                       </ul>
                     </div>
@@ -83,29 +83,24 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.30.question.10&amp;dgv=8650758983769097488"
-                          >¿Cómo modifico mi CV?</a>
+                          <router-link to="/help/cv-my-data/question-my-cv"
+                          >¿Cómo modifico mi CV?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.30.question.20&amp;dgv=6254299516876408783"
-                          >¿Cómo puedo crear otro CV o editar otros que ya tengo?</a>
+                          <router-link to="/help/cv-my-data/create-update-cv"
+                          >¿Cómo puedo crear otro CV o editar otros que ya tengo?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.30.question.30&amp;dgv=9036656248737884857"
-                          >¿Cómo puedo crear, adjuntar o editar una carta de presentación?</a>
+                          <router-link to="/help/cv-my-data/create-add-present"
+                          >¿Cómo puedo crear, adjuntar o editar una carta de presentación?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.30.question.40&amp;dgv=9041727420317209452"
-                          >¿Mi perfil está visible en internet?</a>
+                          <router-link to="/help/cv-my-data/profile-visible"
+                          >¿Mi perfil está visible en internet?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.30.question.50&amp;dgv=8406135290792860431"
-                          >¿Cómo protege InfoJobs mis datos?</a>
+                          <router-link to="/help/cv-my-data/protected-aicad-jobs"
+                          >¿Cómo protege AICAD Jobs mis datos?</router-link>
                         </li>
                       </ul>
                     </div>
@@ -123,14 +118,12 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.40.question.10&amp;dgv=9215134302987044727"
-                          >¿Qué puedo hacer si veo ofertas repetidas o que parecen fraudulentas?</a>
+                          <router-link to="/help/offers-and-recommendations/repeated-or-fraudulent"
+                          >¿Qué puedo hacer si veo ofertas repetidas o que parecen fraudulentas?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.40.question.20&amp;dgv=9166073934745546933"
-                          >¿Qué son las Ofertas para ti?</a>
+                          <router-link to="/help/offers-and-recommendations/offers-for-you"
+                          >¿Qué son las Ofertas para ti?</router-link>
                         </li>
                       </ul>
                     </div>
@@ -148,29 +141,24 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.50.question.10&amp;dgv=8339717991444433771"
-                          >Estoy dado de alta, ¿por qué no puedo inscribirme en las ofertas?</a>
+                          <router-link to="/help/registrations-and-applications/cant-signup-offers"
+                          >Estoy dado de alta, ¿por qué no puedo inscribirme en las ofertas?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.50.question.20&amp;dgv=6853858344955614795"
-                          >¿Cuántos estados de la candidatura existen y qué significan?</a>
+                          <router-link to="/help/registrations-and-applications/candidate-states-exist"
+                          >¿Cuántos estados de la candidatura existen y qué significan?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.50.question.30&amp;dgv=8072184878656493268"
-                          >¿Por qué no me llaman las empresas?</a>
+                          <router-link to="/help/registrations-and-applications/dont-companies-callme"
+                          >¿Por qué no me llaman las empresas?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.50.question.40&amp;dgv=4417765099867063169"
-                          >¿Puedo modificar mi CV una vez me haya inscrito en una oferta?</a>
+                          <router-link to="/help/registrations-and-applications/can-change-myCV"
+                          >¿Puedo modificar mi CV una vez me haya inscrito en una oferta?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.50.question.50&amp;dgv=3280513421105802187"
-                          >¿Límite de inscripciones diarias? Lee toda la información aquí</a>
+                          <router-link to="/help/registrations-and-applications/limit-of-dailyRegistration"
+                          >¿Límite de inscripciones diarias? Lee toda la información aquí</router-link>
                         </li>
                       </ul>
                     </div>
@@ -188,14 +176,12 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.60.question.10&amp;dgv=6919049022066891053"
-                          >¿Qué diferencia hay entre Notificaciones y Alertas, y cómo las activo/desactivo?</a>
+                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.60.question.10&amp;dgv=6919049022066891053"
+                          >¿Qué diferencia hay entre Notificaciones y Alertas, y cómo las activo/desactivo?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.60.question.20&amp;dgv=3019030743229452732"
-                          >¿Por qué he dejado de recibir ofertas de empleo en mi email?</a>
+                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.60.question.20&amp;dgv=3019030743229452732"
+                          >¿Por qué he dejado de recibir ofertas de empleo en mi email?</router-link>
                         </li>
                       </ul>
                     </div>
@@ -213,9 +199,8 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.70.question.10&amp;dgv=8321270872540471758"
-                          >¿Dónde está la red de contactos de InfoJobs?</a>
+                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.70.question.10&amp;dgv=8321270872540471758"
+                          >¿Dónde está la red de contactos de AICAD Jobs?</router-link>
                         </li>
                       </ul>
                     </div>
@@ -233,9 +218,8 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.74.question.10&amp;dgv=7351986388027138909"
-                          >Mi CV ha recibido visitas ¿Que significa eso?</a>
+                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.74.question.10&amp;dgv=7351986388027138909"
+                          >Mi CV ha recibido visitas ¿Que significa eso?</router-link>
                         </li>
                       </ul>
                     </div>
@@ -253,9 +237,8 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.77.question.10&amp;dgv=4921772700910185685"
-                          >¿Cómo activo mi cuenta Executive?</a>
+                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.77.question.10&amp;dgv=4921772700910185685"
+                          >¿Cómo activo mi cuenta Executive?</router-link>
                         </li>
                       </ul>
                     </div>
@@ -273,14 +256,12 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.80.question.10&amp;dgv=340131819273158037"
-                          >¿Cómo puedo darme de baja de InfoJobs?</a>
+                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.80.question.10&amp;dgv=340131819273158037"
+                          >¿Cómo puedo darme de baja de AICAD Jobs?</router-link>
                         </li>
                         <li>
-                          <a
-                            href="/candidate/help/question.xhtml?questionKey=desktop.help.category.80.question.20&amp;dgv=5512497107654091420"
-                          >He encontrado trabajo ¿Me doy de baja?</a>
+                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.80.question.20&amp;dgv=5512497107654091420"
+                          >He encontrado trabajo ¿Me doy de baja?</router-link>
                         </li>
                       </ul>
                     </div>
