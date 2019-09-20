@@ -81,8 +81,8 @@ const router = new Router({
       children: [
         //  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- //
         // A - SETTINGS OPTION'S
-        //{ path: '', name:'ajustes', component: () => import(/* webpackChunkName: "ajustes" */ '@/views/profile/main/ajustes.vue') },
-        { path: '', name: 'ajustes', component: Settings },
+        { path: 'settings', name:'ajustes', component: () => import(/* webpackChunkName: "ajustes" */ '@/views/profile/main/ajustes.vue') },
+        //{ path: '', name: 'ajustes', component: Settings },
         //  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- //
         // 00 - ACCESS DATE
         //{ path: '/ajustes/datos-acceso/change-email', name:'change-email', component: () => import(/* webpackChunkName: "change-email" */ '@/views/profile/ajustes/datos-acceso/change-email.vue') },

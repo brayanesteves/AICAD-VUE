@@ -34,7 +34,7 @@
                 <template v-slot:button-content>
                   <em>User</em>
                 </template>
-                <b-dropdown-item to="/profile/ajustes">Ajustes</b-dropdown-item>
+                <b-dropdown-item to="/profile/ajustes/settings">Ajustes</b-dropdown-item>
                 <b-dropdown-item to="/profile/ayuda/help">Ayuda</b-dropdown-item>
                 <b-dropdown-item to="/profile/formacion/tips">Formación</b-dropdown-item>
                 <b-dropdown-item to="/profile/consejos/training">Consejos</b-dropdown-item>
@@ -73,7 +73,7 @@
                 <template v-slot:button-content>
                   <em>User</em>
                 </template>
-                <b-dropdown-item to="/profile/ajustes">Ajustes</b-dropdown-item>
+                <b-dropdown-item to="/profile/ajustes/settings">Ajustes</b-dropdown-item>
                 <b-dropdown-item to="/profile/ayuda/help">Ayuda</b-dropdown-item>
                 <b-dropdown-item to="/profile/formacion/tips">Formación</b-dropdown-item>
                 <b-dropdown-item to="/profile/consejos/training">Consejos</b-dropdown-item>
