@@ -36,8 +36,8 @@
                 </template>
                 <b-dropdown-item to="/profile/ajustes">Ajustes</b-dropdown-item>
                 <b-dropdown-item to="/profile/ayuda/help">Ayuda</b-dropdown-item>
-                <b-dropdown-item to="/profile/formacion/index-2">Formación</b-dropdown-item>
-                <b-dropdown-item to="/profile/consejos/index-3">Consejos</b-dropdown-item>
+                <b-dropdown-item to="/profile/formacion/tips">Formación</b-dropdown-item>
+                <b-dropdown-item to="/profile/consejos/training">Consejos</b-dropdown-item>
                 <b-dropdown-item to="/">Cerrar Sesión</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>
@@ -75,8 +75,8 @@
                 </template>
                 <b-dropdown-item to="/profile/ajustes">Ajustes</b-dropdown-item>
                 <b-dropdown-item to="/profile/ayuda/help">Ayuda</b-dropdown-item>
-                <b-dropdown-item to="/profile/formacion/index-2">Formación</b-dropdown-item>
-                <b-dropdown-item to="/profile/consejos/index-3">Consejos</b-dropdown-item>
+                <b-dropdown-item to="/profile/formacion/tips">Formación</b-dropdown-item>
+                <b-dropdown-item to="/profile/consejos/training">Consejos</b-dropdown-item>
                 <b-dropdown-item to="/">Cerrar Sesión</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>

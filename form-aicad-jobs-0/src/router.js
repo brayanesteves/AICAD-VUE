@@ -58,7 +58,8 @@ Vue.use(Router)
 
 const router = new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
+  //base: process.env.BASE_URL,
+  base: '',
   routes: [
     {
       path: '/',
@@ -124,7 +125,7 @@ const router = new Router({
         { path: '/help/email-notificatons-alerts/difference-notificationsAlerts', name: 'difference-notificationsAlerts', component: differenceNotificationsAlerts },
         { path: '/help/email-notificatons-alerts/stoped-offers', name: 'stoped-offers', component: stoppedOffers },
         // SECTION Nº5 - (CONTACT NETWORK)
-        { path: '/help/contact-network/where-aicadjobs', name: 'where-aicadjobs', component: whereAICADJobs },        
+        { path: '/help/contact-network/where-aicadjobs', name: 'where-aicadjobs', component: whereAICADJobs },
         // SECTION Nº6 - (WHO SEES ME)
         { path: '/help/who-sees-me/received-visitors', name: 'received-visitors', component: receivedVisitors },
         // SECTION Nº7 - (EXECUTIVE ACCOUNT)
@@ -137,7 +138,10 @@ const router = new Router({
         { path: 'training', name: 'consejos', component: Consejos },
       ],
     },
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
 /**
  * Es para mostrar el error de forma especifica, cuando halla fallas 
