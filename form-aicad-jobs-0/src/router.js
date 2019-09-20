@@ -36,17 +36,17 @@ import dontCompaniesCallme from '@/views/profile/help/registrations-and-applicat
 import canChangemyCV from '@/views/profile/help/registrations-and-applications/can-change-myCV.vue'
 import limitOfDailyRegistration from '@/views/profile/help/registrations-and-applications/limit-of-dailyRegistration.vue'
 // SECTION Nº4 (EMAIL NOTIFICATIONS ALERTS)
-/*import differenceNotificationsAlerts from '@/views/profile/help/email-notificatons-alerts/difference-notificationsAlerts.vue'
-import stoppedOffers from '@/views/profile/help/email-notificatons-alerts/stoped-offers.vue'
+import differenceNotificationsAlerts from '@/views/profile/help/email-notifications-alerts/difference-notificationsAlerts.vue'
+import stoppedOffers from '@/views/profile/help/email-notifications-alerts/stopped-offers.vue'
 // SECTION Nº5 (CONTACT NETWORK)
 import whereAICADJobs from '@/views/profile/help/contact-network/where-aicadjobs.vue'
 // SECTION Nº6 (WHO SEES ME)
 import receivedVisitors from '@/views/profile/help/who-sees-me/received-visitors.vue'
 // SECTION Nº7 (EXECUTIVE ACCOUNT)
-import activateMyExecutive from '@/views/profile/help/executive-account/activate-myexecutive.vue'
+import activatedExecutive from '@/views/profile/help/executive-account/activated-executive.vue'
 // SECTION Nº8 (UNSUBSCRIBE)
 import unsubscribeAICADJobs from '@/views/profile/help/unsubscribe/unsubscribe-aicadjobs.vue'
-import unsubscribe from '@/views/profile/help/unsubscribe/unsubscribe.vue'*/
+import unsubscribe from '@/views/profile/help/unsubscribe/unsubscribe.vue'
 // C - FORMACION
 import Formacion from '@/views/profile/main/formacion.vue'
 
@@ -121,17 +121,17 @@ const router = new Router({
         { path: '/help/registrations-and-applications/can-change-myCV', name: 'can-change-myCV', component: canChangemyCV },
         { path: '/help/registrations-and-applications/limit-of-dailyRegistration', name: 'limit-of-dailyRegistration', component: limitOfDailyRegistration },
         // SECTION Nº4 - (EMAIL NOTIFICATIONS ALERTS)
-        /*{ path: '/help/email-notificatons-alerts/difference-notificationsAlerts', name: 'difference-notificationsAlerts', component: differenceNotificationsAlerts },
+        { path: '/help/email-notificatons-alerts/difference-notificationsAlerts', name: 'difference-notificationsAlerts', component: differenceNotificationsAlerts },
         { path: '/help/email-notificatons-alerts/stoped-offers', name: 'stoped-offers', component: stoppedOffers },
         // SECTION Nº5 - (CONTACT NETWORK)
         { path: '/help/contact-network/where-aicadjobs', name: 'where-aicadjobs', component: whereAICADJobs },        
         // SECTION Nº6 - (WHO SEES ME)
         { path: '/help/who-sees-me/received-visitors', name: 'received-visitors', component: receivedVisitors },
         // SECTION Nº7 - (EXECUTIVE ACCOUNT)
-        { path: '/help/executive-account/activate-myexecutive', name: 'activate-myexecutive', component: activateMyExecutive },
+        { path: '/help/executive-account/activated-executive', name: 'activated-executive', component: activatedExecutive },
         // SECTION Nº8 - (UNSUBSCRIBE)
         { path: '/help/unsubscribe/unsubscribe-aicadjobs', name: 'unsubscribe-aicadjobs', component: unsubscribeAICADJobs },
-        { path: '/help/unsubscribe/unsubscribe', name: 'unsubscribe', component: unsubscribe },*/
+        { path: '/help/unsubscribe/unsubscribe', name: 'unsubscribe', component: unsubscribe },
 
         { path: 'tips', name: 'formacion', component: Formacion },
         { path: 'training', name: 'consejos', component: Consejos },

@@ -176,11 +176,11 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.60.question.10&amp;dgv=6919049022066891053"
+                          <router-link to="/help/email-notificatons-alerts/difference-notificationsAlerts"
                           >¿Qué diferencia hay entre Notificaciones y Alertas, y cómo las activo/desactivo?</router-link>
                         </li>
                         <li>
-                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.60.question.20&amp;dgv=3019030743229452732"
+                          <router-link to="/help/email-notificatons-alerts/stoped-offers"
                           >¿Por qué he dejado de recibir ofertas de empleo en mi email?</router-link>
                         </li>
                       </ul>
@@ -199,7 +199,7 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.70.question.10&amp;dgv=8321270872540471758"
+                          <router-link to="/help/contact-network/where-aicadjobs"
                           >¿Dónde está la red de contactos de AICAD Jobs?</router-link>
                         </li>
                       </ul>
@@ -218,7 +218,7 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.74.question.10&amp;dgv=7351986388027138909"
+                          <router-link to="/help/who-sees-me/received-visitors"
                           >Mi CV ha recibido visitas ¿Que significa eso?</router-link>
                         </li>
                       </ul>
@@ -237,7 +237,7 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.77.question.10&amp;dgv=4921772700910185685"
+                          <router-link to="/help/executive-account/activated-executive"
                           >¿Cómo activo mi cuenta Executive?</router-link>
                         </li>
                       </ul>
@@ -256,11 +256,11 @@
                     >
                       <ul class="list-default--large list-canvas border-top padding-top">
                         <li>
-                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.80.question.10&amp;dgv=340131819273158037"
+                          <router-link to="/help/unsubscribe/unsubscribe-aicadjobs"
                           >¿Cómo puedo darme de baja de AICAD Jobs?</router-link>
                         </li>
                         <li>
-                          <router-link to="/candidate/help/question.xhtml?questionKey=desktop.help.category.80.question.20&amp;dgv=5512497107654091420"
+                          <router-link to="/help/unsubscribe/unsubscribe"
                           >He encontrado trabajo ¿Me doy de baja?</router-link>
                         </li>
                       </ul>
