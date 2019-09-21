@@ -8,24 +8,43 @@
         <b-col sm="12" md="8">
           <div class="header"></div>
           <div class="body">
-            <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+            <div
+              class="col-child panel-canvas inner inner-expanded panel-rounded"
+            >
               <h1 class="h2">
-                <span>No puedo acceder a mi cuenta porque no recuerdo o no puedo entrar al email que uso para InfoJobs</span>
+                <span
+                  >No puedo acceder a mi cuenta porque no recuerdo o no puedo
+                  entrar al email que uso para InfoJobs</span
+                >
               </h1>
               <p>
                 <span></span>
               </p>
               <p>
-                No puedo acceder a mi cuenta porque no recuerdo o no puedo entrar al email que uso para InfoJobs. Para ayudarte a recuperar el acceso a tu cuenta, primero debemos comprobar tu identidad.
+                No puedo acceder a mi cuenta porque no recuerdo o no puedo
+                entrar al email que uso para InfoJobs. Para ayudarte a recuperar
+                el acceso a tu cuenta, primero debemos comprobar tu identidad.
                 <br />Por favor, envíanos
-                <a href="/candidate/help/questions.xhtml">a través de este formulario</a>, los siguientes datos:
+                <a href="/candidate/help/questions.xhtml"
+                  >a través de este formulario</a
+                >, los siguientes datos:
               </p>
               <ol>
-                <li>1. Nombre y apellidos, DNI, Calle, Número y Piso, Código Postal, Localidad y Provincia.</li>
+                <li>
+                  1. Nombre y apellidos, DNI, Calle, Número y Piso, Código
+                  Postal, Localidad y Provincia.
+                </li>
                 <li>2. Un teléfono de contacto.</li>
-                <li>3. Tu antiguo email y el nuevo email que quieres usar para acceder a InfoJobs.</li>
+                <li>
+                  3. Tu antiguo email y el nuevo email que quieres usar para
+                  acceder a InfoJobs.
+                </li>
               </ol>
-              <p>Tan pronto sea posible, nuestro equipo hará las modificaciones oportunas y se pondrá en contacto contigo al email desde el cual nos envíes tus datos.</p>
+              <p>
+                Tan pronto sea posible, nuestro equipo hará las modificaciones
+                oportunas y se pondrá en contacto contigo al email desde el cual
+                nos envíes tus datos.
+              </p>
               <p></p>
             </div>
           </div>

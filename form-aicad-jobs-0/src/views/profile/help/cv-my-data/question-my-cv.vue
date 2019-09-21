@@ -6,7 +6,9 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
               <span>¿Cómo modifico mi CV?</span>
             </h1>
@@ -15,10 +17,14 @@
             </p>
             <p>
               Dirígete a la sección
-              <a
-                href="/candidate/cv/edition/private-view.xhtml"
-                target="_blank"
-              >Mis CVs</a> del menú principal. Una vez allí ya puede añadir experiencias, estudios u otros, así como editar cualquiera existente. Sólo tienes que hacer clic en el botón “Editar” de cada campo o un clic encima del campo que quieres editar si estas en la web desde tu dispositivo móvil.
+              <a href="/candidate/cv/edition/private-view.xhtml" target="_blank"
+                >Mis CVs</a
+              >
+              del menú principal. Una vez allí ya puede añadir experiencias,
+              estudios u otros, así como editar cualquiera existente. Sólo
+              tienes que hacer clic en el botón “Editar” de cada campo o un clic
+              encima del campo que quieres editar si estas en la web desde tu
+              dispositivo móvil.
             </p>
             <p></p>
           </div>

@@ -18,16 +18,19 @@
                 <div class="header">
                   <h2>Datos de Acceso</h2>
                 </div>
-                <div class="body">                  
+                <div class="body">
                   <ul>
                     <li>
-                      <a class="fas fa-envelope-open-text" href="/ajustes/datos-acceso/change-email">
+                      <a
+                        class="fas fa-envelope-open-text"
+                        href="/ajustes/datos-acceso/change-email"
+                      >
                         Cambiar email
                         <span class="fas fa-chevron-right"></span>
                       </a>
                     </li>
                     <li>
-                      <a  href="/ajustes/datos-acceso/change-password">
+                      <a href="/ajustes/datos-acceso/change-password">
                         Cambiar contraseña
                         <span class="fa fa-arrow-right"></span>
                       </a>
@@ -45,13 +48,17 @@
                 <div class="body">
                   <ul>
                     <li>
-                      <a href="/ajustes/notificaciones-y-consejos/alertas-de-empleo-por-email">
+                      <a
+                        href="/ajustes/notificaciones-y-consejos/alertas-de-empleo-por-email"
+                      >
                         Alerta de empleo por email
                         <span class="fa fa-arrow-right"></span>
                       </a>
                     </li>
                     <li>
-                      <a href="/ajustes/notificaciones-y-consejos/settings-comunications">
+                      <a
+                        href="/ajustes/notificaciones-y-consejos/settings-comunications"
+                      >
                         Configura tus comunicaciones
                         <span class="fa fa-arrow-right"></span>
                       </a>

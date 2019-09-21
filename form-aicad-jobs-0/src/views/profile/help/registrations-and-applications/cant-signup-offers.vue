@@ -6,14 +6,25 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
-              <span>Estoy dado de alta, ¿por qué no puedo inscribirme en las ofertas?</span>
+              <span
+                >Estoy dado de alta, ¿por qué no puedo inscribirme en las
+                ofertas?</span
+              >
             </h1>
             <p>
               <span></span>
             </p>
-            <p>Aunque te hayas dado de alta en InfoJobs, para poder inscribirte en las ofertas de empleo debes tener completados, como mínimo, los 3 primeros pasos de tu CV (Datos personales, Estudios y Experiencia). Cuando estén completos estos pasos podrás inscribirte en ofertas.</p>
+            <p>
+              Aunque te hayas dado de alta en InfoJobs, para poder inscribirte
+              en las ofertas de empleo debes tener completados, como mínimo, los
+              3 primeros pasos de tu CV (Datos personales, Estudios y
+              Experiencia). Cuando estén completos estos pasos podrás
+              inscribirte en ofertas.
+            </p>
             <p>
               <a href="/candidate/cv/view/index.xhtml">Edita ahora tu CV</a>
             </p>

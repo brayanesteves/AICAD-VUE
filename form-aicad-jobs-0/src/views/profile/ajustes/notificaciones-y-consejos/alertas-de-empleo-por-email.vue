@@ -18,15 +18,21 @@
                         <h2 class="h3 heading-divider">Mis alertas</h2>
                         <ul id="ul-alertas" class="form-field-block clearfix">
                           <li class="alerta">
-                            <div class="content-middle content-block-small-device">
+                            <div
+                              class="content-middle content-block-small-device"
+                            >
                               <div class="content-type-text">
                                 <h3>
                                   <a href>Ofertas de</a>
                                 </h3>
                                 <ul class="list-default line-inline small">
                                   <li>
-                                    <span class="alternative dt">Fecha de creación:</span>
-                                    <span class="alternative">{{new Date()}}</span>
+                                    <span class="alternative dt"
+                                      >Fecha de creación:</span
+                                    >
+                                    <span class="alternative">{{
+                                      new Date()
+                                    }}</span>
                                   </li>
                                 </ul>
                               </div>
@@ -36,12 +42,16 @@
                                   type="button"
                                   id="edit-nom-alerta"
                                   class="btn-small btn-default"
-                                >EDITAR NOMBRE</button>
+                                >
+                                  EDITAR NOMBRE
+                                </button>
                                 <button
                                   type="button"
                                   id="btn-eliminar"
                                   class="btn-small btn-default"
-                                >ELIMINAR</button>
+                                >
+                                  ELIMINAR
+                                </button>
                               </div>
                             </div>
                           </li>
@@ -58,20 +68,35 @@
               <b-col sm="12" md="12">
                 <div id="section-0">
                   <div class="header">
-                    <h2
-                      class="h3 heading-divider"
-                    >Crear una nueva alerta que se ajuste a tus intereses</h2>
+                    <h2 class="h3 heading-divider">
+                      Crear una nueva alerta que se ajuste a tus intereses
+                    </h2>
                   </div>
 
                   <div class="body">
                     <div id="more-info" class="hide" style="display:none;">
-                      <p>01. Introduce las palabras que te interesan en el buscador y clica "Buscar"</p>
-                      <p>02. Cuando se muestren los resultados te aconsejamos utilizar los filtros para ajustar más tu búsqueda</p>
-                      <p>03. Si los resultados que se muestran te parecen interesantes, crea tu nueva alerta haciendo clic en el botón "Crear alerta"</p>
+                      <p>
+                        01. Introduce las palabras que te interesan en el
+                        buscador y clica "Buscar"
+                      </p>
+                      <p>
+                        02. Cuando se muestren los resultados te aconsejamos
+                        utilizar los filtros para ajustar más tu búsqueda
+                      </p>
+                      <p>
+                        03. Si los resultados que se muestran te parecen
+                        interesantes, crea tu nueva alerta haciendo clic en el
+                        botón "Crear alerta"
+                      </p>
                     </div>
 
                     <p>
-                      <a href="javascript:void(0);" id="show-more" class="link-underline">Más info</a>
+                      <a
+                        href="javascript:void(0);"
+                        id="show-more"
+                        class="link-underline"
+                        >Más info</a
+                      >
                     </p>
 
                     <p class="text-left">
@@ -80,7 +105,8 @@
                         id="show-less"
                         class="link-underline hide"
                         style="display:none;"
-                      >Menos info</a>
+                        >Menos info</a
+                      >
                     </p>
 
                     <div id="searchBox">
@@ -107,8 +133,17 @@
                         >
                           <b-form-select id="input-3" required></b-form-select>
                         </b-form-group>
-                        <b-form-group id="input-group-4" class="text-left" label-for="input-4">
-                          <b-button type="submit" variant="primary" class="btn-search">BUSCAR</b-button>
+                        <b-form-group
+                          id="input-group-4"
+                          class="text-left"
+                          label-for="input-4"
+                        >
+                          <b-button
+                            type="submit"
+                            variant="primary"
+                            class="btn-search"
+                            >BUSCAR</b-button
+                          >
                         </b-form-group>
                       </b-form>
                       <!--<form action class="form" id="offersSearch" name="offersSearch" method="post">
@@ -261,7 +296,11 @@
                     <b-container>
                       <b-row>
                         <b-col>
-                          <a href id="cancelar_button" class="btn btn-default js-btn-cancel">
+                          <a
+                            href
+                            id="cancelar_button"
+                            class="btn btn-default js-btn-cancel"
+                          >
                             <span class="hide-small-device">Volver</span>
                           </a>
                         </b-col>
@@ -284,7 +323,9 @@ export default {
 };
 </script>
 <style scoped>
-.alerta-de-empleo-por-email { align-items: center; }
+.alerta-de-empleo-por-email {
+  align-items: center;
+}
 #alerta-de-empleo-por-email .panel-canvas .wrapper .container {
   background-color: #fff;
   margin: 5px 0;
@@ -472,10 +513,11 @@ p {
   margin-bottom: 15px;
   word-wrap: break-word;
 }
-h3, .h3 {
-	font-size: 18px;
-	line-height: 21px;
-	margin-bottom: 15px;
+h3,
+.h3 {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 15px;
 }
 .link-underline,
 .link-underline:hover {
@@ -580,5 +622,9 @@ label,
   border: 1px solid #ff6340;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
-#footer .btn-default:hover { background-color:#167db7; transition:background-color 0.3s ease, color 0.3s ease; color:#fff; }
+#footer .btn-default:hover {
+  background-color: #167db7;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #fff;
+}
 </style>

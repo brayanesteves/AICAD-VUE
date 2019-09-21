@@ -6,7 +6,9 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
               <span>
                 <strong>¿Dónde está la red de contactos de AICAD Jobs?</strong>
@@ -16,8 +18,18 @@
               <span></span>
             </p>
             <p>La red de contactos ya no está disponible en AICAD Jobs.</p>
-            <p>Tu opinión y la de otros candidatos nos importa mucho y tras valorarlo y hablarlo a nivel interno hemos decidido eliminar este servicio y focalizarnos en crear otras herramientas que se ajusten más a tus necesidades.Por tanto, el servicio “red de contactos” se ha descontinuado.</p>
-            <p>Si tienes dudas, consultas o alguna incidencia, siempre puedes contactar con Atención al Cliente al final de esta página en [Contáctanos]</p>
+            <p>
+              Tu opinión y la de otros candidatos nos importa mucho y tras
+              valorarlo y hablarlo a nivel interno hemos decidido eliminar este
+              servicio y focalizarnos en crear otras herramientas que se ajusten
+              más a tus necesidades.Por tanto, el servicio “red de contactos” se
+              ha descontinuado.
+            </p>
+            <p>
+              Si tienes dudas, consultas o alguna incidencia, siempre puedes
+              contactar con Atención al Cliente al final de esta página en
+              [Contáctanos]
+            </p>
             <p></p>
           </div>
         </b-col>

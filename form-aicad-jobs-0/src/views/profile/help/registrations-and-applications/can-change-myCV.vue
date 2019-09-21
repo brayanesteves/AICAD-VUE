@@ -6,17 +6,28 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
-              <span>¿Puedo modificar mi CV una vez me haya inscrito en una oferta?</span>
+              <span
+                >¿Puedo modificar mi CV una vez me haya inscrito en una
+                oferta?</span
+              >
             </h1>
             <p>
               <span></span>
             </p>
             <p>
-              Al inscribirte en una oferta, en realidad no estás “mandando” tu CV, más bien estás inscribiendo tu CV online en la oferta. Por tanto, cuando una empresa quiera consultar tu CV, siempre verá la versión más actualizada de tu CV.
-              <br />Ejemplo: Si te inscribiste ayer en una oferta, hoy haces un cambio en tu CV y la empresa consulta tu CV mañana. La empresa verá tu CV con el último cambio aplicado.
-              <br />* La empresa sólo verá los datos del CV con el que te hayas inscrito en su oferta, no los de ningún otro CV que tengas en InfoJobs.
+              Al inscribirte en una oferta, en realidad no estás “mandando” tu
+              CV, más bien estás inscribiendo tu CV online en la oferta. Por
+              tanto, cuando una empresa quiera consultar tu CV, siempre verá la
+              versión más actualizada de tu CV.
+              <br />Ejemplo: Si te inscribiste ayer en una oferta, hoy haces un
+              cambio en tu CV y la empresa consulta tu CV mañana. La empresa
+              verá tu CV con el último cambio aplicado. <br />* La empresa sólo
+              verá los datos del CV con el que te hayas inscrito en su oferta,
+              no los de ningún otro CV que tengas en InfoJobs.
             </p>
           </div>
         </b-col>

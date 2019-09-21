@@ -6,20 +6,42 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
-              <span>¿Límite de inscripciones diarias? Lee toda la información aquí</span>
+              <span
+                >¿Límite de inscripciones diarias? Lee toda la información
+                aquí</span
+              >
             </h1>
             <p>
               <span></span>
             </p>
-            <p>A partir de Junio de 2016, se ha implementado un límite de 50 inscripciones diarias. El motivo de éste, es el de mantener la calidad, rendimiento y agilidad de los procesos de inscripción. El límite se reinicia cada 24 horas. Por tanto, cada día a las 00:00, volverás a tener 50 inscripciones disponibles. Ten en cuenta que el nº de inscripciones no es acumulable y tampoco se puede aumentar. Todos los usuarios de InfoJobs tienen el mismo número de inscripciones, no hay excepciones.</p>
+            <p>
+              A partir de Junio de 2016, se ha implementado un límite de 50
+              inscripciones diarias. El motivo de éste, es el de mantener la
+              calidad, rendimiento y agilidad de los procesos de inscripción. El
+              límite se reinicia cada 24 horas. Por tanto, cada día a las 00:00,
+              volverás a tener 50 inscripciones disponibles. Ten en cuenta que
+              el nº de inscripciones no es acumulable y tampoco se puede
+              aumentar. Todos los usuarios de InfoJobs tienen el mismo número de
+              inscripciones, no hay excepciones.
+            </p>
             <p>
               <strong>Consejos para optimizar tus inscripciones.</strong>
-              <br />Cuando te apuntas a ofertas en las que no cumples todos los requisitos se resiente tu reputación, y es posible que te perjudique si algún día esa misma empresa publica una oferta ideal para ti.
-              <br />Por eso, no recomendamos inscribirse en más de una oferta de la misma empresa; especialmente si las ofertas son muy diferentes entre ellas.
-              <br />Te aconsejamos inscribirte solamente en aquellas ofertas que se ajusten a tu perfil e intereses. Para ello, puedes utilizar los filtros de búsqueda para encontrar ofertas ideales para ti. Por ejemplo el salario, la jornada laboral o tu experiencia, entre otros.
-              <br />Todo ello, quizá haga que te inscribas en menos ofertas, pero tendrás más probabilidades de ser contratado/a. Recuerda, más no siempre es mejor.
+              <br />Cuando te apuntas a ofertas en las que no cumples todos los
+              requisitos se resiente tu reputación, y es posible que te
+              perjudique si algún día esa misma empresa publica una oferta ideal
+              para ti. <br />Por eso, no recomendamos inscribirse en más de una
+              oferta de la misma empresa; especialmente si las ofertas son muy
+              diferentes entre ellas. <br />Te aconsejamos inscribirte solamente
+              en aquellas ofertas que se ajusten a tu perfil e intereses. Para
+              ello, puedes utilizar los filtros de búsqueda para encontrar
+              ofertas ideales para ti. Por ejemplo el salario, la jornada
+              laboral o tu experiencia, entre otros. <br />Todo ello, quizá haga
+              que te inscribas en menos ofertas, pero tendrás más probabilidades
+              de ser contratado/a. Recuerda, más no siempre es mejor.
             </p>
             <p></p>
           </div>

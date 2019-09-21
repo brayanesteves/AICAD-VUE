@@ -6,7 +6,9 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
               <span></span>
             </h1>
@@ -14,12 +16,25 @@
               <span></span>
             </p>
             <p>
-              En InfoJobs no intervenimos en los procesos de selección porque cada empresa es quien gestiona los CVs como considera conveniente y es quien decide si el candidato tiene el perfil adecuado para el puesto ofertado. El consejo que podemos darte es que tengas tu CV completado al máximo y permanentemente actualizado. Además, te recomendamos
+              En InfoJobs no intervenimos en los procesos de selección porque
+              cada empresa es quien gestiona los CVs como considera conveniente
+              y es quien decide si el candidato tiene el perfil adecuado para el
+              puesto ofertado. El consejo que podemos darte es que tengas tu CV
+              completado al máximo y permanentemente actualizado. Además, te
+              recomendamos
               <a
                 href="https://orientacion-laboral.infojobs.net/buscar-trabajo-requisitos"
-              >este artículo de nuestra sección de Orientación laboral</a>, donde una reclutadora explica cómo gestiona sus procesos de selección. ¡Esperamos que también sea de utilidad!
+                >este artículo de nuestra sección de Orientación laboral</a
+              >, donde una reclutadora explica cómo gestiona sus procesos de
+              selección. ¡Esperamos que también sea de utilidad!
             </p>
-            <p>Por otro lado, somos conscientes de que algunas empresas no actualizan con celeridad el estado de las candidaturas. Desde InfoJobs, concienciamos a las empresas&nbsp;para que actualicen el estado del proceso de selección para poder ofrecer así un mejor servicio a los candidatos.</p>
+            <p>
+              Por otro lado, somos conscientes de que algunas empresas no
+              actualizan con celeridad el estado de las candidaturas. Desde
+              InfoJobs, concienciamos a las empresas&nbsp;para que actualicen el
+              estado del proceso de selección para poder ofrecer así un mejor
+              servicio a los candidatos.
+            </p>
             <p></p>
           </div>
         </b-col>

@@ -21,7 +21,6 @@
 
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
-
               <b-nav-item-dropdown text="Lang" right>
                 <b-dropdown-item href="#">EN</b-dropdown-item>
                 <b-dropdown-item href="#">ES</b-dropdown-item>
@@ -34,10 +33,19 @@
                 <template v-slot:button-content>
                   <em>User</em>
                 </template>
-                <b-dropdown-item to="/profile/ajustes/settings">Ajustes</b-dropdown-item>
-                <b-dropdown-item to="/profile/ayuda/help">Ayuda</b-dropdown-item>
-                <b-dropdown-item to="/profile/formacion/tips">Formación</b-dropdown-item>
-                <b-dropdown-item to="/profile/consejos/training">Consejos</b-dropdown-item>
+                <b-dropdown-item
+                  v-bind:to="{ path: '/profile/ajustes/settings' }"
+                  >Ajustes</b-dropdown-item
+                >
+                <b-dropdown-item to="/profile/ayuda/help"
+                  >Ayuda</b-dropdown-item
+                >
+                <b-dropdown-item to="/profile/formacion/tips"
+                  >Formación</b-dropdown-item
+                >
+                <b-dropdown-item to="/profile/consejos/training"
+                  >Consejos</b-dropdown-item
+                >
                 <b-dropdown-item to="/">Cerrar Sesión</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>
@@ -60,7 +68,6 @@
 
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
-
               <b-nav-item-dropdown text="Lang" right>
                 <b-dropdown-item href="#">EN</b-dropdown-item>
                 <b-dropdown-item href="#">ES</b-dropdown-item>
@@ -73,10 +80,19 @@
                 <template v-slot:button-content>
                   <em>User</em>
                 </template>
-                <b-dropdown-item to="/profile/ajustes/settings">Ajustes</b-dropdown-item>
-                <b-dropdown-item to="/profile/ayuda/help">Ayuda</b-dropdown-item>
-                <b-dropdown-item to="/profile/formacion/tips">Formación</b-dropdown-item>
-                <b-dropdown-item to="/profile/consejos/training">Consejos</b-dropdown-item>
+                <b-dropdown-item
+                  v-bind:to="{ path: '/profile/ajustes/settings' }"
+                  >Ajustes</b-dropdown-item
+                >
+                <b-dropdown-item to="/profile/ayuda/help"
+                  >Ayuda</b-dropdown-item
+                >
+                <b-dropdown-item to="/profile/formacion/tips"
+                  >Formación</b-dropdown-item
+                >
+                <b-dropdown-item to="/profile/consejos/training"
+                  >Consejos</b-dropdown-item
+                >
                 <b-dropdown-item to="/">Cerrar Sesión</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>
@@ -101,7 +117,14 @@ export default {
 .navbar {
   background-color: #167db7 !important;
 }
-.navbar-profile nav { background-color: #fff !important; }
-.navbar-profile nav ul > li a { color: #8c9397 !important; }
-.navbar-profile nav ul > li a:hover { color: #007bff !important; transition:1s; }
+.navbar-profile nav {
+  background-color: #fff !important;
+}
+.navbar-profile nav ul > li a {
+  color: #8c9397 !important;
+}
+.navbar-profile nav ul > li a:hover {
+  color: #007bff !important;
+  transition: 1s;
+}
 </style>

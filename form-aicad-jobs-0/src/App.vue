@@ -1,23 +1,26 @@
 <template>
   <div id="app">
     <navAicad />
-    <router-view />
+    <transition>
+      <keep-alive>
+        <router-view />
+      </keep-alive>
+    </transition>
     <footerAicad />
   </div>
 </template>
 <script>
-import navAicad from '@/components/nav/nav'
-import footerAicad from '@/components/footer/footer'
-import {mapState} from 'vuex'
+import navAicad from "@/components/nav/nav";
+import footerAicad from "@/components/footer/footer";
+//import { mapState } from "vuex";
 
 export default {
-  name:"app",
+  name: "app",
   components: {
     navAicad,
     footerAicad
-  },
-  
-}
+  }
+};
 </script>
 <style>
 #app {
@@ -25,7 +28,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
 }
 #nav {
   padding: 30px;

@@ -6,19 +6,29 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
-              <span>¿Qué puedo hacer si veo ofertas repetidas o que parecen fraudulentas?</span>
+              <span
+                >¿Qué puedo hacer si veo ofertas repetidas o que parecen
+                fraudulentas?</span
+              >
             </h1>
             <p>
               <span></span>
             </p>
             <p>
-              Si has iniciado sesión verás que debajo del botón inscribirse (el de debajo de la página) hay un enlace en el que puedes denunciar las ofertas que consideres fraudulentas indicándonos el motivo. Desde InfoJobs tomaremos las medidas que creamos oportunas para frenar cualquier comportamiento que no encaje con lo recogido en nuestras
-              <a
-                href="/rules-and-services.xhtml"
-                target="_blank"
-              >características y reglas de uso</a> para la publicación de ofertas en InfoJobs.
+              Si has iniciado sesión verás que debajo del botón inscribirse (el
+              de debajo de la página) hay un enlace en el que puedes denunciar
+              las ofertas que consideres fraudulentas indicándonos el motivo.
+              Desde InfoJobs tomaremos las medidas que creamos oportunas para
+              frenar cualquier comportamiento que no encaje con lo recogido en
+              nuestras
+              <a href="/rules-and-services.xhtml" target="_blank"
+                >características y reglas de uso</a
+              >
+              para la publicación de ofertas en InfoJobs.
             </p>
             <p></p>
           </div>

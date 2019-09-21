@@ -8,7 +8,9 @@
         <b-col sm="12" md="8">
           <div class="header"></div>
           <div class="body">
-            <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+            <div
+              class="col-child panel-canvas inner inner-expanded panel-rounded"
+            >
               <h1 class="h2">
                 <span>¿Puedo cambiar mi email o contraseña de InfoJobs?</span>
               </h1>
@@ -16,8 +18,13 @@
                 <span></span>
               </p>
               <p>
-                Sí, puedes cambiar tu email y contraseña actual sin que tus datos o candidaturas sufran ningún cambio ni pérdida de información.
-                <a href="/candidate/account/index.xhtml" target="_blank">Haz click aquí</a> para cambiar el email y la contraseña actuales.
+                Sí, puedes cambiar tu email y contraseña actual sin que tus
+                datos o candidaturas sufran ningún cambio ni pérdida de
+                información.
+                <a href="/candidate/account/index.xhtml" target="_blank"
+                  >Haz click aquí</a
+                >
+                para cambiar el email y la contraseña actuales.
               </p>
               <p></p>
             </div>

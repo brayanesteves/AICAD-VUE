@@ -6,18 +6,31 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
               <span>Mi CV ha recibido visitas ¿Que significa eso?</span>
             </h1>
             <p>
               <span></span>
             </p>
-            <p>En esta sección (únicamente disponible desde la web) puedes ver qué empresas han encontrado y consultado tu CV.</p>
-            <p>Las empresas pueden ver los CVs inscritos a una oferta que hayan publicado, o buscar en la base de datos de InfoJobs. En esta sección veras los que te han encontrado a través de la base de datos.</p>
             <p>
-              Si no quieres que las empresas te puedan encontrar en la base de datos, en el apartado Privacidad de la sección
-              <a href="https://www.infojobs.net/candidate/account/index.xhtml">Ajustes</a>, puedes desactivar dicha opción.
+              En esta sección (únicamente disponible desde la web) puedes ver
+              qué empresas han encontrado y consultado tu CV.
+            </p>
+            <p>
+              Las empresas pueden ver los CVs inscritos a una oferta que hayan
+              publicado, o buscar en la base de datos de InfoJobs. En esta
+              sección veras los que te han encontrado a través de la base de
+              datos.
+            </p>
+            <p>
+              Si no quieres que las empresas te puedan encontrar en la base de
+              datos, en el apartado Privacidad de la sección
+              <a href="https://www.infojobs.net/candidate/account/index.xhtml"
+                >Ajustes</a
+              >, puedes desactivar dicha opción.
             </p>
             <p></p>
           </div>

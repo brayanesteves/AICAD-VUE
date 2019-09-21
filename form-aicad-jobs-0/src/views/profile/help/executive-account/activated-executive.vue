@@ -6,14 +6,23 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
               <span>¿Cómo activo mi cuenta Executive?</span>
             </h1>
             <p>
               <span></span>
             </p>
-            <p>Has de saber que las cuentas AICAD Jobs Executive se activan automáticamente y sucede con aquellos perfiles de alto nivel (como directivos o managers) que cuentan con puestos de responsabilidad y con personal a su cargo. Este tipo de perfiles también han de tener más de 5 años de experiencia, así como un salario acorde con el puesto.</p>
+            <p>
+              Has de saber que las cuentas AICAD Jobs Executive se activan
+              automáticamente y sucede con aquellos perfiles de alto nivel (como
+              directivos o managers) que cuentan con puestos de responsabilidad
+              y con personal a su cargo. Este tipo de perfiles también han de
+              tener más de 5 años de experiencia, así como un salario acorde con
+              el puesto.
+            </p>
             <p></p>
           </div>
         </b-col>

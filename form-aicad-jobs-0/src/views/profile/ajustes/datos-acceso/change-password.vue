@@ -17,10 +17,18 @@
                     label-for="input-1"
                     class="text-left"
                   >
-                    <b-form-input id="input-1" type="password" required></b-form-input>
+                    <b-form-input
+                      id="input-1"
+                      type="password"
+                      required
+                    ></b-form-input>
                   </b-form-group>
 
-                  <b-form-group id="input-group-2" class="text-left" label-for="input-2">
+                  <b-form-group
+                    id="input-group-2"
+                    class="text-left"
+                    label-for="input-2"
+                  >
                     <b-link href="#foo">¿Has olvidado tu contraseña?</b-link>
                   </b-form-group>
 
@@ -30,7 +38,11 @@
                     label="Nueva contraseña:"
                     label-for="input-3"
                   >
-                    <b-form-input id="input-3" type="password" required></b-form-input>
+                    <b-form-input
+                      id="input-3"
+                      type="password"
+                      required
+                    ></b-form-input>
                   </b-form-group>
 
                   <b-form-group
@@ -39,22 +51,30 @@
                     label="Repite tu nueva contraseña:"
                     label-for="input-4"
                   >
-                    <b-form-input id="input-4" type="password" required></b-form-input>
+                    <b-form-input
+                      id="input-4"
+                      type="password"
+                      required
+                    ></b-form-input>
                   </b-form-group>
 
-                  <b-form-group id="input-group-5" class="text-left" label-for="input-5">
+                  <b-form-group
+                    id="input-group-5"
+                    class="text-left"
+                    label-for="input-5"
+                  >
                     <b-button
                       type="submit"
                       variant="primary"
                       class="btn-incrscn"
-                      @click="iniciar_sesion"
-                    >GUARDAR</b-button>
+                      >GUARDAR</b-button
+                    >
                     <b-button
                       type="submit"
                       variant="outline-primary"
                       class="btn-incrscn"
-                      @click="iniciar_sesion"
-                    >CANCELAR</b-button>
+                      >CANCELAR</b-button
+                    >
                   </b-form-group>
                 </b-form>
               </div>

@@ -6,23 +6,36 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
               <span>He encontrado trabajo ¿Me doy de baja?</span>
             </h1>
             <p>
               <span></span>
             </p>
-            <p>¡No hace falta! Si quieres, puedes seguir en AICAD Jobs, pero minimizar las comunicaciones, cancelar las candidaturas o editar tu privacidad.</p>
+            <p>
+              ¡No hace falta! Si quieres, puedes seguir en AICAD Jobs, pero
+              minimizar las comunicaciones, cancelar las candidaturas o editar
+              tu privacidad.
+            </p>
             <p>
               En la sección
-              <a href="/candidate/account/index.xhtml" target="_blank">Ajustes</a>, encontrarás el apartado Darme de baja y podrás escoger entre:
+              <a href="/candidate/account/index.xhtml" target="_blank"
+                >Ajustes</a
+              >, encontrarás el apartado Darme de baja y podrás escoger entre:
               <br />
             </p>
             <ul class="list-default list-bullet-default">
               <li>Dejar de recibir emails con ofertas de empleo</li>
-              <li>Eliminar todas mis candidaturas de las ofertas donde me he inscrito anteriormente</li>
-              <li>Ocultar mi CV a las empresas que buscan candidatos en AICAD Jobs</li>
+              <li>
+                Eliminar todas mis candidaturas de las ofertas donde me he
+                inscrito anteriormente
+              </li>
+              <li>
+                Ocultar mi CV a las empresas que buscan candidatos en AICAD Jobs
+              </li>
             </ul>
             <p></p>
             <p></p>

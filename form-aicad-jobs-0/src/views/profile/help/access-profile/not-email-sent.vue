@@ -8,19 +8,25 @@
         <b-col sm="12" md="8">
           <div class="header"></div>
           <div class="body">
-            <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+            <div
+              class="col-child panel-canvas inner inner-expanded panel-rounded"
+            >
               <h1 class="h2">
                 <span>No recibo el email para cambiar de contraseña</span>
               </h1>
               <p>
                 <span>
-                  Antes que nada: ¿Has comprobado que el email no haya ido a la carpeta de Spam o Correo no deseado? Para evitarlo, añade la dirección
-                  <ins>pushinfojobs@push.infojobs.net</ins> a tu lista de remitentes seguros.
-                  <br />Cuando lo hayas hecho, repite el proceso para cambiar la contraseña haciendo
+                  Antes que nada: ¿Has comprobado que el email no haya ido a la
+                  carpeta de Spam o Correo no deseado? Para evitarlo, añade la
+                  dirección
+                  <ins>pushinfojobs@push.infojobs.net</ins> a tu lista de
+                  remitentes seguros. <br />Cuando lo hayas hecho, repite el
+                  proceso para cambiar la contraseña haciendo
                   <a
                     href="//accounts.infojobs.net/security/accounts/recovery/index-responsive.xhtml?j_clientId=empleo_ij"
                     target="_blank"
-                  >clic aquí.</a>
+                    >clic aquí.</a
+                  >
                 </span>
               </p>
             </div>

@@ -8,7 +8,9 @@
         <b-col sm="12" md="8">
           <div class="header"></div>
           <div class="body">
-            <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+            <div
+              class="col-child panel-canvas inner inner-expanded panel-rounded"
+            >
               <h1 class="h2">
                 <span>He olvidado mi contraseña, ¿qué debo hacer?</span>
               </h1>
@@ -16,12 +18,17 @@
                 <span></span>
               </p>
               <p>
-                Si has olvidado tu contraseña, puedes cambiarla a través de tu correo electrónico.
+                Si has olvidado tu contraseña, puedes cambiarla a través de tu
+                correo electrónico.
                 <br />Por favor,
                 <a
                   href="//accounts.infojobs.net/security/accounts/recovery/index-responsive.xhtml?j_clientId=empleo_ij"
                   target="_blank"
-                >haz clic aquí</a> y escribe el correo electrónico que usas en tu cuenta InfoJobs. A continuación te mandaremos un email con las indicaciones para crear tu nueva contraseña.
+                  >haz clic aquí</a
+                >
+                y escribe el correo electrónico que usas en tu cuenta InfoJobs.
+                A continuación te mandaremos un email con las indicaciones para
+                crear tu nueva contraseña.
               </p>
               <p></p>
             </div>

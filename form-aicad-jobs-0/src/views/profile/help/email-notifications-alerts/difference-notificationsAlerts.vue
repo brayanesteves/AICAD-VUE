@@ -1,25 +1,47 @@
 <template>
-  <div id="difference-notificationsAlerts" class="difference-notificationsAlerts">
+  <div
+    id="difference-notificationsAlerts"
+    class="difference-notificationsAlerts"
+  >
     <b-container>
       <div class="header heading">
         <h1 id="title-value">Ayuda y sugerencias</h1>
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
-              <span>¿Qué diferencia hay entre Notificaciones y Alertas, y cómo las activo/desactivo?</span>
+              <span
+                >¿Qué diferencia hay entre Notificaciones y Alertas, y cómo las
+                activo/desactivo?</span
+              >
             </h1>
             <p>
               <span></span>
             </p>
             <p>
               <strong>Alertas por email:</strong>
-              <br />Si quieres crear una nueva alerta por email, realiza una búsqueda de empleo y a continuación haz clic en el botón [Crear alerta].A partir de ese momento recibirás un mail diario con los resultados de esa búsqueda de empleo que has realizado.Para gestionar las alertas que tienes creadas, puedes hacerlo desde Ajustes del menú principal. Allí también podrás crear nuevas y eliminar aquellas que ya no te interesen.
+              <br />Si quieres crear una nueva alerta por email, realiza una
+              búsqueda de empleo y a continuación haz clic en el botón [Crear
+              alerta].A partir de ese momento recibirás un mail diario con los
+              resultados de esa búsqueda de empleo que has realizado.Para
+              gestionar las alertas que tienes creadas, puedes hacerlo desde
+              Ajustes del menú principal. Allí también podrás crear nuevas y
+              eliminar aquellas que ya no te interesen.
             </p>
             <p>
-              <strong>Notificaciones de las aplicaciones en tus dispositivos móviles:</strong>
-              <br />Las puedes activar o desactivar desde Ajustes en el menú de cada aplicación (Android y iOS)Por el momento, las notificaciones de la App Android y las alertas email no están sincronizadas. Esperamos poder ofrecerte más adelante, una gestión completa y transversal de todas las notificaciones desde cualquier dispositivo.
+              <strong
+                >Notificaciones de las aplicaciones en tus dispositivos
+                móviles:</strong
+              >
+              <br />Las puedes activar o desactivar desde Ajustes en el menú de
+              cada aplicación (Android y iOS)Por el momento, las notificaciones
+              de la App Android y las alertas email no están sincronizadas.
+              Esperamos poder ofrecerte más adelante, una gestión completa y
+              transversal de todas las notificaciones desde cualquier
+              dispositivo.
             </p>
             <p></p>
           </div>

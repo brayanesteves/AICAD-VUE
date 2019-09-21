@@ -26,7 +26,11 @@
                       label-for="input-1"
                       class="text-left"
                     >
-                      <b-form-input id="input-1" type="email" required></b-form-input>
+                      <b-form-input
+                        id="input-1"
+                        type="email"
+                        required
+                      ></b-form-input>
                     </b-form-group>
 
                     <b-form-group
@@ -47,8 +51,18 @@
                       <b-link href="#foo">¿Has olvidado tu contraseña?</b-link>
                     </b-form-group>
 
-                    <b-form-group id="input-group-4" class="text-left" label-for="input-4">
-                      <b-button type="submit" variant="primary" class="btn-incrscn" @click="iniciar_sesion">INICIAR SESIÓN</b-button>
+                    <b-form-group
+                      id="input-group-4"
+                      class="text-left"
+                      label-for="input-4"
+                    >
+                      <b-button
+                        type="submit"
+                        variant="primary"
+                        class="btn-incrscn"
+                        @click="iniciar_sesion"
+                        >INICIAR SESIÓN</b-button
+                      >
                     </b-form-group>
 
                     <b-form-group id="input-group-5" class="text-left">
@@ -65,7 +79,10 @@
               <!--</SECTION BODY>-->
               <!--o-o-o-o-o-o-o-o-o-o-o-o-o-o--->
               <!--<SECTION FOOTER>-->
-              <div id="section-footer" class="section-footer border-top text-left">
+              <div
+                id="section-footer"
+                class="section-footer border-top text-left"
+              >
                 <p>
                   ¿Eres una empresa?
                   <b-link href="#">Accede a tu cuenta</b-link>
@@ -100,13 +117,18 @@
                     <!--</TERMINO Nº0>-->
 
                     <!--<TERMINO Nº1>-->
-                    <dt class="h3 icon-check">Inscribite en las ofertas que te gustan</dt>
+                    <dt class="h3 icon-check">
+                      Inscribite en las ofertas que te gustan
+                    </dt>
                     <dd>Y sigue tus candidaturas</dd>
                     <!--</TERMINO Nº1>-->
 
                     <!--<TERMINO Nº2>-->
                     <dt class="h3 icon-CV">Mantén actualizado tu CV</dt>
-                    <dd>Y dobla las posibilidades de ser contactado por la empresa que quieres</dd>
+                    <dd>
+                      Y dobla las posibilidades de ser contactado por la empresa
+                      que quieres
+                    </dd>
                     <!--</TERMINO Nº2>-->
                   </dl>
                 </div>
@@ -116,7 +138,9 @@
               <!--o-o-o-o-o-o-o-o-o-o-o-o-o-o--->
               <!--<SECTION FOOTER>-->
               <div id="section-footer" class="section-footer text-left">
-                <b-link href="#" class="btn btn-outline-primary">REGISTRATE</b-link>
+                <b-link href="#" class="btn btn-outline-primary"
+                  >REGISTRATE</b-link
+                >
               </div>
               <!--</SECTION FOOTER>-->
               <!--o-o-o-o-o-o-o-o-o-o-o-o-o-o--->
@@ -134,12 +158,10 @@
 <script>
 export default {
   name: "home",
-  components: {
-
-  },
+  components: {},
   methods: {
-    iniciar_sesion(){
-      this.$router.push('profile') 
+    iniciar_sesion() {
+      this.$router.push("profile");
     }
   }
 };
@@ -209,4 +231,3 @@ input {
 }
 /* ----------------------- </RESPONSIVE> ----------------------- */
 </style>
-

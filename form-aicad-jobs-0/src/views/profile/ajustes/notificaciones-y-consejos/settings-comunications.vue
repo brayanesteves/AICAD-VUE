@@ -14,53 +14,69 @@
                     <dt>
                       <b-form-group id="input-group-0">
                         <b-form-checkbox-group id="checkboxes-0">
-                          <b-form-checkbox value>Cambios en tus candidaturas</b-form-checkbox>
+                          <b-form-checkbox value
+                            >Cambios en tus candidaturas</b-form-checkbox
+                          >
                         </b-form-checkbox-group>
                       </b-form-group>
                     </dt>
                     <dd class="indent">
-                      <p
-                        id="descripcion-candidateNotifications"
-                      >Recibe un email y una notificación en tu aplicación cada vez que haya un cambio en una de tus candidaturas</p>
+                      <p id="descripcion-candidateNotifications">
+                        Recibe un email y una notificación en tu aplicación cada
+                        vez que haya un cambio en una de tus candidaturas
+                      </p>
                     </dd>
 
                     <dt>
                       <b-form-group id="input-group-1">
                         <b-form-checkbox-group id="checkboxes-1">
-                          <b-form-checkbox value>Comunicados de AICAD Jobs</b-form-checkbox>
+                          <b-form-checkbox value
+                            >Comunicados de AICAD Jobs</b-form-checkbox
+                          >
                         </b-form-checkbox-group>
                       </b-form-group>
                     </dt>
                     <dd class="indent">
-                      <p
-                        id="descripcion-consejosNovedades"
-                      >De vez en cuando te enviaremos mensajes para mejorar tu CV o tu búsqueda de ofertas.</p>
+                      <p id="descripcion-consejosNovedades">
+                        De vez en cuando te enviaremos mensajes para mejorar tu
+                        CV o tu búsqueda de ofertas.
+                      </p>
                     </dd>
 
                     <dt>
                       <b-form-group id="input-group-2">
                         <b-form-checkbox-group id="checkboxes-2">
-                          <b-form-checkbox value>Comunicados de empresas</b-form-checkbox>
+                          <b-form-checkbox value
+                            >Comunicados de empresas</b-form-checkbox
+                          >
                         </b-form-checkbox-group>
                       </b-form-group>
                     </dt>
                     <dd class="indent">
-                      <p
-                        id="descripcion-otrasPromociones"
-                      >A veces, las empresas quieren enviar contenido directamente a los candidatos.</p>
+                      <p id="descripcion-otrasPromociones">
+                        A veces, las empresas quieren enviar contenido
+                        directamente a los candidatos.
+                      </p>
                     </dd>
                   </dl>
                 </fieldset>
                 <p class="margin-top">
-                  <a class="link-underline" id="link_perfil" href>Más información</a>
+                  <a class="link-underline" id="link_perfil" href
+                    >Más información</a
+                  >
                 </p>
                 <b-form-group id="input-group-2">
                   <button
                     id="submit_button"
                     class="btn btn-primary js-btn-save margin-top"
                     type="submit"
-                  >Guardar</button>
-                  <button class="btn btn-outline-primary js-btn-cancel margin-top" id="cancelar_button">
+                  >
+                    Guardar
+                  </button>
+                  <button
+                    class="btn btn-outline-primary js-btn-cancel margin-top"
+                    id="cancelar_button"
+                  >
                     <span class="hide-small-device">Cancelar</span>
                   </button>
                 </b-form-group>

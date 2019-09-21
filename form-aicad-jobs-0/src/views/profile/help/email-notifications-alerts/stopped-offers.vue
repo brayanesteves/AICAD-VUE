@@ -6,17 +6,38 @@
       </div>
       <b-row>
         <b-col sm="12" md="8">
-          <div class="col-child panel-canvas inner inner-expanded panel-rounded">
+          <div
+            class="col-child panel-canvas inner inner-expanded panel-rounded"
+          >
             <h1 class="h2">
-              <span>¿Por qué he dejado de recibir ofertas de empleo en mi email?</span>
+              <span
+                >¿Por qué he dejado de recibir ofertas de empleo en mi
+                email?</span
+              >
             </h1>
             <p>
               <span></span>
             </p>
-            <p>Puede que no recibas ofertas en tu email porque las ofertas entran a la carpeta de “Correo no deseado” de tu correo electrónico. En ocasiones, puede ser que los gestores de correo (Gmail, Hotmail, Yahoo!, etc.) interpreten erróneamente algunos emails como correo no deseado ("spam") y que por eso no los recibas en tu bandeja de entrada. Para recibir las ofertas sin problemas, te aconsejamos que añadas la dirección pushinfojobs@push.infojobs.net a tu lista de contactos.</p>
             <p>
-              Si has comprobado tu buzón Spam y no están los emails de ofertas, significa que no tienes la alerta creada. Puede que la borraras anteriormente. ¡No pasa nada! Crear una alerta es fácil y sencillo. Puedes ir a
-              <a href="https://www.infojobs.net/candidate/account/index.xhtml">Ajustes</a> del menú principal y crear nuevas alertas o eliminar aquellas que ya no te interesen.
+              Puede que no recibas ofertas en tu email porque las ofertas entran
+              a la carpeta de “Correo no deseado” de tu correo electrónico. En
+              ocasiones, puede ser que los gestores de correo (Gmail, Hotmail,
+              Yahoo!, etc.) interpreten erróneamente algunos emails como correo
+              no deseado ("spam") y que por eso no los recibas en tu bandeja de
+              entrada. Para recibir las ofertas sin problemas, te aconsejamos
+              que añadas la dirección pushinfojobs@push.infojobs.net a tu lista
+              de contactos.
+            </p>
+            <p>
+              Si has comprobado tu buzón Spam y no están los emails de ofertas,
+              significa que no tienes la alerta creada. Puede que la borraras
+              anteriormente. ¡No pasa nada! Crear una alerta es fácil y
+              sencillo. Puedes ir a
+              <a href="https://www.infojobs.net/candidate/account/index.xhtml"
+                >Ajustes</a
+              >
+              del menú principal y crear nuevas alertas o eliminar aquellas que
+              ya no te interesen.
             </p>
             <p></p>
           </div>
