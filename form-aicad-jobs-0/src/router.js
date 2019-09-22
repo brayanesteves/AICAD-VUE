@@ -3,7 +3,7 @@ import Router from "vue-router";
 import notFoundComponent from "@/views/error/404.vue";
 import Home from "@/views/Home.vue";
 // A - AJUSTES (SETTING'S OPTION'S)
-//import Settings from "@/views/profile/main/ajustes.vue";
+import Settings from "@/views/profile/main/ajustes.vue";
 // 00 - ACCESS DATE
 import changeEmail from "@/views/profile/ajustes/datos-acceso/change-email.vue";
 import changePassword from "@/views/profile/ajustes/datos-acceso/change-password.vue";
@@ -58,11 +58,12 @@ Vue.use(Router);
 const router = new Router({
   mode: "history",
   //base: process.env.BASE_URL,
-  base: "",
+  base: '',
   routes: [
     {
       path: "/",
       name: "home",
+      props: true,
       component: Home
     },
     {
@@ -73,11 +74,8 @@ const router = new Router({
     {
       path: "/profile/:id",
       name: "profile",
-      // route level code-splitting
-      // this generates a separate chunk (ajustes.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () =>
-        import(/* webpackChunkName: "ajustes" */ "@/views/Profile.vue"),
+        import("@/views/Profile.vue"),
       children: [
         //  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- //
         // A - SETTINGS OPTION'S
@@ -256,6 +254,30 @@ const router = new Router({
 
         { path: "tips", name: "formacion", component: Formacion },
         { path: "training", name: "consejos", component: Consejos }
+      ],
+
+    },
+    {
+      path: "/our",
+      name: "our",
+      component: () =>
+        import("@/views/Our.vue"),
+      children: [
+        //  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- //
+        // A - SETTINGS OPTION'S
+        {
+          path: "main",
+          name: "main",
+          component: () => import("@/views/our/main/main.vue"),
+          meta: "any"
+        },
+        {
+          path: "/our/team/about-aicadjobs",
+          name: "about-aicadjobs",
+          parentName:'our',
+          component: () => import("@/views/our/team/about-aicadjobs.vue"),
+          meta: "any"
+        },
       ]
     }
   ]
